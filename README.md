@@ -1,5 +1,5 @@
 <p align="center">
-  <img src=".agent/assets/images/banner_v3.png" width="100%" alt="Banner Ecossistema CBMAL">
+  <img src=".agent/assets/images/banner_full_width.png" width="100%" style="max-width: 100%; display: block; border-radius: 8px;" alt="Banner Ecossistema CBMAL">
 </p>
 
 # 🚒 Ecossistema de Gestão Estratégica - CBMAL (2025-2029)
