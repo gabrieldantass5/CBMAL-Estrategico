@@ -67,12 +67,15 @@ graph TD
 
 ---
 
-## 📖 Documentação de Referência
+## 📖 Documentação de Referência (Acesso Rápido)
 
-Para uma imersão completa nos processos, consulte os manuais internos:
-1.  [**`00_START_HERE.md`**](./00_START_HERE.md): Guia de integração para novos assessores.
-2.  [**`MANUAL_DE_COMANDO.md`**](./MANUAL_DE_COMANDO.md): O guia definitivo de como operar a IA e as ferramentas.
-3.  [**`CONDUCTOR.md`**](./CONDUCTOR.md): Documentação da arquitetura lógica do sistema.
+Toda a operação do sistema está centralizada no **Cockpit Estratégico**:
+### 👉 [**CLIQUE AQUI PARA ENTRAR NO COCKPIT ( 00_START_HERE.md )**](./00_START_HERE.md)
+
+Lá você encontrará:
+1.  **Painel de Controle**: Status em tempo real.
+2.  **Manual de Operações**: Lista de comandos (`/insights`, `/aprender`, etc).
+3.  **Filosofia**: Como operar o agente Conductor.
 
 ---
 **CBMAL - Por uma Alagoas mais segura.**
