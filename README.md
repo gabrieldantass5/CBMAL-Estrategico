@@ -25,8 +25,9 @@ Toda a documentação é otimizada para o **Obsidian**, permitindo uma "Segunda 
 - **Backlinks Semânticos**: Histórico de decisões e reuniões (Diários de Memória) acessível instantaneamente.
 
 ### 3. 📊 Visualização e Governança
-- **Kanban Estratégico**: Acompanhamento em tempo real de tarefas e metas no arquivo `KANBAN_ESTRATEGICO.md`.
-- **Diagramas e BPMN**: Modelagem de processos complexos usando Mermaid.js e padrões BPMN para transparência administrativa.
+- **Kanban Estratégico**: Acompanhamento em tempo real de tarefas e metas em `KANBAN_ESTRATEGICO.md`.
+- **Diagramas e BPMN**: Modelagem de processos via Mermaid.js.
+- **Memória Persistente**: Sistema de rastreabilidade e handoff em `06_Diário_e_Memórias_IA`.
 - **Dashboards de Monitoramento**: Visualização executiva de indicadores (KPIs).
 
 ---
@@ -36,9 +37,10 @@ Toda a documentação é otimizada para o **Obsidian**, permitindo uma "Segunda 
 ### 🛠️ Comandos de Comando (Slash Commands)
 | Comando | O que ele faz? | Exemplo de Uso |
 | :--- | :--- | :--- |
-| `/analisar` | Gera insights de desempenho. | "Analise a produção desta semana e atualize o dashboard." |
-| `/gerar_pap` | Cria normas técnicas. | "Gere um PAP para o novo fluxo de arrecadação da Taxa." |
-| `/auditoria` | Verifica alinhamento. | "Este novo despacho está alinhado ao Plano 2025-2029?" |
+| `/analisar` | Gera insights de desempenho. | "Analise a produção desta semana." |
+| `/aprender` | **[NOVO]** Extrai novos padrões e cria Skills automaticamente. | "Aprenda com as últimas interações." |
+| `/gerar_pap` | Cria normas técnicas. | "Gere um PAP para o novo fluxo." |
+| `/auditoria` | Verifica alinhamento. | "Este despacho está alinhado ao Plano?" |
 | `/orquestrar`| Organiza o ambiente. | "Limpe a inbox e conecte as notas da última reunião." |
 
 ### 📈 Exemplo de Fluxo BPMN (Visualizável no Obsidian/GitHub)
