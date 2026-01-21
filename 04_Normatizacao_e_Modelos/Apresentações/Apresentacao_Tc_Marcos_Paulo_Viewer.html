@@ -1,0 +1,1101 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CBMAL - Avanços do Planejamento Estratégico 2025-2029</title>
+    <script src="https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.min.js"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;900&family=Roboto:wght@300;400;500;700&display=swap');
+        
+        :root {
+            --cbmal-red: #C0392B;
+            --cbmal-dark-red: #922B21;
+            --cbmal-navy: #1C2833;
+            --cbmal-dark-navy: #0D1318;
+            --cbmal-gold: #BF9A4A;
+            --cbmal-white: #FFFFFF;
+            --cbmal-light-gray: #F4F6F6;
+            --cbmal-gray: #AAB7B8;
+        }
+        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Roboto', sans-serif;
+            background: var(--cbmal-dark-navy);
+            color: var(--cbmal-white);
+            overflow: hidden;
+            height: 100vh;
+        }
+        
+        .presentation-container {
+            width: 100vw;
+            height: 100vh;
+            position: relative;
+        }
+        
+        .slide {
+            display: none;
+            width: 100%;
+            height: 100%;
+            padding: 60px 80px;
+            background: linear-gradient(135deg, var(--cbmal-navy) 0%, var(--cbmal-dark-navy) 100%);
+            position: absolute;
+            top: 0;
+            left: 0;
+            overflow-y: auto;
+        }
+        
+        .slide.active {
+            display: flex;
+            flex-direction: column;
+        }
+        
+        .slide.cover {
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            background: linear-gradient(135deg, var(--cbmal-red) 0%, var(--cbmal-dark-red) 50%, var(--cbmal-navy) 100%);
+        }
+        
+        .slide.section-title {
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            background: linear-gradient(135deg, var(--cbmal-navy) 0%, var(--cbmal-red) 100%);
+        }
+        
+        h1 {
+            font-family: 'Montserrat', sans-serif;
+            font-size: 3rem;
+            font-weight: 900;
+            margin-bottom: 20px;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+        }
+        
+        h2 {
+            font-family: 'Montserrat', sans-serif;
+            font-size: 2rem;
+            font-weight: 700;
+            color: var(--cbmal-gold);
+            margin-bottom: 15px;
+        }
+        
+        h3 {
+            font-family: 'Montserrat', sans-serif;
+            font-size: 1.5rem;
+            font-weight: 600;
+            color: var(--cbmal-light-gray);
+            margin-bottom: 10px;
+        }
+        
+        p, li {
+            font-size: 1.2rem;
+            line-height: 1.8;
+            color: var(--cbmal-light-gray);
+        }
+        
+        ul, ol {
+            margin-left: 40px;
+            margin-bottom: 20px;
+        }
+        
+        li {
+            margin-bottom: 10px;
+        }
+        
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+            font-size: 1rem;
+        }
+        
+        th, td {
+            padding: 15px 20px;
+            text-align: left;
+            border-bottom: 1px solid var(--cbmal-gray);
+        }
+        
+        th {
+            background: var(--cbmal-red);
+            color: var(--cbmal-white);
+            font-weight: 700;
+            text-transform: uppercase;
+            font-size: 0.9rem;
+            letter-spacing: 1px;
+        }
+        
+        tr:nth-child(even) {
+            background: rgba(255,255,255,0.05);
+        }
+        
+        tr:hover {
+            background: rgba(191, 154, 74, 0.1);
+        }
+        
+        .mermaid {
+            background: rgba(255,255,255,0.95);
+            border-radius: 12px;
+            padding: 30px;
+            margin: 20px 0;
+            text-align: center;
+        }
+        
+        .highlight-box {
+            background: linear-gradient(135deg, var(--cbmal-gold) 0%, #997929 100%);
+            color: var(--cbmal-navy);
+            padding: 20px 30px;
+            border-radius: 10px;
+            margin: 20px 0;
+            font-weight: 500;
+        }
+        
+        .info-box {
+            background: rgba(191, 154, 74, 0.15);
+            border-left: 4px solid var(--cbmal-gold);
+            padding: 20px 25px;
+            margin: 20px 0;
+            border-radius: 0 10px 10px 0;
+        }
+        
+        .slide-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 30px;
+            padding-bottom: 15px;
+            border-bottom: 2px solid var(--cbmal-red);
+        }
+        
+        .section-badge {
+            background: var(--cbmal-red);
+            color: white;
+            padding: 8px 20px;
+            border-radius: 20px;
+            font-size: 0.9rem;
+            font-weight: 600;
+            text-transform: uppercase;
+        }
+        
+        .slide-content {
+            flex: 1;
+            overflow-y: auto;
+        }
+        
+        .two-columns {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 40px;
+            margin-top: 20px;
+        }
+        
+        .navigation {
+            position: fixed;
+            bottom: 30px;
+            left: 50%;
+            transform: translateX(-50%);
+            display: flex;
+            gap: 15px;
+            z-index: 1000;
+        }
+        
+        .nav-btn {
+            background: var(--cbmal-red);
+            color: white;
+            border: none;
+            padding: 15px 30px;
+            border-radius: 30px;
+            cursor: pointer;
+            font-size: 1rem;
+            font-weight: 600;
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.3);
+        }
+        
+        .nav-btn:hover {
+            background: var(--cbmal-gold);
+            color: var(--cbmal-navy);
+            transform: translateY(-2px);
+        }
+        
+        .slide-counter {
+            position: fixed;
+            bottom: 30px;
+            right: 40px;
+            background: rgba(0,0,0,0.5);
+            padding: 10px 20px;
+            border-radius: 20px;
+            font-size: 0.9rem;
+        }
+        
+        .progress-bar {
+            position: fixed;
+            top: 0;
+            left: 0;
+            height: 4px;
+            background: var(--cbmal-gold);
+            transition: width 0.3s ease;
+            z-index: 1001;
+        }
+        
+        .print-btn {
+            position: fixed;
+            top: 20px;
+            right: 20px;
+            background: var(--cbmal-gold);
+            color: var(--cbmal-navy);
+            border: none;
+            padding: 12px 25px;
+            border-radius: 25px;
+            cursor: pointer;
+            font-weight: 600;
+            z-index: 1000;
+            transition: all 0.3s ease;
+        }
+        
+        .print-btn:hover {
+            background: var(--cbmal-white);
+            transform: scale(1.05);
+        }
+        
+        @media print {
+            .navigation, .slide-counter, .print-btn, .progress-bar {
+                display: none !important;
+            }
+            .slide {
+                display: block !important;
+                page-break-after: always;
+                position: relative;
+                height: auto;
+                min-height: 100vh;
+            }
+            body {
+                overflow: visible;
+            }
+            .presentation-container {
+                height: auto;
+            }
+        }
+        
+        .emoji {
+            font-size: 1.5em;
+        }
+        
+        .check-list {
+            list-style: none;
+            margin-left: 0;
+        }
+        
+        .check-list li::before {
+            content: "✅ ";
+        }
+    </style>
+</head>
+<body>
+    <div class="progress-bar" id="progressBar"></div>
+    <button class="print-btn" onclick="window.print()">📄 Exportar PDF</button>
+    
+    <div class="presentation-container">
+        
+        <!-- SLIDE 1: CAPA -->
+        <div class="slide cover active" data-slide="1">
+            <h1>CORPO DE BOMBEIROS MILITAR DE ALAGOAS</h1>
+            <h2>Avanços do Planejamento Estratégico</h2>
+            <h3>Ciclo 2025-2029</h3>
+            <div style="margin-top: 60px; opacity: 0.9;">
+                <p><strong>Assessoria de Planejamento e Orçamento (APO)</strong></p>
+                <p>Estado-Maior Geral</p>
+                <p style="margin-top: 30px;">📅 18 de Janeiro de 2026</p>
+            </div>
+        </div>
+        
+        <!-- SLIDE 2: AGENDA -->
+        <div class="slide" data-slide="2">
+            <div class="slide-header">
+                <h2>📋 Agenda</h2>
+            </div>
+            <div class="slide-content">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Seção</th>
+                            <th>Tema</th>
+                            <th>Tempo</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr><td><strong>1</strong></td><td>Atualização da Política Estratégica</td><td>8 min</td></tr>
+                        <tr><td><strong>2</strong></td><td>Plano de Monitoramento</td><td>7 min</td></tr>
+                        <tr><td><strong>3</strong></td><td>Caderno de Indicadores</td><td>8 min</td></tr>
+                        <tr><td><strong>4</strong></td><td>Plano de Avaliação</td><td>6 min</td></tr>
+                        <tr><td><strong>5</strong></td><td>Soluções de Automação (IA)</td><td>10 min</td></tr>
+                        <tr><td></td><td><strong>Q&A</strong></td><td>6 min</td></tr>
+                    </tbody>
+                </table>
+                <div class="highlight-box" style="text-align: center; margin-top: 40px;">
+                    <strong>Tempo Total: 45 minutos</strong>
+                </div>
+            </div>
+        </div>
+        
+        <!-- SLIDE 3: SEÇÃO 1 TÍTULO -->
+        <div class="slide section-title" data-slide="3">
+            <span class="section-badge">Seção 1</span>
+            <h1 style="margin-top: 30px;">Atualização da Política de Gestão Estratégica</h1>
+        </div>
+        
+        <!-- SLIDE 4: CONTEXTO -->
+        <div class="slide" data-slide="4">
+            <div class="slide-header">
+                <h2>🔄 Contexto: Transição de Ciclos</h2>
+                <span class="section-badge">Seção 1</span>
+            </div>
+            <div class="slide-content">
+                <div class="mermaid">
+timeline
+    title Evolução da Gestão Estratégica CBMAL
+    2021 : Portaria 418/2021-GCG
+         : Institui a PGE
+    2024 : Encerramento Ciclo 2020-2024
+         : Avaliação Ex-Post
+    2025 : Novo Plano Estratégico
+         : 17 OEs em 8 Temas
+    2026 : Nova Política (Portaria XX/2026)
+         : Atualização Completa
+                </div>
+                <div class="info-box">
+                    <strong>Objetivo:</strong> Adequar a política às lições aprendidas e ao novo ciclo estratégico.
+                </div>
+            </div>
+        </div>
+        
+        <!-- SLIDE 5: COMPARATIVO -->
+        <div class="slide" data-slide="5">
+            <div class="slide-header">
+                <h2>⚖️ Quadro Comparativo: Antes vs. Depois</h2>
+                <span class="section-badge">Seção 1</span>
+            </div>
+            <div class="slide-content">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Dimensão</th>
+                            <th>Portaria 418/2021</th>
+                            <th>Nova Política 2026</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr><td><strong>Tecnologia</strong></td><td>Foco em digitalização básica</td><td>IA e Inovação Ética</td></tr>
+                        <tr><td><strong>Pessoas</strong></td><td>Menção genérica</td><td>Gestão por Competências</td></tr>
+                        <tr><td><strong>Monitoramento</strong></td><td>RME Genérica</td><td>Vinculada a Planos específicos</td></tr>
+                        <tr><td><strong>Governança</strong></td><td>Portarias antigas</td><td>Alinhada à Portaria 178/2024</td></tr>
+                        <tr><td><strong>Instrumentos</strong></td><td>6 instrumentos</td><td><strong>11 instrumentos</strong> formalizados</td></tr>
+                        <tr><td><strong>Princípios</strong></td><td>5 princípios</td><td><strong>9 princípios</strong> (+ Transparência, Accountability, Flexibilidade)</td></tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        
+        <!-- SLIDE 6: INOVAÇÕES -->
+        <div class="slide" data-slide="6">
+            <div class="slide-header">
+                <h2>🚀 Principais Inovações</h2>
+                <span class="section-badge">Seção 1</span>
+            </div>
+            <div class="slide-content">
+                <div class="two-columns">
+                    <div>
+                        <h3>Novos Princípios Estratégicos</h3>
+                        <ul class="check-list">
+                            <li><strong>Transparência</strong> – Publicização dos atos e resultados</li>
+                            <li><strong>Accountability</strong> – Prestação de contas pelas entregas</li>
+                            <li><strong>Integração de Níveis</strong> – Articulação Estratégico-Tático-Operacional</li>
+                            <li><strong>Adaptação e Flexibilidade</strong> – Revisões conforme contexto</li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h3>Novas Competências Formalizadas</h3>
+                        <ul>
+                            <li><strong>Gestão por Competências</strong> (Art. 2º)</li>
+                            <li><strong>Oficial de Ligação</strong> com atribuições detalhadas (Art. 10)</li>
+                            <li><strong>Plano de Contramedida (PCM)</strong> obrigatório para farol vermelho</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- SLIDE 7: NOVOS INSTRUMENTOS -->
+        <div class="slide" data-slide="7">
+            <div class="slide-header">
+                <h2>📑 Novos Instrumentos da Gestão Estratégica</h2>
+                <span class="section-badge">Seção 1</span>
+            </div>
+            <div class="slide-content">
+                <table>
+                    <thead>
+                        <tr><th>Nº</th><th>Instrumento</th><th>Novidade?</th></tr>
+                    </thead>
+                    <tbody>
+                        <tr><td>I</td><td>Diagnóstico Estratégico</td><td>➖</td></tr>
+                        <tr><td>II</td><td>Plano Estratégico</td><td>➖</td></tr>
+                        <tr><td>III</td><td>Mapa Estratégico</td><td>➖</td></tr>
+                        <tr><td><strong>IV</strong></td><td><strong>Plano de Implementação</strong></td><td>✅ NOVO</td></tr>
+                        <tr><td><strong>V</strong></td><td><strong>Plano de Monitoramento</strong></td><td>✅ NOVO</td></tr>
+                        <tr><td><strong>VI</strong></td><td><strong>Plano de Avaliação</strong></td><td>✅ NOVO</td></tr>
+                        <tr><td>VII</td><td>Caderno de Indicadores</td><td>➖</td></tr>
+                        <tr><td>VIII</td><td>Plano de Gestão</td><td>➖</td></tr>
+                        <tr><td>IX</td><td>Plano Setorial</td><td>Atualizado (GUT + RACI)</td></tr>
+                        <tr><td>X</td><td>Plano de Ação</td><td>➖</td></tr>
+                        <tr><td>XI</td><td>Sistema de Gestão Estratégica (SGE)</td><td>➖</td></tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        
+        <!-- SLIDE 8: HIERARQUIA DOCUMENTAL -->
+        <div class="slide" data-slide="8">
+            <div class="slide-header">
+                <h2>📊 Hierarquia Documental Atualizada</h2>
+                <span class="section-badge">Seção 1</span>
+            </div>
+            <div class="slide-content">
+                <div class="mermaid">
+graph TD
+    A["Plano Estratégico 2025-2029<br/>17 OEs | 8 Temas"] --> B[Plano de Implementação]
+    A --> C[Plano de Monitoramento]
+    A --> D[Plano de Avaliação]
+    B --> E["Plano de Gestão<br/>Bianual"]
+    E --> F["Plano Setorial<br/>Quinquenal por ODS"]
+    F --> G["Plano de Ação<br/>Anual - 5W2H"]
+    C --> H["Caderno de Indicadores<br/>48 KPIs"]
+    D --> I["Relatório de Gestão<br/>Anual"]
+                </div>
+            </div>
+        </div>
+        
+        <!-- SLIDE 9: STATUS -->
+        <div class="slide" data-slide="9">
+            <div class="slide-header">
+                <h2>✅ Status: Pronto para Publicação</h2>
+                <span class="section-badge">Seção 1</span>
+            </div>
+            <div class="slide-content">
+                <table>
+                    <thead>
+                        <tr><th>Documento</th><th>Status</th><th>Próximo Passo</th></tr>
+                    </thead>
+                    <tbody>
+                        <tr><td>Política de Gestão Estratégica</td><td>🟢 Concluído</td><td>Publicação em BGO via SEI</td></tr>
+                        <tr><td>Plano de Implementação</td><td>🟢 Concluído</td><td>Anexo à Portaria</td></tr>
+                        <tr><td>Plano de Monitoramento</td><td>🟢 Concluído</td><td>Anexo à Portaria</td></tr>
+                        <tr><td>Plano de Avaliação</td><td>🟢 Concluído</td><td>Anexo à Portaria</td></tr>
+                        <tr><td>Caderno de Indicadores</td><td>🟢 Concluído</td><td>Divulgação aos ODS</td></tr>
+                    </tbody>
+                </table>
+                <div class="highlight-box" style="margin-top: 30px;">
+                    📌 <strong>Ação Imediata:</strong> Submeter minuta para apreciação do Comando-Geral.
+                </div>
+            </div>
+        </div>
+        
+        <!-- SLIDE 10: SEÇÃO 2 TÍTULO -->
+        <div class="slide section-title" data-slide="10">
+            <span class="section-badge">Seção 2</span>
+            <h1 style="margin-top: 30px;">Plano de Monitoramento da Estratégia</h1>
+        </div>
+        
+        <!-- SLIDE 11: CONCEITO -->
+        <div class="slide" data-slide="11">
+            <div class="slide-header">
+                <h2>🔍 O que é Monitoramento?</h2>
+                <span class="section-badge">Seção 2</span>
+            </div>
+            <div class="slide-content">
+                <div class="info-box">
+                    <strong>Definição:</strong> Vigilância ativa e contínua sobre a execução da estratégia, fornecendo informações tempestivas para tomada de decisão.
+                </div>
+                <div class="two-columns" style="margin-top: 30px;">
+                    <div>
+                        <h3>❌ O que NÃO é:</h3>
+                        <ul>
+                            <li>Fiscalização punitiva</li>
+                            <li>Auditoria de conformidade</li>
+                            <li>Busca por culpados</li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h3>✅ O que É:</h3>
+                        <ul>
+                            <li>Identificar desvios antecipadamente</li>
+                            <li>Celebrar conquistas (vitórias curtas)</li>
+                            <li>Promover aprendizado organizacional</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- SLIDE 12: GOVERNANÇA -->
+        <div class="slide" data-slide="12">
+            <div class="slide-header">
+                <h2>👥 Governança e Atores (Matriz RACI)</h2>
+                <span class="section-badge">Seção 2</span>
+            </div>
+            <div class="slide-content">
+                <table>
+                    <thead>
+                        <tr><th>Ator</th><th>Papel</th></tr>
+                    </thead>
+                    <tbody>
+                        <tr><td><strong>Oficial de Ligação</strong></td><td>Coleta e alimenta indicadores</td></tr>
+                        <tr><td><strong>Titular do ODS</strong></td><td>Valida dados e justifica desvios</td></tr>
+                        <tr><td><strong>APO</strong></td><td>Analisa, audita e assessora</td></tr>
+                        <tr><td><strong>RME</strong></td><td>Delibera sobre problemas complexos</td></tr>
+                        <tr><td><strong>Alto Comando</strong></td><td>Homologa resultados e decide rumos</td></tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        
+        <!-- SLIDE 13: CALENDÁRIO RME -->
+        <div class="slide" data-slide="13">
+            <div class="slide-header">
+                <h2>📅 Calendário das RMEs</h2>
+                <span class="section-badge">Seção 2</span>
+            </div>
+            <div class="slide-content">
+                <table>
+                    <thead>
+                        <tr><th>RME</th><th>Trimestre</th><th>Data Prevista</th><th>Escopo</th></tr>
+                    </thead>
+                    <tbody>
+                        <tr><td><strong>1ª</strong></td><td>Jan-Mar</td><td>2ª quinzena <strong>Maio</strong></td><td>Avaliação inicial</td></tr>
+                        <tr><td><strong>2ª</strong></td><td>Abr-Jun</td><td>2ª quinzena <strong>Agosto</strong></td><td>Correção de rumo</td></tr>
+                        <tr><td><strong>3ª</strong></td><td>Jul-Set</td><td>2ª quinzena <strong>Novembro</strong></td><td>Reta final</td></tr>
+                        <tr><td><strong>4ª</strong></td><td>Out-Dez</td><td>2ª quinzena <strong>Fevereiro</strong></td><td>Balanço anual</td></tr>
+                    </tbody>
+                </table>
+                <div class="info-box" style="margin-top: 30px;">
+                    <strong>Regra:</strong> Participação dos Chefes de ODS é <strong>indelegável</strong>.
+                </div>
+            </div>
+        </div>
+        
+        <!-- SLIDE 14: FLUXO DE DADOS -->
+        <div class="slide" data-slide="14">
+            <div class="slide-header">
+                <h2>🔄 Fluxo de Dados</h2>
+                <span class="section-badge">Seção 2</span>
+            </div>
+            <div class="slide-content">
+                <div class="mermaid">
+flowchart TD
+    A[Diretoria] -->|Produz evidência| B[SEI]
+    B -->|APO extrai| C[SGE]
+    C -->|Gera| D[Relatório de Farol]
+    D -->|Apresenta| E[RME]
+    E -->|Delibera| F[Ações Corretivas]
+    F -->|Implementa| A
+                </div>
+                <div class="highlight-box" style="text-align: center; margin-top: 20px;">
+                    <strong>Ciclo PDCA em ação!</strong>
+                </div>
+            </div>
+        </div>
+        
+        <!-- SLIDE 15: FAROL -->
+        <div class="slide" data-slide="15">
+            <div class="slide-header">
+                <h2>🚦 Sistema de Farol (Semaforização)</h2>
+                <span class="section-badge">Seção 2</span>
+            </div>
+            <div class="slide-content">
+                <table>
+                    <thead>
+                        <tr><th>Farol</th><th>Significado</th><th>Ação Requerida</th></tr>
+                    </thead>
+                    <tbody>
+                        <tr><td>🟢 <strong>Verde</strong></td><td>Meta atingida ou superada</td><td>Manter monitoramento</td></tr>
+                        <tr><td>🟡 <strong>Amarelo</strong></td><td>Desempenho ≥ 80% da meta</td><td>Atenção e ajustes táticos</td></tr>
+                        <tr><td>🔴 <strong>Vermelho</strong></td><td>Desempenho < 80% da meta</td><td><strong>PCM obrigatório</strong></td></tr>
+                    </tbody>
+                </table>
+                <div class="info-box" style="margin-top: 30px;">
+                    <strong>PCM = Plano de Contramedida</strong> (Análise 5 Porquês + Ação Corretiva)
+                </div>
+            </div>
+        </div>
+        
+        <!-- SLIDE 16: SEÇÃO 3 TÍTULO -->
+        <div class="slide section-title" data-slide="16">
+            <span class="section-badge">Seção 3</span>
+            <h1 style="margin-top: 30px;">Caderno de Indicadores Estratégicos</h1>
+        </div>
+        
+        <!-- SLIDE 17: ESTRUTURA -->
+        <div class="slide" data-slide="17">
+            <div class="slide-header">
+                <h2>📊 Estrutura: 48 Indicadores em 3 Níveis</h2>
+                <span class="section-badge">Seção 3</span>
+            </div>
+            <div class="slide-content">
+                <table>
+                    <thead>
+                        <tr><th>Nível</th><th>Foco</th><th>Periodicidade</th><th>Monitorado por</th></tr>
+                    </thead>
+                    <tbody>
+                        <tr><td><strong>Estratégico (IE)</strong></td><td>Resultado/Impacto</td><td>Trimestral</td><td>Alto Comando</td></tr>
+                        <tr><td><strong>Tático (IT)</strong></td><td>Entrega/Projeto</td><td>Mensal</td><td>ODS + APO</td></tr>
+                        <tr><td><strong>Operacional (IO)</strong></td><td>Esforço/Insumo</td><td>Semanal</td><td>Setores</td></tr>
+                    </tbody>
+                </table>
+                <div class="highlight-box" style="text-align: center; margin-top: 30px;">
+                    <strong>Total: 48 indicadores (IE-01 a IE-48)</strong>
+                </div>
+            </div>
+        </div>
+        
+        <!-- SLIDE 18: MATRIZ OE x INDICADORES -->
+        <div class="slide" data-slide="18">
+            <div class="slide-header">
+                <h2>🎯 Matriz: 17 OEs → 48 Indicadores</h2>
+                <span class="section-badge">Seção 3</span>
+            </div>
+            <div class="slide-content">
+                <table>
+                    <thead>
+                        <tr><th>Tema</th><th>OEs</th><th>Indicadores</th></tr>
+                    </thead>
+                    <tbody>
+                        <tr><td><strong>1. Operacional</strong></td><td>OE.01-03</td><td>10</td></tr>
+                        <tr><td><strong>2. Governança</strong></td><td>OE.04-05</td><td>6</td></tr>
+                        <tr><td><strong>3. Comunicação</strong></td><td>OE.06-07</td><td>6</td></tr>
+                        <tr><td><strong>4. Pessoas</strong></td><td>OE.08-11</td><td>9</td></tr>
+                        <tr><td><strong>5. Conhecimento</strong></td><td>OE.12-13</td><td>6</td></tr>
+                        <tr><td><strong>6. Transformação Digital</strong></td><td>OE.14</td><td>3</td></tr>
+                        <tr><td><strong>7. Infraestrutura</strong></td><td>OE.15</td><td>3</td></tr>
+                        <tr><td><strong>8. Finanças</strong></td><td>OE.16-17</td><td>5</td></tr>
+                        <tr style="background: var(--cbmal-red);"><td><strong>TOTAL</strong></td><td><strong>17</strong></td><td><strong>48</strong></td></tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        
+        <!-- SLIDE 19: FICHA TÉCNICA -->
+        <div class="slide" data-slide="19">
+            <div class="slide-header">
+                <h2>📋 Exemplo: Ficha Técnica IE-05</h2>
+                <span class="section-badge">Seção 3</span>
+            </div>
+            <div class="slide-content">
+                <table>
+                    <tbody>
+                        <tr><td><strong>Nome</strong></td><td colspan="3">Tempo Resposta Operacional (TRO)</td></tr>
+                        <tr><td><strong>OE Vinculado</strong></td><td colspan="3">OE.02 - Aperfeiçoar Gestão Operacional</td></tr>
+                        <tr><td><strong>Fórmula</strong></td><td colspan="3"><code>Σ(Hora Chegada - Hora Despacho) / Total Ocorrências</code></td></tr>
+                        <tr><td><strong>Unidade</strong></td><td colspan="3">Minutos</td></tr>
+                        <tr><td><strong>Fonte</strong></td><td colspan="3">SysBM / SGO Fênix</td></tr>
+                        <tr><td><strong>Responsável</strong></td><td colspan="3">COB / Seção Estatística</td></tr>
+                        <tr><td><strong>Meta 2025</strong></td><td colspan="3">≤ 10 min</td></tr>
+                        <tr><td><strong>Farol</strong></td><td>🟢 ≤10</td><td>🟡 10-12</td><td>🔴 >12</td></tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        
+        <!-- SLIDE 20: PROCESSO DE COLETA -->
+        <div class="slide" data-slide="20">
+            <div class="slide-header">
+                <h2>🔄 Processo de Coleta e Análise</h2>
+                <span class="section-badge">Seção 3</span>
+            </div>
+            <div class="slide-content">
+                <div class="mermaid">
+flowchart TB
+    A[ODS identifica fonte de dados] --> B[Oficial de Ligação coleta]
+    B --> C[Anexa evidência no SEI]
+    C --> D[APO valida e calcula indicador]
+    D --> E[Consolida no Relatório de Farol]
+    E --> F{Farol?}
+    F -->|🟢| G[Mantém monitoramento]
+    F -->|🟡/🔴| H[ODS elabora PCM]
+    H --> I[Apresenta na RME]
+                </div>
+            </div>
+        </div>
+        
+        <!-- SLIDE 21: SEÇÃO 4 TÍTULO -->
+        <div class="slide section-title" data-slide="21">
+            <span class="section-badge">Seção 4</span>
+            <h1 style="margin-top: 30px;">Plano de Avaliação da Estratégia</h1>
+        </div>
+        
+        <!-- SLIDE 22: DISTINÇÃO -->
+        <div class="slide" data-slide="22">
+            <div class="slide-header">
+                <h2>🔬 Monitoramento vs. Avaliação</h2>
+                <span class="section-badge">Seção 4</span>
+            </div>
+            <div class="slide-content">
+                <table>
+                    <thead>
+                        <tr><th>Dimensão</th><th>Monitoramento</th><th>Avaliação</th></tr>
+                    </thead>
+                    <tbody>
+                        <tr><td><strong>Foco</strong></td><td>Operacional/Tático</td><td>Estratégico/Impacto</td></tr>
+                        <tr><td><strong>Periodicidade</strong></td><td>Contínua (Mensal)</td><td>Periódica (Anual/Final)</td></tr>
+                        <tr><td><strong>Pergunta</strong></td><td>"Estamos fazendo certo?"</td><td>"Estamos fazendo a coisa certa?"</td></tr>
+                        <tr><td><strong>Objeto</strong></td><td>Metas, Prazos, KPIs</td><td>Causas, Efeitos, Impacto</td></tr>
+                        <tr><td><strong>Responsável</strong></td><td>Gestores (ODS)</td><td>APO + Avaliadores</td></tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        
+        <!-- SLIDE 23: CRITÉRIOS 5Es -->
+        <div class="slide" data-slide="23">
+            <div class="slide-header">
+                <h2>🎯 Critérios de Avaliação: Os 5Es</h2>
+                <span class="section-badge">Seção 4</span>
+            </div>
+            <div class="slide-content">
+                <table>
+                    <thead>
+                        <tr><th>Critério</th><th>Pergunta-Chave</th></tr>
+                    </thead>
+                    <tbody>
+                        <tr><td><strong>Eficácia</strong></td><td>Atingimos as metas propostas?</td></tr>
+                        <tr><td><strong>Eficiência</strong></td><td>Fizemos com menor custo/tempo?</td></tr>
+                        <tr><td><strong>Efetividade</strong></td><td>Houve mudança real na sociedade?</td></tr>
+                        <tr><td><strong>Economicidade</strong></td><td>Gasto público foi prudente?</td></tr>
+                        <tr><td><strong>Sustentabilidade</strong></td><td>Melhorias são perenes?</td></tr>
+                    </tbody>
+                </table>
+                <div class="info-box" style="margin-top: 20px;">
+                    Baseado no Referencial de Governança do <strong>TCU</strong>.
+                </div>
+            </div>
+        </div>
+        
+        <!-- SLIDE 24: CRONOGRAMA -->
+        <div class="slide" data-slide="24">
+            <div class="slide-header">
+                <h2>📅 Cronograma de Avaliações 2025-2030</h2>
+                <span class="section-badge">Seção 4</span>
+            </div>
+            <div class="slide-content">
+                <table>
+                    <thead>
+                        <tr><th>Ano</th><th>Evento</th><th>Entregável</th></tr>
+                    </thead>
+                    <tbody>
+                        <tr><td><strong>2026</strong> Jan</td><td>1ª Avaliação Anual</td><td>Relatório 2025</td></tr>
+                        <tr><td><strong>2027</strong> Jan</td><td>2ª Avaliação Anual</td><td>Relatório 2026</td></tr>
+                        <tr><td><strong>2027</strong> Jun-Ago</td><td><strong>Avaliação Mid-Term</strong></td><td>Revisão Estratégica</td></tr>
+                        <tr><td><strong>2028</strong> Jan</td><td>3ª Avaliação Anual</td><td>Relatório 2027</td></tr>
+                        <tr><td><strong>2029</strong> Jan</td><td>4ª Avaliação Anual</td><td>Relatório 2028</td></tr>
+                        <tr><td><strong>2030</strong> Fev-Mar</td><td><strong>Avaliação Ex-Post</strong></td><td>Relatório de Impacto</td></tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        
+        <!-- SLIDE 25: CICLO DE FEEDBACK -->
+        <div class="slide" data-slide="25">
+            <div class="slide-header">
+                <h2>🔄 Ciclo de Feedback e Melhoria</h2>
+                <span class="section-badge">Seção 4</span>
+            </div>
+            <div class="slide-content">
+                <div class="mermaid">
+graph TD
+    A[Avaliação] --> B[Lições Aprendidas]
+    B --> C[Ajustes no Plano]
+    C --> D[Execução Revisada]
+    D --> E[Monitoramento]
+    E --> A
+                </div>
+                <div style="margin-top: 30px;">
+                    <h3>Perguntas de Autoavaliação:</h3>
+                    <ol>
+                        <li>Os indicadores foram fáceis de coletar?</li>
+                        <li>Os critérios de avaliação foram claros?</li>
+                        <li>O relatório gerou decisão ou foi burocrático?</li>
+                    </ol>
+                </div>
+            </div>
+        </div>
+        
+        <!-- SLIDE 26: SEÇÃO 5 TÍTULO -->
+        <div class="slide section-title" data-slide="26">
+            <span class="section-badge">Seção 5</span>
+            <h1 style="margin-top: 30px;">Soluções de Automação para Funções Administrativas</h1>
+        </div>
+        
+        <!-- SLIDE 27: VISÃO GERAL IA -->
+        <div class="slide" data-slide="27">
+            <div class="slide-header">
+                <h2>🤖 11 Skills/Agentes Desenvolvidos</h2>
+                <span class="section-badge">Seção 5</span>
+            </div>
+            <div class="slide-content">
+                <table>
+                    <thead>
+                        <tr><th>Categoria</th><th>Skills</th></tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><strong>Estratégicas (CBMAL)</strong></td>
+                            <td><code>gestao-estrategica</code>, <code>escritorio-projetos</code>, <code>conagc-governanca</code>, <code>inteligencia-dados</code>, <code>especialista-paps</code>, <code>especialista-sei</code>, <code>bpmn-modeling</code>, <code>gestao-mudanca</code>, <code>secretario-executivo</code>, <code>redacao-oficial</code>, <code>inteligencia-documental</code></td>
+                        </tr>
+                    </tbody>
+                </table>
+                <div class="info-box" style="margin-top: 30px;">
+                    <strong>Conceito:</strong> Assistentes IA especializados que seguem regras e metodologias do CBMAL.
+                </div>
+            </div>
+        </div>
+        
+        <!-- SLIDE 28: ESPECIALISTA PAPs -->
+        <div class="slide" data-slide="28">
+            <div class="slide-header">
+                <h2>📝 Especialista em PAPs</h2>
+                <span class="section-badge">Seção 5</span>
+            </div>
+            <div class="slide-content">
+                <div class="two-columns">
+                    <div>
+                        <h3>Funcionalidades:</h3>
+                        <ul class="check-list">
+                            <li>Criação de PAPs no padrão CBMAL</li>
+                            <li>Revisão e validação de estrutura</li>
+                            <li>Geração de fluxogramas vinculados</li>
+                            <li>Checklist de conformidade</li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h3>Benefícios:</h3>
+                        <ul>
+                            <li>⏱️ Redução de <strong>70%</strong> no tempo de elaboração</li>
+                            <li>📊 Padronização garantida</li>
+                            <li>🔄 Atualizações automáticas</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- SLIDE 29: INTELIGÊNCIA DE DADOS -->
+        <div class="slide" data-slide="29">
+            <div class="slide-header">
+                <h2>📊 Inteligência de Dados</h2>
+                <span class="section-badge">Seção 5</span>
+            </div>
+            <div class="slide-content">
+                <div class="two-columns">
+                    <div>
+                        <h3>Capacidades:</h3>
+                        <ul class="check-list">
+                            <li>Extração e tratamento (ETL)</li>
+                            <li>Criação de dashboards</li>
+                            <li>Análise de indicadores</li>
+                            <li>Geração de relatórios automáticos</li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h3>Aplicações:</h3>
+                        <ul>
+                            <li>Monitoramento do Farol da Estratégia</li>
+                            <li>Consolidação de dados de ocorrências</li>
+                            <li>Análise de tendências e projeções</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- SLIDE 30: INTELIGÊNCIA DOCUMENTAL -->
+        <div class="slide" data-slide="30">
+            <div class="slide-header">
+                <h2>📄 Inteligência Documental</h2>
+                <span class="section-badge">Seção 5</span>
+            </div>
+            <div class="slide-content">
+                <div class="two-columns">
+                    <div>
+                        <h3>Automações:</h3>
+                        <ul class="check-list">
+                            <li>Conversão PDF → Markdown (OCR)</li>
+                            <li>Extração de tabelas e dados</li>
+                            <li>Indexação para pesquisa</li>
+                            <li>Comparação de versões</li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h3>Tecnologia:</h3>
+                        <ul>
+                            <li>Docling (IBM) para OCR avançado</li>
+                            <li>Suporte a documentos escaneados</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- SLIDE 31: MODELAGEM BPMN -->
+        <div class="slide" data-slide="31">
+            <div class="slide-header">
+                <h2>🔄 Modelagem BPMN 2.0</h2>
+                <span class="section-badge">Seção 5</span>
+            </div>
+            <div class="slide-content">
+                <div class="two-columns">
+                    <div>
+                        <h3>Modelagens Realizadas:</h3>
+                        <ul class="check-list">
+                            <li>Macrofluxo de Monitoramento</li>
+                            <li>Processo de Avaliação Anual</li>
+                            <li>Fluxo de Coleta de Indicadores</li>
+                            <li>Processo de RME</li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h3>Formato:</h3>
+                        <ul>
+                            <li>Arquivos <code>.bpmn</code> (padrão OMG)</li>
+                            <li>Visualização em Obsidian/Draw.io</li>
+                            <li>Canvas interativos</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- SLIDE 32: PRÓXIMOS PASSOS -->
+        <div class="slide" data-slide="32">
+            <div class="slide-header">
+                <h2>📌 Próximos Passos</h2>
+                <span class="section-badge">Encerramento</span>
+            </div>
+            <div class="slide-content">
+                <table>
+                    <thead>
+                        <tr><th>Ação</th><th>Responsável</th><th>Prazo</th></tr>
+                    </thead>
+                    <tbody>
+                        <tr><td>Submeter Política ao Comando-Geral</td><td>APO</td><td>Jan/26</td></tr>
+                        <tr><td>Publicar Portaria em BGO</td><td>GCG</td><td>Fev/26</td></tr>
+                        <tr><td>Capacitação de Oficiais de Ligação</td><td>APO + DE</td><td>Mar/26</td></tr>
+                        <tr><td>1ª RME do Ciclo 2025-2029</td><td>Todos ODS</td><td>Mai/26</td></tr>
+                        <tr><td>Avaliação Anual 2025</td><td>APO</td><td>Jan/26</td></tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        
+        <!-- SLIDE 33: Q&A / ENCERRAMENTO -->
+        <div class="slide cover" data-slide="33">
+            <h1>❓ Perguntas e Respostas</h1>
+            <div style="margin-top: 60px;">
+                <h3>Contatos</h3>
+                <p><strong>Assessoria de Planejamento e Orçamento (APO)</strong></p>
+                <p>📧 apo@cbm.al.gov.br</p>
+                <p>📍 Quartel do Comando-Geral</p>
+            </div>
+            <div style="margin-top: 60px; font-style: italic; opacity: 0.8;">
+                <p>"Planejamento não é uma tentativa de predizer o que vai acontecer.</p>
+                <p>É uma ferramenta para ensaiar o futuro."</p>
+                <p style="margin-top: 10px;">— Peter Schwartz</p>
+            </div>
+            <div style="margin-top: 40px; font-size: 0.9rem; opacity: 0.6;">
+                <p>Apresentação elaborada com apoio do Gemini Conductor</p>
+                <p>Janeiro de 2026</p>
+            </div>
+        </div>
+        
+    </div>
+    
+    <div class="navigation">
+        <button class="nav-btn" onclick="prevSlide()">◀ Anterior</button>
+        <button class="nav-btn" onclick="nextSlide()">Próximo ▶</button>
+    </div>
+    
+    <div class="slide-counter" id="slideCounter">1 / 33</div>
+    
+    <script>
+        // Initialize Mermaid
+        mermaid.initialize({ 
+            startOnLoad: true,
+            theme: 'default',
+            flowchart: { 
+                curve: 'basis',
+                useMaxWidth: true
+            }
+        });
+        
+        let currentSlide = 1;
+        const totalSlides = 33;
+        
+        function showSlide(n) {
+            const slides = document.querySelectorAll('.slide');
+            if (n > totalSlides) currentSlide = 1;
+            if (n < 1) currentSlide = totalSlides;
+            
+            slides.forEach(slide => slide.classList.remove('active'));
+            slides[currentSlide - 1].classList.add('active');
+            
+            document.getElementById('slideCounter').textContent = `${currentSlide} / ${totalSlides}`;
+            document.getElementById('progressBar').style.width = `${(currentSlide / totalSlides) * 100}%`;
+        }
+        
+        function nextSlide() {
+            currentSlide++;
+            showSlide(currentSlide);
+        }
+        
+        function prevSlide() {
+            currentSlide--;
+            showSlide(currentSlide);
+        }
+        
+        // Keyboard navigation
+        document.addEventListener('keydown', (e) => {
+            if (e.key === 'ArrowRight' || e.key === ' ') {
+                e.preventDefault();
+                nextSlide();
+            } else if (e.key === 'ArrowLeft') {
+                e.preventDefault();
+                prevSlide();
+            } else if (e.key === 'Home') {
+                currentSlide = 1;
+                showSlide(currentSlide);
+            } else if (e.key === 'End') {
+                currentSlide = totalSlides;
+                showSlide(currentSlide);
+            }
+        });
+        
+        // Touch support
+        let touchStartX = 0;
+        document.addEventListener('touchstart', (e) => {
+            touchStartX = e.touches[0].clientX;
+        });
+        document.addEventListener('touchend', (e) => {
+            const touchEndX = e.changedTouches[0].clientX;
+            const diff = touchStartX - touchEndX;
+            if (Math.abs(diff) > 50) {
+                if (diff > 0) nextSlide();
+                else prevSlide();
+            }
+        });
+    </script>
+</body>
+</html>

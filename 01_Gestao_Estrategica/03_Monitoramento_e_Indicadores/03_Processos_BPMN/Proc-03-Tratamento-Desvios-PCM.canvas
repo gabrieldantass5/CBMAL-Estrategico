@@ -1,0 +1,24 @@
+{
+	"nodes":[
+		{"id":"n1","type":"text","text":"**INÍCIO: Meta Não Atingida**\n(Farol Vermelho ou Amarelo)","x":0,"y":150,"width":200,"height":100,"color":"1"},
+		{"id":"n2","type":"group","label":"ANÁLISE DE CAUSA","x":250,"y":0,"width":300,"height":400},
+		{"id":"n3","type":"text","text":"**Aplicação dos 5 PORQUÊS**\n\n1. Por que?\n2. Por que?\n3. Por que?\n...","x":275,"y":50,"width":250,"height":150},
+		{"id":"n4","type":"text","text":"**Identificação da CAUSA RAIZ**\n(O problema real, não o sintoma)","x":275,"y":220,"width":250,"height":100,"color":"2"},
+		{"id":"n5","type":"group","label":"PLANO DE AÇÃO","x":600,"y":0,"width":300,"height":400},
+		{"id":"n6","type":"text","text":"**Proposta de Contramedida**\n\n- O que será feito?\n- Quem fará?\n- Quando?","x":625,"y":50,"width":250,"height":150,"color":"4"},
+		{"id":"n7","type":"text","text":"**Validação Técnica**\n(APO verifica viabilidade)","x":625,"y":220,"width":250,"height":100},
+		{"id":"n8","type":"text","text":"**Aprovação na RME?**","x":950,"y":150,"width":150,"height":100,"color":"3"},
+		{"id":"n9","type":"text","text":"**EXECUÇÃO IMEDIATA**","x":1150,"y":50,"width":200,"height":100,"color":"4"},
+		{"id":"n10","type":"text","text":"**REFAZER ANÁLISE**","x":1150,"y":250,"width":200,"height":100,"color":"1"}
+	],
+	"edges":[
+		{"id":"e1","fromNode":"n1","fromSide":"right","toNode":"n3","toSide":"left"},
+		{"id":"e2","fromNode":"n3","fromSide":"bottom","toNode":"n4","toSide":"top"},
+		{"id":"e3","fromNode":"n4","fromSide":"right","toNode":"n6","toSide":"left"},
+		{"id":"e4","fromNode":"n6","fromSide":"bottom","toNode":"n7","toSide":"top"},
+		{"id":"e5","fromNode":"n7","fromSide":"right","toNode":"n8","toSide":"left"},
+		{"id":"e6","fromNode":"n8","fromSide":"right","toNode":"n9","toSide":"left","label":"Sim"},
+		{"id":"e7","fromNode":"n8","fromSide":"right","toNode":"n10","toSide":"left","label":"Não"},
+		{"id":"e8","fromNode":"n10","fromSide":"bottom","toNode":"n3","toSide":"bottom","label":"Loop"}
+	]
+}

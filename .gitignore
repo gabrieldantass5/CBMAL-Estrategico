@@ -1,0 +1,41 @@
+# Configuração do Agente e IA
+.gemini/
+*.log
+.env
+.ipynb_checkpoints/
+
+# Backups Locais
+*BACKUP*/
+*_backup*/
+
+# Sistema Operacional (Windows/Mac)
+Thumbs.db
+desktop.ini
+.DS_Store
+
+# IDEs e Editores
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Obsidian (Opcional - Se quiser ignorar configurações pessoais da interface)
+#.obsidian/workspace.json
+#.obsidian/graph.json
+
+# Arquivos Temporários
+temp/
+tmp/
+*.tmp
+*.bak
+
+# Arquivos Pesados (Design e Binários)
+*.cdr
+*.psd
+*.ai
+*.mp4
+*.zip
+*.rar
+*.7z
+*.exe
+*.msi

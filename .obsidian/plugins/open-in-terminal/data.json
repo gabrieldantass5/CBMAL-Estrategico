@@ -1,0 +1,7 @@
+{
+  "terminalApp": "cmd.exe",
+  "enableClaude": false,
+  "enableCodex": false,
+  "enableGemini": true,
+  "enableLogging": false
+}

@@ -1,0 +1,17 @@
+{
+	"nodes":[
+		{"id":"n1","type":"text","text":"**D-10: CORTE**\n\nEncerramento da coleta de dados do período. Nada mais entra.","x":0,"y":100,"width":200,"height":120,"color":"1"},
+		{"id":"n2","type":"text","text":"**D-7: RELATÓRIO PRELIMINAR**\n\nAPO envia 'Farol' para os ODS conferirem seus status.","x":250,"y":100,"width":200,"height":120,"color":"4"},
+		{"id":"n3","type":"text","text":"**D-3: JUSTIFICATIVAS**\n\nODS com Farol Vermelho enviam PCM (Plano de Contramedida).","x":500,"y":100,"width":200,"height":120,"color":"2"},
+		{"id":"n4","type":"text","text":"**D-1: CONSOLIDAÇÃO**\n\nAPO envia apresentação final para o Alto Comando.","x":750,"y":100,"width":200,"height":120,"color":"5"},
+		{"id":"n5","type":"text","text":"**DIA D: A REUNIÃO (RME)**\n\n1. Abertura\n2. Painel Geral\n3. Deep Dive (Problemas)\n4. Riscos\n5. Deliberações","x":1000,"y":50,"width":250,"height":220,"color":"3"},
+		{"id":"n6","type":"text","text":"**D+2: ATA DECISÓRIA**\n\nPublicação das decisões e prazos repactuados.","x":1300,"y":100,"width":200,"height":120}
+	],
+	"edges":[
+		{"id":"e1","fromNode":"n1","fromSide":"right","toNode":"n2","toSide":"left"},
+		{"id":"e2","fromNode":"n2","fromSide":"right","toNode":"n3","toSide":"left"},
+		{"id":"e3","fromNode":"n3","fromSide":"right","toNode":"n4","toSide":"left"},
+		{"id":"e4","fromNode":"n4","fromSide":"right","toNode":"n5","toSide":"left"},
+		{"id":"e5","fromNode":"n5","fromSide":"right","toNode":"n6","toSide":"left"}
+	]
+}

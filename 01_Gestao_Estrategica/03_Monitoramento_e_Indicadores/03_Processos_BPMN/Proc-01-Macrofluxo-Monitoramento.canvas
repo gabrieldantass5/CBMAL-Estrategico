@@ -1,0 +1,21 @@
+{
+	"nodes":[
+		{"id":"n1","type":"group","label":"COLETA (Pontas)","x":0,"y":0,"width":300,"height":400},
+		{"id":"n2","type":"text","text":"**Oficial de Ligação**\n\n- Coleta Dados Brutos\n- Anexa Evidências\n- Lança na Planilha\n\n*Prazo: até dia 05*","x":25,"y":40,"width":250,"height":150,"color":"1"},
+		{"id":"n3","type":"text","text":"**Chefe do ODS**\n\n- Valida dados\n- Assina reporte no SEI\n- Justifica anomalias","x":25,"y":220,"width":250,"height":150,"color":"2"},
+		{"id":"n4","type":"group","label":"PROCESSAMENTO (Meio)","x":400,"y":0,"width":300,"height":400},
+		{"id":"n5","type":"text","text":"**APO / SGE**\n\n- Recebe Processos SEI\n- Audita Metodologia\n- Alimenta SGI","x":425,"y":40,"width":250,"height":150,"color":"4"},
+		{"id":"n6","type":"text","text":"**Geração de Farol**\n\n- Cálculo de Variação\n- Relatório Preliminar\n- Identificação de Desvios","x":425,"y":220,"width":250,"height":150,"color":"5"},
+		{"id":"n7","type":"group","label":"DECISÃO (Topo)","x":800,"y":0,"width":300,"height":400},
+		{"id":"n8","type":"text","text":"**Reunião de Monitoramento (RME)**\n\n- Deliberação Tática\n- Aprovação de PCMs\n- Desbloqueio de Recursos","x":825,"y":40,"width":250,"height":150,"color":"3"},
+		{"id":"n9","type":"text","text":"**Ata Decisória**\n\n- Registro de Decisões\n- Novas Metas\n- Publicação BGO","x":825,"y":220,"width":250,"height":150}
+	],
+	"edges":[
+		{"id":"e1","fromNode":"n2","fromSide":"bottom","toNode":"n3","toSide":"top"},
+		{"id":"e2","fromNode":"n3","fromSide":"right","toNode":"n5","toSide":"left","label":"Processo SEI"},
+		{"id":"e3","fromNode":"n5","fromSide":"bottom","toNode":"n6","toSide":"top"},
+		{"id":"e4","fromNode":"n6","fromSide":"right","toNode":"n8","toSide":"left","label":"Relatório"},
+		{"id":"e5","fromNode":"n8","fromSide":"bottom","toNode":"n9","toSide":"top"},
+		{"id":"e6","fromNode":"n9","fromSide":"bottom","toNode":"n1","toSide":"bottom","label":"Feedback (PDCA)"}
+	]
+}

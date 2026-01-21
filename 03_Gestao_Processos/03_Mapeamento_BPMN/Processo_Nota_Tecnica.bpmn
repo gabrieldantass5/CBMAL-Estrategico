@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bpmn:definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:bpmn="http://www.omg.org/spec/BPMN/20100524/MODEL" xmlns:bpmndi="http://www.omg.org/spec/BPMN/20100524/DI" xmlns:dc="http://www.omg.org/spec/DD/20100524/DC" xmlns:di="http://www.omg.org/spec/DD/20100524/DI" id="Definitions_1" targetNamespace="http://bpmn.io/schema/bpmn">
+  <bpmn:collaboration id="Collaboration_0y9qzy4">
+    <bpmn:participant id="Participant_13q9p8u" name="CBMAL - Processo de Nota Técnica" processRef="Process_1" />
+  </bpmn:collaboration>
+  <bpmn:process id="Process_1" isExecutable="false">
+    <bpmn:laneSet id="LaneSet_1v1v1v1">
+      <bpmn:lane id="Lane_Secretary" name="Secretário (APO)">
+        <bpmn:flowNodeRef>StartEvent_1</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>Task_Elaborar</bpmn:flowNodeRef>
+      </bpmn:lane>
+      <bpmn:lane id="Lane_Chief" name="Chefe (APO)">
+        <bpmn:flowNodeRef>Task_Revisar</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>Gateway_Aprovado</bpmn:flowNodeRef>
+      </bpmn:lane>
+      <bpmn:lane id="Lane_Command" name="Comando / SEI">
+        <bpmn:flowNodeRef>Task_Publicar</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>EndEvent_1</bpmn:flowNodeRef>
+      </bpmn:lane>
+    </bpmn:laneSet>
+    <bpmn:startEvent id="StartEvent_1" name="Início">
+      <bpmn:outgoing>Flow_1</bpmn:outgoing>
+    </bpmn:startEvent>
+    <bpmn:task id="Task_Elaborar" name="Elaborar Minuta da Nota Técnica">
+      <bpmn:incoming>Flow_1</bpmn:incoming>
+      <bpmn:incoming>Flow_Reprovado</bpmn:incoming>
+      <bpmn:outgoing>Flow_2</bpmn:outgoing>
+    </bpmn:task>
+    <bpmn:sequenceFlow id="Flow_1" sourceRef="StartEvent_1" targetRef="Task_Elaborar" />
+    <bpmn:task id="Task_Revisar" name="Revisão Técnica e de Redação">
+      <bpmn:incoming>Flow_2</bpmn:incoming>
+      <bpmn:outgoing>Flow_3</bpmn:outgoing>
+    </bpmn:task>
+    <bpmn:sequenceFlow id="Flow_2" sourceRef="Task_Elaborar" targetRef="Task_Revisar" />
+    <bpmn:exclusiveGateway id="Gateway_Aprovado" name="Aprovado?">
+      <bpmn:incoming>Flow_3</bpmn:incoming>
+      <bpmn:outgoing>Flow_Aprovado</bpmn:outgoing>
+      <bpmn:outgoing>Flow_Reprovado</bpmn:outgoing>
+    </bpmn:exclusiveGateway>
+    <bpmn:sequenceFlow id="Flow_3" sourceRef="Task_Revisar" targetRef="Gateway_Aprovado" />
+    <bpmn:task id="Task_Publicar" name="Assinar e Despachar no SEI">
+      <bpmn:incoming>Flow_Aprovado</bpmn:incoming>
+      <bpmn:outgoing>Flow_4</bpmn:outgoing>
+    </bpmn:task>
+    <bpmn:sequenceFlow id="Flow_Aprovado" name="Sim" sourceRef="Gateway_Aprovado" targetRef="Task_Publicar" />
+    <bpmn:sequenceFlow id="Flow_Reprovado" name="Não (Ajustar)" sourceRef="Gateway_Aprovado" targetRef="Task_Elaborar" />
+    <bpmn:sequenceFlow id="Flow_4" sourceRef="Task_Publicar" targetRef="EndEvent_1" />
+    <bpmn:endEvent id="EndEvent_1" name="Fim">
+      <bpmn:incoming>Flow_4</bpmn:incoming>
+    </bpmn:endEvent>
+  </bpmn:process>
+  <bpmndi:BPMNDiagram id="BPMNDiagram_1">
+    <bpmndi:BPMNPlane id="BPMNPlane_1" bpmnElement="Collaboration_0y9qzy4">
+      <bpmndi:BPMNShape id="Participant_13q9p8u_di" bpmnElement="Participant_13q9p8u" isHorizontal="true">
+        <dc:Bounds x="160" y="80" width="680" height="370" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Lane_Command_di" bpmnElement="Lane_Command" isHorizontal="true">
+        <dc:Bounds x="190" y="330" width="650" height="120" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Lane_Chief_di" bpmnElement="Lane_Chief" isHorizontal="true">
+        <dc:Bounds x="190" y="200" width="650" height="130" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Lane_Secretary_di" bpmnElement="Lane_Secretary" isHorizontal="true">
+        <dc:Bounds x="190" y="80" width="650" height="120" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="StartEvent_1_di" bpmnElement="StartEvent_1">
+        <dc:Bounds x="242" y="122" width="36" height="36" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Task_Elaborar_di" bpmnElement="Task_Elaborar">
+        <dc:Bounds x="330" y="100" width="100" height="80" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Task_Revisar_di" bpmnElement="Task_Revisar">
+        <dc:Bounds x="330" y="220" width="100" height="80" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Gateway_Aprovado_di" bpmnElement="Gateway_Aprovado" isMarkerVisible="true">
+        <dc:Bounds x="485" y="235" width="50" height="50" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Task_Publicar_di" bpmnElement="Task_Publicar">
+        <dc:Bounds x="610" y="350" width="100" height="80" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="EndEvent_1_di" bpmnElement="EndEvent_1">
+        <dc:Bounds x="742" y="372" width="36" height="36" />
+        <bpmndi:BPMNLabel>
+          <dc:Bounds x="751" y="408" width="19" height="14" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNEdge id="Flow_1_di" bpmnElement="Flow_1">
+        <di:waypoint x="278" y="140" />
+        <di:waypoint x="330" y="140" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="Flow_2_di" bpmnElement="Flow_2">
+        <di:waypoint x="380" y="180" />
+        <di:waypoint x="380" y="220" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="Flow_3_di" bpmnElement="Flow_3">
+        <di:waypoint x="430" y="260" />
+        <di:waypoint x="485" y="260" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="Flow_Aprovado_di" bpmnElement="Flow_Aprovado">
+        <di:waypoint x="535" y="260" />
+        <di:waypoint x="573" y="260" />
+        <di:waypoint x="573" y="390" />
+        <di:waypoint x="610" y="390" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="Flow_Reprovado_di" bpmnElement="Flow_Reprovado">
+        <di:waypoint x="510" y="235" />
+        <di:waypoint x="510" y="140" />
+        <di:waypoint x="430" y="140" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="Flow_4_di" bpmnElement="Flow_4">
+        <di:waypoint x="710" y="390" />
+        <di:waypoint x="742" y="390" />
+      </bpmndi:BPMNEdge>
+    </bpmndi:BPMNPlane>
+  </bpmndi:BPMNDiagram>
+</bpmn:definitions>

@@ -1,0 +1,35 @@
+{
+  "cookies": [
+    {
+      "name": "SIP_U_AL_SEI",
+      "value": "48",
+      "domain": "sei.al.gov.br",
+      "path": "/",
+      "expires": 1803417082.115419,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "PHPSESSID",
+      "value": "7murftldr8kjfldsmqv7amt9mj",
+      "domain": "sei.al.gov.br",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": true,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "AL_SEI_01440709440_menu_mostrar",
+      "value": "S",
+      "domain": "sei.al.gov.br",
+      "path": "/",
+      "expires": 1768943483,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    }
+  ],
+  "origins": []
+}

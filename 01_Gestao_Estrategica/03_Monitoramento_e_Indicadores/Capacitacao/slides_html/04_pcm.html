@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+        body {
+            width: 720pt;
+            height: 405pt;
+            margin: 0;
+            padding: 30pt;
+            background: #ffffff;
+            font-family: Arial, sans-serif;
+        }
+
+        h1 {
+            color: #BF0000;
+            font-size: 28pt;
+            margin-bottom: 10pt;
+            border-bottom: 1px solid #ccc;
+        }
+
+        .header-info {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 20pt;
+            font-size: 14pt;
+            color: #555;
+        }
+
+        .col-container {
+            display: flex;
+            gap: 20pt;
+            height: 250pt;
+        }
+
+        .col-left {
+            width: 40%;
+            background: #FFF4F4;
+            padding: 15pt;
+            border-left: 5pt solid #BF0000;
+            border-radius: 4pt;
+        }
+
+        .col-right {
+            width: 60%;
+            background: #F9F9F9;
+            padding: 15pt;
+            border-top: 3pt solid #666;
+            border-radius: 4pt;
+        }
+
+        h3 {
+            margin-top: 0;
+            color: #333;
+            font-size: 16pt;
+        }
+
+        p {
+            font-size: 12pt;
+            line-height: 1.4;
+        }
+
+        ul {
+            font-size: 12pt;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>PCM: [Nome do Indicador]</h1>
+    <div class="header-info">
+        <span><b>Diretoria:</b> [Sigla]</span>
+        <span><b>Farol:</b> <span style="color:red; font-weight:bold;">VERMELHO</span></span>
+        <span><b>Meta:</b> [Valor] | <b>Real:</b> [Valor]</span>
+    </div>
+
+    <div class="col-container">
+        <div class="col-left">
+            <h3>⚠️ Análise de Causa</h3>
+            <p><b>Por que a meta não foi batida?</b></p>
+            <p>[Descreva aqui a Causa Raiz identificada pelos 5 Porquês]</p>
+            <p><i>Ex: Falta de insumos devido a fracasso na licitação nº 123.</i></p>
+        </div>
+
+        <div class="col-right">
+            <h3>✅ Plano de Ação (Proposta)</h3>
+            <ul>
+                <li><b>O Que:</b> [Ação corretiva imediata]</li>
+                <li><b>Quem:</b> [Responsável]</li>
+                <li><b>Quando:</b> [Prazo Limite]</li>
+                <li><b>Recurso:</b> [Necessidade orçamentária ou apoio]</li>
+            </ul>
+        </div>
+    </div>
+</body>
+
+</html>

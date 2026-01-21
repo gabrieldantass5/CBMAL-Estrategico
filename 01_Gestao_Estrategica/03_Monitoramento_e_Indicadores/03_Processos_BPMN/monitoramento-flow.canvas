@@ -1,0 +1,16 @@
+{
+	"nodes":[
+		{"id":"2","type":"text","text":"# 2. VALIDAÇÃO\n**Papel:** Chefe do ODS\n\n- Verifica Consistência\n- Aprova o reporte\n- Justifica anomalias","x":-50,"y":-100,"width":250,"height":300},
+		{"id":"3","type":"text","text":"# 3. ANÁLISE (APO)\n**Papel:** Assessor de Planej.\n\n- Auditoria Metodológica\n- Cálculo de KPI/Farol\n- Consolidação Geral","x":300,"y":-100,"width":250,"height":300},
+		{"id":"4","type":"text","text":"# 4. RME (DECISÃO)\n**Papel:** Alto Comando\n\n- Discussão Tática\n- Ações Corretivas\n- Repactuação","x":650,"y":-100,"width":250,"height":300},
+		{"id":"1","type":"text","text":"# 1. INPUT\n**Papel:** Oficial de Ligação\n\n- Coleta Dados Brutos\n- Alimenta Planilha/Sistema\n- Prazo: Dia 05","x":-400,"y":-100,"width":250,"height":300},
+		{"id":"5","type":"text","text":"**Feedback / Ajuste**\n(Ciclo PDCA)","x":75,"y":300,"width":250,"height":60}
+	],
+	"edges":[
+		{"id":"e1","fromNode":"1","fromSide":"right","toNode":"2","toSide":"left"},
+		{"id":"e2","fromNode":"2","fromSide":"right","toNode":"3","toSide":"left"},
+		{"id":"e3","fromNode":"3","fromSide":"right","toNode":"4","toSide":"left"},
+		{"id":"e4","fromNode":"4","fromSide":"bottom","toNode":"5","toSide":"right"},
+		{"id":"e5","fromNode":"5","fromSide":"left","toNode":"1","toSide":"bottom"}
+	]
+}
