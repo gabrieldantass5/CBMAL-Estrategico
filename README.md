@@ -1,3 +1,5 @@
+![Banner Ecossistema CBMAL](.agent/assets/images/banner.png)
+
 # 🚒 Ecossistema de Gestão Estratégica - CBMAL (2025-2029)
 
 > **Orquestração de Inteligência Artificial para Alta Performance Institucional.**
