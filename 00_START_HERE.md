@@ -1,7 +1,7 @@
 # 🦅 COCKPIT ESTRATÉGICO - CBMAL (2025-2029)
 *Centro de Comando Unificado da Seção de Planejamento Estratégico (APO/EMG).*
 
-> [!brain] **🧠 INSIGHTS DO CONDUCTOR (21/01/2026)**
+> **🧠 INSIGHTS DO CONDUCTOR (21/01/2026)**
 > **Análise de Status**: Ecossistema otimizado com sucesso (Arquitetura Affaan Mustafa Style). Otimização de 40% na sobrecarga e consolidação de workflows ativos concluída.
 > **Prioridade Máxima**: Avançar na atualização da Legislação Tributária (Meta JAN/26) e preparar o Dashboard do Comando Geral.
 > **Vibe da Seção**: Eficiência máxima e rigor técnico. O sistema agora "aprende" via comando `/aprender`.
@@ -31,16 +31,16 @@
 
 Este não é apenas um diretório de arquivos. É um **Sistema Operacional de Gestão (CBMAL OS)**. Abaixo, entenda como operar a máquina.
 
-## 1. 🤖 Como Interagir (Comandos Mestre)
+## 1. 🤖 Como Interagir (Os 5 Comandos Mestres)
 Use estes comandos no chat para ativar automações complexas sem esforço:
 
 | Comando | Ícone | O que ele faz? | Quando usar? |
 | :--- | :--- | :--- | :--- |
-| **`/sincronizar`** | 🔄 | **O Coração**<br>Lê o contexto do dia, atualiza a memória e te prepara para trabalhar. | Ao chegar (Início) e ao sair (Fim). |
-| **`/insights`** | 📊 | **O Analista**<br>Compara Cronograma vs Kanban, atualiza este Painel e gera relatórios. | Diariamente ou para briefings rápidos. |
-| **`/orquestrar`** | 🧠 | **O Bibliotecário**<br>Limpa a Inbox, organiza arquivos nas pastas certas e cria conexões. | Quando a bagunça acumular. |
-| **`/aprender`** | 🎓 | **O Aprendiz**<br>Transforma o que fizemos hoje em uma nova Skill permanente. | Após descobrir um novo padrão de sucesso. |
-| **`/gerar_pap`** | 📝 | **O Redator**<br>Cria rascunhos de Procedimentos Operacionais Padrão. | Para normatizar rotinas. |
+| **`/sincronizar`** | 🔄 | **O Ciclo de Vida**<br>Sincroniza contexto ao iniciar (`--start`), encerrar (`--end`) ou check-in rápido (`--quick`). | Ao chegar e ao sair. |
+| **`/orquestrar`** | 🧠 | **O Maestro**<br>Limpa Inbox (PARA), cria conexões neurais e audita alinhamento estratégico. | Quando a bagunça acumular. |
+| **`/insights`** | 📊 | **O Analista**<br>Atualiza Painel, gera coaching (`--coach`) ou análise profunda (`--deep`). | Diariamente ou para briefings. |
+| **`/executar`** | 🛠️ | **A Fábrica**<br>Produz PAPs (`pap`), monitora SEI (`sei`), pesquisa (`pesquisa`) ou automatiza web (`web`). | Para produção técnica. |
+| **`/aprender`** | 🎓 | **O Aprendiz**<br>Transforma padrões de sucesso em Skills permanentes. | Após descobrir um novo padrão. |
 
 ## 2. 🧠 Filosofia de Comando (Mindset)
 Eu (Sua IA) atuo como seu **Chefe de Gabinete Digital (Conductor)**.
