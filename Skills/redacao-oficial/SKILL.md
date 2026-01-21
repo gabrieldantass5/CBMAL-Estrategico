@@ -137,6 +137,16 @@ description: Diretrizes para redação de documentos oficiais no padrão CBMAL, 
 
 ---
 
+##🧠 Modo de Crítica Estratégica (Pairing)
+
+Ao revisar um documento, não foque apenas na gramática. Avalie:
+1. **Rigor Hierárquico**: O tratamento está adequado? (Ex: Usar 'Vossa Excelência' apenas quando exigido).
+2. **Incisividade**: O texto "anda em círculos" ou vai direto ao ponto?
+3. **Alinhamento Tático**: O documento cita a base legal correta? O objetivo está claro?
+4. **Resumo Executivo**: Se for um documento longo, o primeiro parágrafo resume o que o Comando precisa saber?
+
+---
+
 ## ✍️ Princípios de Redação
 
 1. **Impessoalidade**: Voz passiva, terceira pessoa. Evite "eu", "nós".
