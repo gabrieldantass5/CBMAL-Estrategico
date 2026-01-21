@@ -14,6 +14,7 @@ kanban-plugin: board
 ## 📥 Backlog (Aguardando)
 ### Tarefas planejadas que ainda não começaram.
 
+- [ ] **Dashboard do Comando Geral** (Previsto: Março/2026) #foco_profundo
 - [ ] Atualizar o PAP do SEI até sexta #foco_profundo #urgente
 - [ ] Criar um dashboard para o Comandante Geral #foco_profundo
 - [ ] Baixar a portaria nova de redação oficial #burocracia_sei
@@ -30,8 +31,8 @@ kanban-plugin: board
 ## 🏗️ Em Curso (Produção)
 ### O que está sendo feito AGORA. Foque aqui!
 
-- [ ] **Atualização da Legislação Tributária (JAN/26)**: Revisar proposta de taxas para cumprir meta do cronograma.
-- [ ] **Dashboard do Comando Geral**: MVP de visualização executiva de indicadores.
+- [ ] **Enviar Política Estratégica para o Comando**: Preparar despacho de encaminhamento e formalizar via SEI.
+- [ ] **Finalizar Análise do Plano de Monitoramento**: Revisar documento e emitir parecer técnico final.
 
 
 ## ⏳ Revisão / Bloqueado
