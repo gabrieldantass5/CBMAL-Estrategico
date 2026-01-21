@@ -30,12 +30,8 @@ kanban-plugin: board
 ## 🏗️ Em Curso (Produção)
 ### O que está sendo feito AGORA. Foque aqui!
 
-- [x] **Operação FNSP 2026**: Validação estratégica de 3 ações + Despachos SEI prontos. ✅
-- [x] **Unificação de Workflows**: Implementação dos Comandos Mestres (/sincronizar, /orquestrar, /analisar, /executar). ✅
-- [x] **Conversor SEI/Docs v2.0**: Automação de conversão Markdown -> HTML (Arial, Tabelas, Mermaid). ✅
-- [x] **Fast Track PDF**: Script de leitura ultrarrápida para processos administrativos. ✅
-- [x] **Preparar Despachos SEI (Metas JAN/26)**
-- [x] **Integração Vercel Agent Browser**: Automação de navegador configurada para workspace. ✅
+- [ ] **Atualização da Legislação Tributária (JAN/26)**: Revisar proposta de taxas para cumprir meta do cronograma.
+- [ ] **Dashboard do Comando Geral**: MVP de visualização executiva de indicadores.
 
 
 ## ⏳ Revisão / Bloqueado
@@ -49,6 +45,9 @@ kanban-plugin: board
 ## ✅ Concluído (Janeiro/2026)
 ### Missões cumpridas (Histórico do mês).
 
+- [x] **Otimização Radical do Ecossistema (21/01)**: Redução de 15 para 5 workflows, criação de regras atômicas e consolidação de documentação. ✅
+- [x] **Deploy GitHub CBMAL-Estrategico (21/01)**: Repositório privado configurado com banner profissional e limpeza de histórico. ✅
+- [x] **Upgrade Arquitetural Affaan Mustafa Style (21/01)**: Implementação de memória persistente, regras modulares e aprendizado contínuo. ✅
 - [x] **Manual EPD-CBMAL v1.0**: 7 Capítulos + 5 Anexos (~1.100 linhas)
 - [x] **Revisão Técnica Cruzada (Full Stack):** Política, Implementação, Monitoramento, Avaliação, Indicadores e Rastreabilidade. ✅
 - [x] **Revisão Técnica Final:** Caderno de Indicadores (Ten Gabriel Dantas)
