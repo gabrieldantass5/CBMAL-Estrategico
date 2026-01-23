@@ -1,40 +1,40 @@
-# Parecer Técnico: Comparação e Melhorias - Política de Gestão Estratégica 2025-2029
+---
+tipo: Nota Técnica
+status: Concluído
+data: 2026-01-22
+autor: Antigravity AI (Conductor)
+---
+# 📊 Relatório de Auditoria e Sincronização: Política Estratégica v2025-2029
 
-Após a análise comparativa entre a **Minuta da Política**, o **MGA (Manual de Gestão Administrativa)** e o **Plano de Implementação**, identifiquei os seguintes pontos de ajuste para garantir a coerência metodológica e elevar a maturidade da gestão no CBMAL.
+## 1. Identificação da Revisão
+- **Documento de Origem**: `Inbox/Revisado - POLITICA_ESTRATEGICA_2025-29.md`
+- **Documento Destino**: `01_Gestao_Estrategica/02_Politica_Institucional/POLITICA_ESTRATEGICA_PARA_SEI_V_FINAL.md`
+- **Data da Auditoria**: 22 de Janeiro de 2026
 
-## 1. Divergências e Sincronização de Conceitos
+## 2. Análise de Mudanças (Delta)
 
-| Item | Status Atual na Política | Referência (MGA / Plano Impl.) | Recomendação de Ajuste |
-| :--- | :--- | :--- | :--- |
-| **Papel da APO** | Coordenação e Monitoramento | Escritório de Estratégia (**SMO**) | Alterar Art. 10 para formalizar a APO/SGE como o **Escritório de Gestão Estratégica**. |
-| **Gestão da Mudança** | Citada genericamente | **8 Aceleradores de Kotter** | Incluir no Cap. III a adoção da metodologia Kotter para engajamento e cultura. |
-| **Visão de Valor** | Foco em resultados internos | **Valor Público (Cidadão)** | Inserir "Entrega de Valor Público" como princípio fundamental no Art. 2º. |
-| **Sistemas** | Usa o termo "SGE" | **Sistema de Gestão Integrada** | Unificar para "Sistema de Gestão Estratégica (SGE)", conforme as Skills de BI criadas. |
+A revisão realizada pelo usuário trouxe as seguintes atualizações críticas:
 
-## 2. Sugestões de Melhoria na Redação (Diretrizes do MGA)
+### A. Nomenclatura e Governança
+- **Art. 9º**: Alteração de "Subcomandante-Geral" para **"Subcomandante-Geral / Chefe do Estado-Maior"**, refletindo com precisão a estrutura bicéfala do cargo.
+- **Seção VII (Art. 14)**: Adição de parágrafo único reforçando o papel do **Escritório de Projetos (EP)** como padronizador e facilitador institucional.
 
-### A. Refinamento das Competências (Art. 10 e 13)
-O MGA (Seção 4.1) dá à SGE um papel mais ativo. Sugiro mudar o tom de "apoio" para "validação técnica".
-*   **Antigo:** "Oferecer suporte metodológico..."
-*   **Novo:** "Garantir a integridade metodológica e validar a conformidade dos instrumentos táticos (Planos Setoriais)..."
+### B. Integração de Instrumentos
+- **Art. 20º**: Inclusão de menção explícita ao **Plano de Monitoramento** e ao **Caderno de Indicadores** como fontes das fichas técnicas, reforçando a blindagem metodológica.
+- **Art. 23º**: Reestruturação da lista de instrumentos da gestão estratégica para formato de incisos (I a VIII), melhorando a legibilidade jurídica no SEI.
 
-### B. Inclusão da Cultura de Agilidade (OKR)
-O Plano de Implementação destaca os OKRs (pág 19). A Política deve ser mais explícita quanto à cadência trimestral desses ciclos para não ficar presa apenas ao PPA (5 anos).
+### C. Ajustes de Redação Técnica
+- Remoção da subseção redundante no preâmbulo.
+- Ajuste na formatação de OKR e BSC no Capítulo IV.
+- Padronização de marcadores em listas de competências (I, II, III...).
 
-### C. Fortalecimento dos Oficiais de Ligação
-Alinhado com a pág 10 do Plano de Implementação, o Oficial de Ligação não é apenas um "informante", mas um **facilitador da mudança**.
-*   **Sugestão:** Incluir no Art. 12 a responsabilidade de "Promover a cultura de gestão baseada em evidências no âmbito de sua unidade".
+## 3. Conclusão da Auditoria
+As alterações são **positivas** e aumentam a segurança jurídica do documento, alinhando-o perfeitamente às instruções dadas durante a sessão de hoje (07:56). O documento revisado na `Inbox` é agora a nova **Fonte da Verdade**.
 
-## 3. Próximos Passos Propostos
-Apresento abaixo os trechos específicos que podem ser substituídos na minuta `politica_gestao_estrategica_2025-2029_final_limpa.md` para atingir 100% de alinhamento.
+## 4. Próximos Passos
+1. Atualizar o arquivo oficial na pasta de Política Institucional.
+2. Regenerar o HTML para o SEI.
+3. Arquivar a versão da Inbox.
 
 ---
-
-### Proposta de Redação para Inclusão (Aceleradores de Mudança):
-> **Art. 17-A.** A gestão da mudança organizacional será fundamentada nos **8 Aceleradores de Kotter**, visando criar senso de urgência, formar coalizões orientadoras e institucionalizar a cultura de excelência em todos os níveis da Corporação.
-
-### Proposta de Redação para o Art. 2º (Inclusão de Valor Público):
-> **Art. 2º** [...]
-> IX - Valor Público: benefício real, mensurável e percebido pela sociedade alagoana decorrente das ações do CBMAL.
-
-**Deseja que eu gere agora a versão completa e revisada do arquivo `.md` aplicando essas melhorias?**
+*Assinado: Antigravity AI — Conductor Estratégico*

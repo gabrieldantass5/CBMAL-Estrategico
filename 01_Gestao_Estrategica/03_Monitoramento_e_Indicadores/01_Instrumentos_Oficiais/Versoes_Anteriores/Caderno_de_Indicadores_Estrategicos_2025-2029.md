@@ -44,19 +44,19 @@ TC QOEM BM Marcos Paulo Seara Barbosa
 
 ## GLOSSÁRIO DE SIGLAS E TERMOS
 
-| Sigla | Significado |
-|:---|:---|
-| **APO** | Assessoria de Planejamento e Orçamento |
-| **CBMAL** | Corpo de Bombeiros Militar de Alagoas |
-| **IE** | Indicador Estratégico |
-| **IO** | Indicador Operacional |
-| **IT** | Indicador Tático |
-| **KPI** | Key Performance Indicator |
-| **ODS** | Órgão de Direção Setorial |
-| **OE** | Objetivo Estratégico |
-| **PDCA** | Plan-Do-Check-Act |
-| **RME** | Reunião de Monitoramento Estratégico |
-| **SEI** | Sistema Eletrônico de Informações |
+| Sigla     | Significado                                            |
+| :-------- | :----------------------------------------------------- |
+| **APO**   | Assessoria de Planejamento e Orçamento                 |
+| **CBMAL** | Corpo de Bombeiros Militar de Alagoas                  |
+| **IE**    | Indicador Estratégico                                  |
+| **IO**    | Indicador Operacional                                  |
+| **IT**    | Indicador Tático                                       |
+| **KPI**   | Key Performance Indicator                              |
+| **ODS**   | Órgão de Direção Setorial                              |
+| **OE**    | Objetivo Estratégico                                   |
+| **PDCA**  | Plan-Do-Check-Act                                      |
+| **RME**   | Reunião de Monitoramento Estratégico                   |
+| **SEI**   | Sistema Eletrônico de Informações                      |
 | **SMART** | Specific, Measurable, Achievable, Relevant, Time-bound |
 
 ---
@@ -141,11 +141,11 @@ Os indicadores serão classificados conforme o desempenho em relação à meta:
 
 Os indicadores são organizados em três níveis hierárquicos:
 
-| Nível | Foco | Periodicidade | Monitorado por | Exemplo |
-|:---|:---|:---|:---|:---|
-| **Estratégico (IE)** | Resultado/Impacto | Trimestral/Anual | Alto Comando | Tempo Resposta, Satisfação |
-| **Tático (IT)** | Entrega/Projeto | Mensal/Trimestral | ODS/APO | % Vistorias Realizadas |
-| **Operacional (IO)** | Esforço/Insumo | Semanal/Mensal | Setores | Nº Treinamentos Executados |
+| Nível                | Foco              | Periodicidade     | Monitorado por | Exemplo                    |
+| :------------------- | :---------------- | :---------------- | :------------- | :------------------------- |
+| **Estratégico (IE)** | Resultado/Impacto | Trimestral/Anual  | Alto Comando   | Tempo Resposta, Satisfação |
+| **Tático (IT)**      | Entrega/Projeto   | Mensal/Trimestral | ODS/APO        | % Vistorias Realizadas     |
+| **Operacional (IO)** | Esforço/Insumo    | Mensal            | Setores        | Nº Treinamentos Executados |
 
 ---
 
@@ -155,40 +155,40 @@ A seguir, apresenta-se a matriz completa que relaciona os **17 Objetivos Estrat�
 
 ### 4.1 Tema 1: OPERACIONAL
 
-| OE | Objetivo Estratégico | Indicadores Propostos |
-|:---|:---|:---|
+| OE        | Objetivo Estratégico                                                  | Indicadores Propostos                                                                                                                                  |
+| :-------- | :-------------------------------------------------------------------- | :----------------------------------------------------------------------------------------------------------------------------------------------------- |
 | **OE.01** | Fortalecer as ações preventivas contra incêndio, pânico e emergências | IE-01: Taxa de Atualização de ITs; IE-02: Demanda Reprimida em Vistorias; IE-03: Demanda Reprimida em Análises; IE-04: Perícias de Incêndio Realizadas |
-| **OE.02** | Aperfeiçoar a Gestão Operacional | IE-05: Tempo Resposta Operacional; IE-06: Emergências Não Atendidas; IE-07: Cobertura de Georreferenciamento |
-| **OE.03** | Ampliar a cobertura operacional e diversificar serviços | IE-08: Execução do Plano de Expansão; IE-09: Novos Postos de Guarda-Vidas; IE-10: Convênios com Municípios |
+| **OE.02** | Aperfeiçoar a Gestão Operacional                                      | IE-05: Tempo Resposta Operacional; IE-06: Emergências Não Atendidas; *IE-07: Cobertura de Georreferenciamento*                                         |
+| **OE.03** | Ampliar a cobertura operacional e diversificar serviços               | IE-08: Execução do Plano de Expansão; IE-09: Novos Postos de Guarda-Vidas; IE-10: Convênios com Municípios                                             |
 
 ### 4.2 Tema 2: GOVERNANÇA E GESTÃO
 
-| OE | Objetivo Estratégico | Indicadores Propostos |
-|:---|:---|:---|
+| OE        | Objetivo Estratégico                                        | Indicadores Propostos                                                                                                  |
+| :-------- | :---------------------------------------------------------- | :--------------------------------------------------------------------------------------------------------------------- |
 | **OE.04** | Aperfeiçoar a gestão estratégica e o serviço administrativo | IE-11: Taxa de Execução do Plano de Gestão; IE-12: Planos Setoriais Entregues; IE-13: Maturidade em Gestão Estratégica |
-| **OE.05** | Aprimorar o sistema de governança corporativa | IE-14: Índice IMGG; IE-15: Reuniões RME Realizadas; IE-16: Indicadores com Farol Verde |
+| **OE.05** | Aprimorar o sistema de governança corporativa               | IE-14: Índice IMGG; IE-15: Reuniões RME Realizadas; IE-16: Indicadores com Farol Verde                                 |
 
 ### 4.3 Tema 3: COMUNICAÇÃO
 
-| OE | Objetivo Estratégico | Indicadores Propostos |
-|:---|:---|:---|
-| **OE.06** | Fortalecer a comunicação institucional | IE-17: Engajamento em Redes Sociais; IE-18: Seguidores do CBMAL; IE-19: Apresentações da Banda de Música |
-| **OE.07** | Aprimorar a educação pública para prevenção | IE-20: Alcance de Campanhas Preventivas; IE-21: Projetos Sociais Realizados; IE-22: Escolas Atendidas |
+| OE        | Objetivo Estratégico                        | Indicadores Propostos                                                                                    |
+| :-------- | :------------------------------------------ | :------------------------------------------------------------------------------------------------------- |
+| **OE.06** | Fortalecer a comunicação institucional      | IE-17: Engajamento em Redes Sociais; IE-18: Seguidores do CBMAL; IE-19: Apresentações da Banda de Música |
+| **OE.07** | Aprimorar a educação pública para prevenção | IE-20: Alcance de Campanhas Preventivas; *IE-21: Projetos Sociais Realizados; IE-22: Escolas Atendidas*  |
 
 ### 4.4 Tema 4: PESSOAS
 
-| OE | Objetivo Estratégico | Indicadores Propostos |
-|:---|:---|:---|
-| **OE.08** | Otimizar a gestão de pessoas por competências | IE-23: Implantação da Gestão por Competências; IE-24: Banco de Talentos Ativo |
-| **OE.09** | Valorizar o profissional bombeiro militar | IE-25: Índice de Clima Organizacional; IE-26: Reconhecimentos por Mérito |
-| **OE.10** | Promover a saúde e aptidão física | IE-27: Taxa de Aptidão no TAF; IE-28: Militares em Inspeção de Saúde; IE-29: Afastamentos por Saúde |
-| **OE.11** | Reestruturar correição e ouvidoria | IE-30: Prazo Médio de Processos; IE-31: Demandas de Ouvidoria Atendidas |
+| OE        | Objetivo Estratégico                          | Indicadores Propostos                                                                               |
+| :-------- | :-------------------------------------------- | :-------------------------------------------------------------------------------------------------- |
+| **OE.08** | Otimizar a gestão de pessoas por competências | IE-23: Implantação da Gestão por Competências; IE-24: Banco de Talentos Ativo                       |
+| **OE.09** | Valorizar o profissional bombeiro militar     | IE-25: Índice de Clima Organizacional; *IE-26: Reconhecimentos por Mérito*                          |
+| **OE.10** | Promover a saúde e aptidão física             | IE-27: Taxa de Aptidão no TAF; IE-28: Militares em Inspeção de Saúde; IE-29: Afastamentos por Saúde |
+| **OE.11** | Reestruturar correição e ouvidoria            | IE-30: Prazo Médio de Processos; IE-31: Demandas de Ouvidoria Atendidas                             |
 
 ### 4.5 Tema 5: CONHECIMENTO
 
-| OE | Objetivo Estratégico | Indicadores Propostos |
-|:---|:---|:---|
-| **OE.12** | Desenvolver a Educação Corporativa | IE-32: Execução do PACC; IE-33: Taxa de Capacitação Continuada; IE-34: Adesão a Cursos |
+| OE        | Objetivo Estratégico                                   | Indicadores Propostos                                                                                 |
+| :-------- | :----------------------------------------------------- | :---------------------------------------------------------------------------------------------------- |
+| **OE.12** | Desenvolver a Educação Corporativa                     | IE-32: Execução do PACC; IE-33: Taxa de Capacitação Continuada; IE-34: Adesão a Cursos                |
 | **OE.13** | Fortalecer Gestão do Conhecimento, Pesquisa e Inovação | IE-35: Produção Técnico-Científica; IE-36: Convênios Acadêmicos; IE-37: Lições Aprendidas Registradas |
 
 ### 4.6 Tema 6: TRANSFORMAÇÃO DIGITAL
@@ -199,16 +199,16 @@ A seguir, apresenta-se a matriz completa que relaciona os **17 Objetivos Estrat�
 
 ### 4.7 Tema 7: INFRAESTRUTURA
 
-| OE | Objetivo Estratégico | Indicadores Propostos |
-|:---|:---|:---|
+| OE        | Objetivo Estratégico             | Indicadores Propostos                                                                                            |
+| :-------- | :------------------------------- | :--------------------------------------------------------------------------------------------------------------- |
 | **OE.15** | Garantir infraestrutura adequada | IE-41: Disponibilidade da Frota Operacional; IE-42: Execução do Plano de Obras; IE-43: Aparelhamento Finalístico |
 
 ### 4.8 Tema 8: ARRECADAÇÃO, ORÇAMENTO E FINANÇAS
 
-| OE | Objetivo Estratégico | Indicadores Propostos |
-|:---|:---|:---|
+| OE        | Objetivo Estratégico                                       | Indicadores Propostos                                                                                            |
+| :-------- | :--------------------------------------------------------- | :--------------------------------------------------------------------------------------------------------------- |
 | **OE.16** | Aumentar arrecadação de recursos ordinários e alternativos | IE-44: Adimplência da Taxa de Bombeiros; IE-45: Recursos de Emendas Captados; IE-46: Novos Municípios Tributados |
-| **OE.17** | Aprimorar a execução orçamentária e financeira | IE-47: Execução Financeira-Orçamentária; IE-48: Inscrição em Restos a Pagar |
+| **OE.17** | Aprimorar a execução orçamentária e financeira             | IE-47: Execução Financeira-Orçamentária; IE-48: Inscrição em Restos a Pagar                                      |
 
 ---
 
@@ -220,24 +220,24 @@ A seguir, apresenta-se a matriz completa que relaciona os **17 Objetivos Estrat�
 
 #### FICHA TÉCNICA - IE-05: TEMPO RESPOSTA OPERACIONAL (TRO)
 
-| Campo | Descrição |
-|:---|:---|
-| **Código** | IE-05 |
-| **Nome** | Tempo Resposta Operacional |
-| **Sigla** | TRO |
-| **Objetivo Estratégico Vinculado** | OE.02 - Aperfeiçoar a Gestão Operacional |
-| **Tema Estratégico** | Tema 1 - Operacional |
-| **Definição** | Tempo médio decorrido entre o acionamento via 193 (horário de despacho) e a chegada da primeira viatura ao local da ocorrência. |
-| **Fórmula de Cálculo** | `TRO = Σ(Hora Chegada - Hora Despacho) / Total de Ocorrências` |
-| **Unidade de Medida** | Minutos |
-| **Frequência de Medição** | Mensal |
-| **Fonte de Dados** | Sistema SysBM / SGO (Fênix) |
-| **Responsável pela Aferição** | Diretoria Operacional (DOP) / Seção de Estatística |
-| **Linha de Base (2024)** | 12 min (a confirmar) |
-| **Meta (2025)** | ≤ 10 min |
-| **Polaridade** | Quanto Menor, Melhor |
-| **Faixas de Farol** | 🟢 ≤ 10 min | 🟡 10,1 a 12 min | 🔴 > 12 min |
-| **Observações** | Excluem-se ocorrências de trotes, canceladas antes da saída ou sem registro de chegada. Referência NFPA 1710: 6 min para 90% das ocorrências. |
+| Campo                              | Descrição                                                                                                                                     |                  |             |
+| :--------------------------------- | :-------------------------------------------------------------------------------------------------------------------------------------------- | ---------------- | ----------- |
+| **Código**                         | IE-05                                                                                                                                         |                  |             |
+| **Nome**                           | Tempo Resposta Operacional                                                                                                                    |                  |             |
+| **Sigla**                          | TRO                                                                                                                                           |                  |             |
+| **Objetivo Estratégico Vinculado** | OE.02 - Aperfeiçoar a Gestão Operacional                                                                                                      |                  |             |
+| **Tema Estratégico**               | Tema 1 - Operacional                                                                                                                          |                  |             |
+| **Definição**                      | Tempo médio decorrido entre o acionamento via 193 (horário de despacho) e a chegada da primeira viatura ao local da ocorrência.               |                  |             |
+| **Fórmula de Cálculo**             | `TRO = Σ(Hora Chegada - Hora Despacho) / Total de Ocorrências`                                                                                |                  |             |
+| **Unidade de Medida**              | Minutos                                                                                                                                       |                  |             |
+| **Frequência de Medição**          | Mensal                                                                                                                                        |                  |             |
+| **Fonte de Dados**                 | Sistema SysBM / SGO (Fênix)                                                                                                                   |                  |             |
+| **Responsável pela Aferição**      | Diretoria Operacional (DOP) / Seção de Estatística                                                                                            |                  |             |
+| **Linha de Base (2024)**           | 12 min (a confirmar)                                                                                                                          |                  |             |
+| **Meta (2025)**                    | ≤ 10 min                                                                                                                                      |                  |             |
+| **Polaridade**                     | Quanto Menor, Melhor                                                                                                                          |                  |             |
+| **Faixas de Farol**                | 🟢 ≤ 10 min                                                                                                                                   | 🟡 10,1 a 12 min | 🔴 > 12 min |
+| **Observações**                    | Excluem-se ocorrências de trotes, canceladas antes da saída ou sem registro de chegada. Referência NFPA 1710: 6 min para 90% das ocorrências. |                  |             |
 
 ---
 
@@ -391,7 +391,7 @@ A seguir, apresenta-se a matriz completa que relaciona os **17 Objetivos Estrat�
 
 ---
 
-**Quartel em Maceió - AL, ______ de ____________ de 2026.**
+**Quartel em Maceió - AL, ______ de ____________ de 2026.** 
 
 ---
 

@@ -1,15 +1,4 @@
----
-tipo: Nota Técnica
-status: Concluído
-data: 2026-01-22
----
-# Política de Gestão Estratégica do CBMAL — Atualização 2025–2029
-
-Ementa: Atualiza e consolida a Política de Gestão Estratégica do Corpo de Bombeiros Militar de Alagoas (CBMAL) para o ciclo 2025–2029, mantendo a estrutura do modelo vigente e incorporando melhores práticas, em alinhamento com a Lei Delegada nº 48/2022, a Portaria CBMAL nº 178/2024, o Plano Estratégico 2025–2029 e o Plano de Implementação da Estratégia 2025–2029.
-
----
-
-Preâmbulo Institucional
+# Política de Gestão Estratégica do CBMAL Atualização 2025–2029
 
 O Comandante-Geral do Corpo de Bombeiros Militar de Alagoas (CBMAL), Coronel QOEM BM Sérgio André Silva **Verçosa** no uso das atribuições legais que lhe são outorgadas pela legislação em vigor, conforme inciso V do Art. 8º da Lei Estadual n° 7.444 de 28 de dezembro de 2012 e:
 
@@ -25,20 +14,16 @@ RESOLVE:
 
 Art. 1° Instituir e atualizar a Política de Gestão Estratégica do CBMAL para o ciclo 2025–2029, nos termos desta publicação.
 
----
-
 ### **SUMÁRIO**
 
-1. **CAPÍTULO I** — DAS DISPOSIÇÕES INTRODUTÓRIAS (Art. 2º ao 4º)
-2. **CAPÍTULO II** — DA GOVERNANÇA DA ESTRATÉGIA (Art. 5º ao 14)
-3. **CAPÍTULO III** — DO CICLO DE GESTÃO - PDCA (Art. 15 ao 18)
-4. **CAPÍTULO IV** — DOS INSTRUMENTOS E ARTEFATOS (Art. 19 ao 23)
-5. **CAPÍTULO V** — DOS RITOS, CADÊNCIA E RELATÓRIOS (Art. 24 ao 27)
-6. **CAPÍTULO VI** — DA GESTÃO DE RISCOS (Art. 28 ao 29)
-7. **CAPÍTULO VII** — DAS FUNÇÕES E NOMENCLATURAS (Art. 30 ao 31)
-8. **CAPÍTULO VIII** — DAS DISPOSIÇÕES FINAIS (Art. 32 ao 36)
-
----
+1. **CAPÍTULO I** — DAS DISPOSIÇÕES INTRODUTÓRIAS (Art. 2º ao 4º)  
+2. **CAPÍTULO II** — DA GOVERNANÇA DA ESTRATÉGIA (Art. 5º ao 14\)  
+3. **CAPÍTULO III** — DO CICLO DE GESTÃO \- PDCA (Art. 15 ao 18\)  
+4. **CAPÍTULO IV** — DOS INSTRUMENTOS E ARTEFATOS (Art. 19 ao 23\)  
+5. **CAPÍTULO V** — DOS RITOS, CADÊNCIA E RELATÓRIOS (Art. 24 ao 27\)  
+6. **CAPÍTULO VI** — DA GESTÃO DE RISCOS (Art. 28 ao 29\)  
+7. **CAPÍTULO VII** — DAS FUNÇÕES E NOMENCLATURAS (Art. 30 ao 31\)  
+8. **CAPÍTULO VIII** — DAS DISPOSIÇÕES FINAIS (Art. 32 ao 36\)
 
 #### **CAPÍTULO I — DAS DISPOSIÇÕES INTRODUTÓRIAS**
 
@@ -54,15 +39,13 @@ Parágrafo único — O Ciclo de Gestão Estratégica compreende os macroestági
 
 **Art. 4º** A execução da estratégia deve:
 
-I - manter alinhamento com o Mapa Estratégico do CBMAL;
-II - desdobrar objetivos em indicadores, metas e iniciativas;
-III - integrar governança, ritos e cadências formais;
-IV - assegurar a rastreabilidade objetivo → indicador → iniciativa;
-V - promover a gestão de riscos e auditoria de indicadores;
-VI - adotar mecanismos de pactuação de resultados e prestação de contas;
-VII - fomentar a inovação e o uso ético de tecnologias emergentes, como a Inteligência Artificial, para otimizar processos decisórios e a entrega de valor público.
-
----
+I \- manter alinhamento com o Mapa Estratégico do CBMAL;  
+II \- desdobrar objetivos em indicadores, metas e iniciativas;  
+III \- integrar governança, ritos e cadências formais;  
+IV \- assegurar a rastreabilidade objetivo → indicador → iniciativa;  
+V \- promover a gestão de riscos e auditoria de indicadores;  
+VI \- adotar mecanismos de pactuação de resultados e prestação de contas;  
+VII \- fomentar a inovação e o uso ético de tecnologias emergentes, como a Inteligência Artificial, para otimizar processos decisórios e a entrega de valor público.
 
 #### **CAPÍTULO II — DA GOVERNANÇA DA ESTRATÉGIA**
 
@@ -78,80 +61,78 @@ VII - fomentar a inovação e o uso ético de tecnologias emergentes, como a Int
 
 #### **Seção I — Do Comando-Geral**
 
-**Art. 8º** Compete ao Comandante-Geral:
-I - definir diretrizes prioritárias para a gestão estratégica;
-II - validar objetivos estratégicos e o mapa estratégico;
-III - aprovar o plano estratégico e os demais instrumentos da gestão;
-IV - avaliar a execução de iniciativas, metas e riscos;
-V - deliberar sobre alterações, repactuações, substituições ou encerramentos de projetos estratégicos;
-VI - presidir o Comitê de Gestão da Estratégia; e
-VII - homologar os relatórios de desempenho estratégico.
+**Art. 8º** Compete ao Comandante-Geral:  
+I \- definir diretrizes prioritárias para a gestão estratégica;  
+II \- validar objetivos estratégicos e o mapa estratégico;  
+III \- aprovar o plano estratégico e os demais instrumentos da gestão;  
+IV \- avaliar a execução de iniciativas, metas e riscos;  
+V \- deliberar sobre alterações, repactuações, substituições ou encerramentos de projetos estratégicos;  
+VI \- presidir o Comitê de Gestão da Estratégia; e  
+VII \- homologar os relatórios de desempenho estratégico.
 
 #### **Seção II — Do Subcomandante-Geral / Chefe do Estado-Maior**
 
-**Art. 9º** Compete ao Subcomandante-Geral / Chefe do Estado-Maior:
-I - auxiliar o Comandante-Geral na gestão estratégica;
-II - supervisionar a execução das iniciativas estratégicas;
-III - fomentar ações integradas entre setores e unidades;
-IV - acompanhar o monitoramento, controle e avaliação do plano estratégico;
-V - adotar ações corretivas junto aos órgãos de direção setorial em caso de inconsistências;
-VI - substituir o Comandante-Geral nas reuniões do Comitê de Gestão da Estratégia, quando necessário; e
-VII - coordenar a pactuação de resultados entre as unidades executoras.
+**Art. 9º** Compete ao Subcomandante-Geral / Chefe do Estado-Maior:  
+I \- auxiliar o Comandante-Geral na gestão estratégica;  
+II \- supervisionar a execução das iniciativas estratégicas;  
+III \- fomentar ações integradas entre setores e unidades;  
+IV \- acompanhar o monitoramento, controle e avaliação do plano estratégico;  
+V \- adotar ações corretivas junto aos órgãos de direção setorial em caso de inconsistências;  
+VI \- substituir o Comandante-Geral nas reuniões do Comitê de Gestão da Estratégia, quando necessário; e  
+VII \- coordenar a pactuação de resultados entre as unidades executoras.
 
 #### **Seção III — Das Instâncias de Deliberação Estratégica (Alto Comando)**
 
-**Art. 10º** Compete ao Alto Comando:
-I - propor objetivos, metas e iniciativas estratégicas;
-II - pactuar responsabilidades pela execução das iniciativas;
-III - avaliar o desempenho e resultados estratégicos;
-IV - deliberar sobre ajustes no plano estratégico;
-V - recomendar ações de melhoria contínua;
-VI - analisar relatórios de monitoramento e desempenho; e
-VII - propor a realocação de recursos entre iniciativas estratégicas.
+**Art. 10º** Compete ao Alto Comando:  
+I \- propor objetivos, metas e iniciativas estratégicas;  
+II \- pactuar responsabilidades pela execução das iniciativas;  
+III \- avaliar o desempenho e resultados estratégicos;  
+IV \- deliberar sobre ajustes no plano estratégico;  
+V \- recomendar ações de melhoria contínua;  
+VI \- analisar relatórios de monitoramento e desempenho; e  
+VII \- propor a realocação de recursos entre iniciativas estratégicas.
 
 #### Seção IV — Da Assessoria de Planejamento e Orçamento (APO)
 
-**Art. 11º** Compete à Assessoria de Planejamento e Orçamento:
-I - organizar e coordenar a elaboração e revisão do plano estratégico e seus desdobramentos (Implementação, Monitoramento e Avaliação);
-II - coordenar e padronizar Planos de Gestão, Planos Setoriais e Planos de Ação;
-III - oferecer suporte metodológico e técnico;
-IV - monitorar e avaliar execução;
-V - gerir o Sistema de Gestão Estratégica (SGE) ou plataforma equivalente;
-VI - coordenar as Reuniões de Monitoramento Estratégico (RME) e atuar como guardiã da metodologia; e
-VII - coordenar, em conjunto com a ASCOM/EMG, o Plano de Comunicação e Endomarketing da Estratégia.
+**Art. 11º** Compete à Assessoria de Planejamento e Orçamento:  
+I \- organizar e coordenar a elaboração e revisão do plano estratégico e seus desdobramentos (Implementação, Monitoramento e Avaliação);  
+II \- coordenar e padronizar Planos de Gestão, Planos Setoriais e Planos de Ação;  
+III \- oferecer suporte metodológico e técnico;  
+IV \- monitorar e avaliar execução;  
+V \- gerir o Sistema de Gestão Estratégica (SGE) ou plataforma equivalente;  
+VI \- coordenar as Reuniões de Monitoramento Estratégico (RME) e atuar como guardiã da metodologia; e  
+VII \- coordenar, em conjunto com a ASCOM/EMG, o Plano de Comunicação e Endomarketing da Estratégia.
 
 #### **Seção V — Dos Órgãos de Direção Setorial (ODS) e das Organizações Bombeiro Militar (OBM)**
 
-**Art. 12º** Compete aos Órgãos de Direção Setorial e Organizações Bombeiro Militar:
-I - executar as iniciativas sob responsabilidade setorial, com metas, indicadores e prazos;
-II - elaborar o Plano Setorial (vinculado ao Ciclo Estratégico) e o Plano de Ação (anual), submetendo-os à validação da APO;
-III - designar líderes e equipes para as iniciativas estratégicas;
-IV - apoiar a gestão de projetos e comissões;
-V - monitorar desempenho e propor ações corretivas; e
-VI - reportar periodicamente à APO, por meio dos Oficiais de Ligação.
+**Art. 12º** Compete aos Órgãos de Direção Setorial e Organizações Bombeiro Militar:  
+I \- executar as iniciativas sob responsabilidade setorial, com metas, indicadores e prazos;  
+II \- elaborar o Plano Setorial (vinculado ao Ciclo Estratégico) e o Plano de Ação (anual), submetendo-os à validação da APO;  
+III \- designar líderes e equipes para as iniciativas estratégicas;  
+IV \- apoiar a gestão de projetos e comissões;  
+V \- monitorar desempenho e propor ações corretivas; e  
+VI \- reportar periodicamente à APO, por meio dos Oficiais de Ligação.
 
 #### **Seção VI — Dos Oficiais de Ligação**
 
-**Art. 13º** Compete aos Oficiais de Ligação:
-I - atuar como ponto focal de comunicação com a APO;
-II - apoiar o responsável pelo ODS/OBM nos assuntos de gestão estratégica;
-III - alimentar o SGE com o cumprimento de metas do setor;
-IV - apoiar a elaboração de Planos Setoriais e de Ação;
-V - multiplicar metodologias e ferramentas de gestão; e
-VI - participar de capacitações e reuniões promovidas pela APO.
+**Art. 13º** Compete aos Oficiais de Ligação:  
+I \- atuar como ponto focal de comunicação com a APO;  
+II \- apoiar o responsável pelo ODS/OBM nos assuntos de gestão estratégica;  
+III \- alimentar o SGE com o cumprimento de metas do setor;  
+IV \- apoiar a elaboração de Planos Setoriais e de Ação;  
+V \- multiplicar metodologias e ferramentas de gestão; e  
+VI \- participar de capacitações e reuniões promovidas pela APO.
 
 #### **Seção VII — Do Escritório de Projetos (EP)**
 
-**Art. 14º** Compete ao Escritório de Projetos:
-I - prover suporte metodológico aos Gerentes de Projeto nas iniciativas estratégicas;
-II - manter, atualizar e propor melhorias à MGP-CBMAL e seus artefatos;
-III - exigir e monitorar conformidade dos projetos com a MGP-CBMAL, reportando desvios à APO;
-IV - coordenar e apoiar a gestão do portfólio de projetos estratégicos; e
-V - apoiar a APO nas RMEs quanto ao andamento dos projetos.
+**Art. 14º** Compete ao Escritório de Projetos:  
+I \- prover suporte metodológico aos Gerentes de Projeto nas iniciativas estratégicas;  
+II \- manter, atualizar e propor melhorias à MGP-CBMAL e seus artefatos;  
+III \- exigir e monitorar conformidade dos projetos com a MGP-CBMAL, reportando desvios à APO;  
+IV \- coordenar e apoiar a gestão do portfólio de projetos estratégicos; e  
+V \- apoiar a APO nas RMEs quanto ao andamento dos projetos.
 
 Parágrafo único — O EP é a estrutura que padroniza processos de governança relacionados aos projetos institucionais e facilita o compartilhamento de recursos, metodologias, ferramentas e técnicas, atuando como guardião da MGP-CBMAL.
-
----
 
 #### **CAPÍTULO III — DO CICLO DE GESTÃO (PDCA)**
 
@@ -162,8 +143,6 @@ Parágrafo único — O EP é a estrutura que padroniza processos de governança
 **Art. 17º** Os processos de monitoramento e avaliação da execução estratégica serão realizados de acordo com o disposto no Plano de Monitoramento e no Plano de Avaliação, em estrita observância às diretrizes estabelecidas no Plano de Implementação da Estratégia 2025–2029.
 
 **Art. 18º** A consolidação de resultados ocorre em ritos formais, com decisões registradas, lições aprendidas e ajustes de rota.
-
----
 
 #### **CAPÍTULO IV — DOS INSTRUMENTOS E ARTEFATOS DA ESTRATÉGIA**
 
@@ -180,15 +159,20 @@ Parágrafo único — O EP é a estrutura que padroniza processos de governança
 **Art. 23º** São instrumentos da gestão estratégica do CBMAL:
 
 I. Plano Estratégico: materializa o planejamento para o Ciclo Estratégico, com objetivos e iniciativas.
-II. Mapa Estratégico: representação visual da estratégia, conforme BSC.
-III. Plano de Implementação: define governança, mecanismos de execução, instrumentos táticos (Planos Setoriais) e operacionais (Planos de Ação), gestão da mudança e comunicação.
-IV. Plano de Gestão: desdobra, anualmente, as iniciativas estratégicas em projetos e ações, com responsáveis e metas.
-V. Plano Setorial: documento tático dos ODSs, alinhado ao Ciclo Estratégico e ao Plano de Gestão.
-VI. Plano de Monitoramento: estabelece indicadores, metas, metodologia de medição e dinâmica das RMEs.
-VII. Plano de Avaliação: especifica métodos e critérios de aferição da efetividade do Plano Estratégico (ex ante, em tempo real e ex post).
-VIII. Caderno de Indicadores Estratégicos: consolida indicadores adotados, linhas de base e metas, balizando o monitoramento.
 
----
+II. Mapa Estratégico: representação visual da estratégia, conforme BSC.
+
+III. Plano de Implementação: define governança, mecanismos de execução, instrumentos táticos (Planos Setoriais) e operacionais (Planos de Ação), gestão da mudança e comunicação.
+
+IV. Plano de Gestão: desdobra, anualmente, as iniciativas estratégicas em projetos e ações, com responsáveis e metas.
+
+V. Plano Setorial: documento tático dos ODSs, alinhado ao Ciclo Estratégico e ao Plano de Gestão.
+
+VI. Plano de Monitoramento: estabelece indicadores, metas, metodologia de medição e dinâmica das RMEs.
+
+VII. Plano de Avaliação: especifica métodos e critérios de aferição da efetividade do Plano Estratégico (ex ante, em tempo real e ex post).
+
+VIII. Caderno de Indicadores Estratégicos: consolida indicadores adotados, linhas de base e metas, balizando o monitoramento.
 
 #### **CAPÍTULO V — DOS RITOS, CADÊNCIA E RELATÓRIOS**
 
@@ -204,27 +188,21 @@ Parágrafo único — As Reuniões de Monitoramento Estratégico (RMEs) possuem 
 
 Disposição complementar — O Plano de Comunicação e Endomarketing da Estratégia, coordenado pela APO em conjunto com a ASCOM/EMG, assegura o senso de urgência, o engajamento institucional e a ampla divulgação dos resultados alcançados.
 
----
-
 #### **CAPÍTULO VI — DA GESTÃO DE RISCOS**
 
 **Art. 28º** A gestão de riscos vincula eventos aos objetivos e às iniciativas, com avaliação de probabilidade/impacto, plano de resposta e monitoramento.
 
 **Art. 29º** Toda iniciativa estratégica relevante deve possuir matriz de riscos, revisada a cada ciclo de relatório.
 
----
-
 #### **CAPÍTULO VII — DAS FUNÇÕES ORGANIZACIONAIS E NOMENCLATURAS**
 
 **Art. 30º** Nomenclaturas e atribuições das diretorias e órgãos do CBMAL seguem a Portaria CBMAL nº 178/2024, devendo ser refletidas integralmente em todas as referências desta Política.
 
-**Art. 31º** Vinculam-se responsabilidades aos macroestágios:
-I. Planejamento: coordenação e owners de objetivos;
-II. Execução: gestores de iniciativas e unidades executoras;
-III. Monitoramento: unidade de apoio analítico e owners de indicadores; e
+**Art. 31º** Vinculam-se responsabilidades aos macroestágios:  
+I. Planejamento: coordenação e owners de objetivos;  
+II. Execução: gestores de iniciativas e unidades executoras;  
+III. Monitoramento: unidade de apoio analítico e owners de indicadores; e  
 IV. Prestação de contas: Comitê e patrocinador.
-
----
 
 #### **CAPÍTULO VIII — DAS DISPOSIÇÕES FINAIS E TRANSITÓRIAS**
 
@@ -238,19 +216,18 @@ IV. Prestação de contas: Comitê e patrocinador.
 
 **Art. 36º** Esta Portaria entra em vigor na data de sua publicação.
 
----
+#### 
 
-Maceió - AL, XX de Janeiro de 2026.
+Maceió \- AL, XX de Janeiro de 2026\.
 
-SÉRGIO ANDRÉ SILVA **VERÇOSA** - CORONEL QOEM BM
+SÉRGIO ANDRÉ SILVA **VERÇOSA** \- CORONEL QOEM BM   
 Comandante-Geral do CBMAL
 
----
+#### **Referências**
 
-## Referências
+1. **Lei Delegada nº 48, de 30 de dezembro de 2022** \- Institui o Modelo de Gestão da Administração Pública Federal e dá outras providências  
+2. **Portaria CBMAL nº 178, de 2024** \- Define as atribuições dos órgãos de direção setorial e unidades organizacionais do Corpo de Bombeiros Militar de Alagoas  
+3. **Plano Estratégico CBMAL 2025–2029** \- Documento que estabelece os objetivos, indicadores e metas estratégicas para o Ciclo Estratégico.  
+4. **Plano de Implementação da Estratégia 2025–2029** \- Define os mecanismos, ritos, cadências e instrumentos para execução da estratégia  
+5. **Metodologia de Gerenciamento de Projetos do CBMAL (MGP-CBMAL)** \- Estabelece padrões e processos para gestão de projetos estratégicos
 
-1. **Lei Delegada nº 48, de 30 de dezembro de 2022** - Institui o Modelo de Gestão da Administração Pública Federal e dá outras providências
-2. **Portaria CBMAL nº 178, de 2024** - Define as atribuições dos órgãos de direção setorial e unidades organizacionais do Corpo de Bombeiros Militar de Alagoas
-3. **Plano Estratégico CBMAL 2025–2029** - Documento que estabelece os objetivos, indicadores e metas estratégicas para o Ciclo Estratégico.
-4. **Plano de Implementação da Estratégia 2025–2029** - Define os mecanismos, ritos, cadências e instrumentos para execução da estratégia
-5. **Metodologia de Gerenciamento de Projetos do CBMAL (MGP-CBMAL)** - Estabelece padrões e processos para gestão de projetos estratégicos

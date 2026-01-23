@@ -59,5 +59,9 @@ Não precisa decorar, mas saiba que tenho especialistas instalados para:
 
 ## 🖋️ ASSINATURA PADRÃO APO
 *(Assinado eletronicamente)*  
-**GABRIEL DANTAS DA CRUZ - 1° TEN QOEM**  
-**Chefe da Seção de Planejamento Estratégico - APO/EMG**
+**GABRIEL DANTAS DA CRUZ — 1º TEN QOC BM**  
+**Chefe da Seção de Gestão Estratégica — APO/EMG**
+
+*(Assinado eletronicamente)*  
+**MARCOS PAULO SEARA BARBOSA — TEN CEL QOC BM**  
+**Assessor de Planejamento e Orçamento — APO/EMG**

@@ -72,3 +72,30 @@
   - [x] Corrigir BPMNs (adicionar coordenadas visuais)
   - [x] Atualizar skill `bpmn-modeling` com lição aprendida
   - [x] Integrar ao `PAINEL_DE_CONTROLE.md`
+
+## Fase 6: Próximos Passos (Em Planejamento) 🚀
+- [x] **Calendário de Indicadores** ✅
+  - [x] Elaborar o calendário de coleta de todos os indicadores, separados por tema estratégico, em documento específico.
+- [ ] **Aprovação e Publicação**
+  - [ ] Acompanhar análise do Plano de Monitoramento e Caderno de Indicadores (TC Marcos Paulo).
+  - [ ] Encaminhar Plano de Monitoramento para o Comando (após aprovação APO).
+  - [ ] Encaminhar Caderno de Indicadores para análise dos Diretores (ODS).
+  - [ ] Publicar Política Estratégica (Processo SEI no Comando).
+
+## Fase 7: Anuência Setorial (Aguardando Retorno APO) 📨
+- [ ] **Expedição de Ofícios de Pactuação**
+  - [ ] Elaborar modelos de ofícios para os Diretores com as iniciativas específicas de cada setor.
+  - [ ] Colher assinaturas e tramitar via SEI para análise das Diretorias.
+- [ ] **Avaliar o Plano de Avaliação (PRÓXIMA META)**
+  - [ ] Revisar tecnicamente o instrumento de avaliação estratégica para alinhamento com os novos indicadores.
+
+---
+
+### 📝 Status Atual das Peças (Janeiro/2026)
+| Documento | Local/Status Atual | Próxima Ação |
+| :--- | :--- | :--- |
+| **Política Estratégica** | Comando-Geral (SEI) | Publicação em BGO |
+| **Plano de Monitoramento** | TC Marcos Paulo (Análise) | Envio para o Comando |
+| **Caderno de Indicadores** | TC Marcos Paulo (Análise) | Envio para Diretores (ODS) |
+| **Calendário de Coleta** | APO (Pronto) | Divulgação pós-aprovação |
+| **Plano de Avaliação** | APO (Em elaboração) | Revisão e Validação |

@@ -1,0 +1,536 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Caderno de Indicadores Estratégicos 2025-2029 - CBMAL</title>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Inter:wght@400;500;600&display=swap"
+        rel="stylesheet">
+    <style>
+        :root {
+            --cbmal-red: #CC0000;
+            --cbmal-gold: #FFCC00;
+            --cbmal-blue: #003399;
+            --cbmal-white: #FFFFFF;
+            --cbmal-black: #1A1A1A;
+            --cbmal-gray: #F4F4F4;
+            --secondary-gray: #666666;
+            --border-color: #DDDDDD;
+            --shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Inter', sans-serif;
+            line-height: 1.6;
+            color: var(--cbmal-black);
+            background-color: var(--cbmal-gray);
+            scroll-behavior: smooth;
+        }
+
+        header {
+            background-color: var(--cbmal-red);
+            color: white;
+            padding: 2rem 1rem;
+            text-align: center;
+            border-bottom: 4px solid var(--cbmal-gold);
+            box-shadow: var(--shadow);
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+
+        header h1 {
+            font-family: 'Montserrat', sans-serif;
+            font-size: 1.8rem;
+            margin-bottom: 0.5rem;
+            text-transform: uppercase;
+        }
+
+        header p {
+            font-weight: 500;
+            opacity: 0.9;
+        }
+
+        .container {
+            max-width: 1000px;
+            margin: 2rem auto;
+            background: white;
+            padding: 3rem;
+            border-radius: 8px;
+            box-shadow: var(--shadow);
+        }
+
+        .toc {
+            background: var(--cbmal-gray);
+            padding: 1.5rem;
+            border-left: 4px solid var(--cbmal-red);
+            margin-bottom: 3rem;
+            border-radius: 4px;
+        }
+
+        .toc h2 {
+            font-size: 1.2rem;
+            margin-bottom: 1rem;
+            color: var(--cbmal-red);
+        }
+
+        .toc ul {
+            list-style: none;
+        }
+
+        .toc ul li {
+            margin-bottom: 0.5rem;
+        }
+
+        .toc a {
+            text-decoration: none;
+            color: var(--cbmal-blue);
+            font-weight: 500;
+            transition: color 0.3s;
+        }
+
+        .toc a:hover {
+            color: var(--cbmal-red);
+        }
+
+        h2 {
+            font-family: 'Montserrat', sans-serif;
+            color: var(--cbmal-red);
+            border-bottom: 2px solid var(--cbmal-gold);
+            padding-bottom: 0.5rem;
+            margin-top: 3rem;
+            margin-bottom: 1.5rem;
+            text-transform: uppercase;
+        }
+
+        h3 {
+            font-family: 'Montserrat', sans-serif;
+            color: var(--cbmal-blue);
+            margin-top: 2rem;
+            margin-bottom: 1rem;
+        }
+
+        p {
+            margin-bottom: 1rem;
+            text-align: justify;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 1.5rem 0;
+            background-color: white;
+        }
+
+        table th,
+        table td {
+            border: 1px solid var(--border-color);
+            padding: 12px 15px;
+            text-align: left;
+        }
+
+        table th {
+            background-color: var(--cbmal-blue);
+            color: white;
+            font-family: 'Montserrat', sans-serif;
+            font-weight: 700;
+        }
+
+        table tr:nth-child(even) {
+            background-color: #f9f9f9;
+        }
+
+        .ficha-tecnica {
+            margin-bottom: 4rem;
+            border: 1px solid var(--border-color);
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+        }
+
+        .ficha-tecnica h3 {
+            background: var(--cbmal-red);
+            color: white;
+            margin: 0;
+            padding: 1rem;
+            font-size: 1rem;
+        }
+
+        .ficha-tecnica table {
+            margin: 0;
+            border: none;
+        }
+
+        .ficha-tecnica table tr td:first-child {
+            font-weight: bold;
+            width: 30%;
+            background-color: #f1f1f1;
+        }
+
+        .badge-verde {
+            color: #28a745;
+            font-weight: bold;
+        }
+
+        .badge-amarelo {
+            color: #ffc107;
+            font-weight: bold;
+        }
+
+        .badge-vermelho {
+            color: #dc3545;
+            font-weight: bold;
+        }
+
+        footer {
+            background-color: var(--cbmal-black);
+            color: white;
+            text-align: center;
+            padding: 2rem;
+            margin-top: 4rem;
+            font-size: 0.9rem;
+        }
+
+        .back-to-top {
+            position: fixed;
+            bottom: 2rem;
+            right: 2rem;
+            background: var(--cbmal-red);
+            color: white;
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-decoration: none;
+            box-shadow: var(--shadow);
+            opacity: 0.8;
+            transition: opacity 0.3s;
+        }
+
+        .back-to-top:hover {
+            opacity: 1;
+        }
+
+        @media print {
+            .container {
+                box-shadow: none;
+                max-width: 100%;
+                margin: 0;
+            }
+
+            header,
+            footer,
+            .back-to-top,
+            .toc {
+                display: none;
+            }
+
+            .ficha-tecnica {
+                page-break-inside: avoid;
+            }
+        }
+
+        @media (max-width: 768px) {
+            .container {
+                padding: 1.5rem;
+                margin: 1rem;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>Corpo de Bombeiros Militar de Alagoas</h1>
+        <p>Caderno de Indicadores Estratégicos 2025-2029</p>
+    </header>
+
+    <div class="container">
+        <section>
+            <h2>Apresentação</h2>
+            <p>Documento oficial que institui e padroniza os indicadores de desempenho para o ciclo organizacional,
+                garantindo a eficiência operacional e o alinhamento institucional.</p>
+
+            <div class="toc" id="summary">
+                <h2>Sumário Executivo</h2>
+                <ul>
+                    <li><a href="#apresentacao">1. Apresentação e Finalidade</a></li>
+                    <li><a href="#metodologia">2. Metodologia de Construção</a></li>
+                    <li><a href="#classificacao">3. Classificação dos Indicadores</a></li>
+                    <li><a href="#matriz">4. Matriz de Objetivos e Indicadores</a></li>
+                    <li><a href="#fichas">5. Fichas Técnicas (Nível Estratégico/Tático)</a></li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="apresentacao">
+            <h2>1. Apresentação e Finalidade</h2>
+            <p>O presente Caderno tem por finalidade instituir e padronizar os indicadores de desempenho do CBMAL para o
+                ciclo estratégico 2025-2029. Ele orienta o monitoramento, baliza a execução das iniciativas e garante a
+                rastreabilidade entre ações e objetivos.</p>
+        </section>
+
+        <section id="metodologia">
+            <h2>2. Metodologia de Construção</h2>
+            <h3>2.1 Critérios SMART</h3>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Critério</th>
+                        <th>Descrição</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><strong>Specific</strong></td>
+                        <td>O indicador mede exatamente o que se pretende avaliar.</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Measurable</strong></td>
+                        <td>Existe fórmula de cálculo objetiva e reproduzível.</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Achievable</strong></td>
+                        <td>A meta é realista considerando recursos disponíveis.</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Relevant</strong></td>
+                        <td>O indicador está vinculado a um Objetivo Estratégico.</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Time-bound</strong></td>
+                        <td>Há prazo definido para alcance da meta.</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <h3>2.2 Sistema de Farol</h3>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Farol</th>
+                        <th>Status</th>
+                        <th>Significado</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><span class="badge-verde">🟢</span></td>
+                        <td>Meta Atingida</td>
+                        <td>Continuidade do monitoramento.</td>
+                    </tr>
+                    <tr>
+                        <td><span class="badge-amarelo">🟡</span></td>
+                        <td>Atenção</td>
+                        <td>Abaixo da meta, com necessidade de ajustes táticos.</td>
+                    </tr>
+                    <tr>
+                        <td><span class="badge-vermelho">🔴</span></td>
+                        <td>Crítico</td>
+                        <td>Desempenho insatisfatório, plano de contramedida obrigatório.</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section id="classificacao">
+            <h2>3. Classificação dos Indicadores</h2>
+            <p>A classificação diferencia o impacto final do esforço de gestão:</p>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Nível</th>
+                        <th>Identificador</th>
+                        <th>Foco da Medição</th>
+                        <th>Responsável</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><strong>Estratégico</strong></td>
+                        <td>IE</td>
+                        <td>Impacto e Resultado Final</td>
+                        <td>Alto Comando</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Tático</strong></td>
+                        <td>IT</td>
+                        <td>Execução de Projetos e Entregas</td>
+                        <td>Diretores (ODS)</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Operacional</strong></td>
+                        <td>IO</td>
+                        <td>Esforço e Insumos</td>
+                        <td>Setores</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section id="matriz">
+            <h2>4. Matriz de Objetivos e Indicadores</h2>
+            <p>O CBMAL possui <strong>53 indicadores</strong> vinculados aos seus 17 Objetivos Estratégicos. Abaixo, os
+                principais indicadores do Tema Operacional:</p>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Objetivo (OE)</th>
+                        <th>Descrição</th>
+                        <th>Principais Indicadores</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><strong>OE.01</strong></td>
+                        <td>Fortalecer ações preventivas</td>
+                        <td>Taxa de Atualização de ITs, Demanda Reprimida, TPIR, Doutrina de Perícia</td>
+                    </tr>
+                    <tr>
+                        <td><strong>OE.02</strong></td>
+                        <td>Aperfeiçoar Gestão Operacional</td>
+                        <td>Tempo Resposta (TRO), Emergências Não Atendidas, Projeto Drones</td>
+                    </tr>
+                    <tr>
+                        <td><strong>OE.03</strong></td>
+                        <td>Ampliar Cobertura</td>
+                        <td>Expansão Territorial, Postos GV, Convênios</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section id="fichas">
+            <h2>5. Fichas Técnicas em Destaque</h2>
+
+            <!-- Ficha 1 -->
+            <div class="ficha-tecnica">
+                <h3>IE-02.01: TEMPO RESPOSTA OPERACIONAL (TRO)</h3>
+                <table>
+                    <tr>
+                        <td>Código / Nível</td>
+                        <td>IE-02.01 / Estratégico</td>
+                    </tr>
+                    <tr>
+                        <td>Definição</td>
+                        <td>Tempo médio entre o acionamento via 193 e a chegada da primeira viatura.</td>
+                    </tr>
+                    <tr>
+                        <td>Fórmula</td>
+                        <td>Σ(Hora Chegada - Hora Despacho) / Total de Ocorrências</td>
+                    </tr>
+                    <tr>
+                        <td>Unidade</td>
+                        <td>Minutos</td>
+                    </tr>
+                    <tr>
+                        <td>Frequência</td>
+                        <td>Mensal</td>
+                    </tr>
+                    <tr>
+                        <td>Meta 2025</td>
+                        <td>≤ 12 minutos</td>
+                    </tr>
+                    <tr>
+                        <td>Resumo Farol</td>
+                        <td>🟢 ≤ 10 min | 🟡 10-12 min | 🔴 > 12 min</td>
+                    </tr>
+                </table>
+            </div>
+
+            <!-- Ficha 2 -->
+            <div class="ficha-tecnica">
+                <h3>IT-15.04: PROGRESSO DO PLANO DIRETOR DE LOGÍSTICA</h3>
+                <table>
+                    <tr>
+                        <td>Código / Nível</td>
+                        <td>IT-15.04 / Tático</td>
+                    </tr>
+                    <tr>
+                        <td>Definição</td>
+                        <td>Monitoramento das fases de diagnóstico, redação e aprovação do PDLP.</td>
+                    </tr>
+                    <tr>
+                        <td>Fórmula</td>
+                        <td>% de avanço do cronograma do projeto</td>
+                    </tr>
+                    <tr>
+                        <td>Unidade</td>
+                        <td>Percentual (%)</td>
+                    </tr>
+                    <tr>
+                        <td>Frequência</td>
+                        <td>Semestral</td>
+                    </tr>
+                    <tr>
+                        <td>Meta 2026</td>
+                        <td>100% de conclusão (Publicação)</td>
+                    </tr>
+                    <tr>
+                        <td>Responsável</td>
+                        <td>Diretoria de Apoio Logístico (DAL)</td>
+                    </tr>
+                </table>
+            </div>
+
+            <!-- Ficha 3 -->
+            <div class="ficha-tecnica">
+                <h3>IE-09.01: ÍNDICE DE CLIMA ORGANIZACIONAL</h3>
+                <table>
+                    <tr>
+                        <td>Código / Nível</td>
+                        <td>IE-09.01 / Estratégico</td>
+                    </tr>
+                    <tr>
+                        <td>Definição</td>
+                        <td>Pontuação média obtida em pesquisa de satisfação aplicada ao efetivo.</td>
+                    </tr>
+                    <tr>
+                        <td>Fórmula</td>
+                        <td>Média aritmética (Escala 1-5)</td>
+                    </tr>
+                    <tr>
+                        <td>Unidade</td>
+                        <td>Pontuação</td>
+                    </tr>
+                    <tr>
+                        <td>Frequência</td>
+                        <td>Anual</td>
+                    </tr>
+                    <tr>
+                        <td>Meta 2025</td>
+                        <td>≥ 4,0</td>
+                    </tr>
+                    <tr>
+                        <td>Polaridade</td>
+                        <td>Quanto Maior, Melhor</td>
+                    </tr>
+                </table>
+            </div>
+        </section>
+
+        <p style="text-align: center; margin-top: 3rem; font-style: italic;">Nota: Este documento web é uma
+            representação do Caderno Completo de Indicadores 2025-2029.</p>
+    </div>
+
+    <footer>
+        <p>&copy; 2026 Corpo de Bombeiros Militar de Alagoas</p>
+        <p>Assessoria de Planejamento e Orçamento (APO)</p>
+    </footer>
+
+    <a href="#summary" class="back-to-top" title="Voltar ao Sumário">↑</a>
+
+</body>
+
+</html>

@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "04_Normatizacao_e_Modelos/Expedientes_SEI_2026/README.md",
+                "file": "01_Gestao_Estrategica/03_Monitoramento_e_Indicadores/CRONOGRAMA_DE_COLETA_INDICADORES_2026.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "README"
+              "title": "CRONOGRAMA_DE_COLETA_INDICADORES_2026"
             }
           }
         ]
@@ -53,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#brain_dump",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -78,7 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 378.5
+    "width": 445.5
   },
   "right": {
     "id": "0afd2f79d9d0a845",
@@ -364,7 +364,7 @@
               },
               "pinned": true,
               "icon": "terminal",
-              "title": "Terminal: C:\\Windows\\System32\\conhost.exe"
+              "title": "Terminal: ◇  Ready (03_Processos_BPMN)"
             }
           }
         ],
@@ -372,7 +372,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 376.5,
+    "width": 539.5,
     "collapsed": true
   },
   "left-ribbon": {
@@ -392,46 +392,48 @@
   },
   "active": "a5325cb1090173dd",
   "lastOpenFiles": [
-    "04_Normatizacao_e_Modelos/Expedientes_SEI_2026/OFICIO_REMESSA_POLITICA_COMANDO_G_2026.md",
-    "04_Normatizacao_e_Modelos/Expedientes_SEI_2026/OFICIO_GCG_META_HISTORICO_80_ANOS.md",
-    "04_Normatizacao_e_Modelos/Expedientes_SEI_2026/OFICIO_DTI_COBRANCA_METAS_2025_2026.md",
-    "04_Normatizacao_e_Modelos/Expedientes_SEI_2026/OFICIO_DAT_METAS_SAPS_COSCIE.md",
-    "04_Normatizacao_e_Modelos/Expedientes_SEI_2026/OFICIO_COB_EVIDENCIAS_DRONES_DESASTRES.md",
-    "04_Normatizacao_e_Modelos/Expedientes_SEI_2026/DESPACHO_VALIDACAO_FNSP_2026.md",
-    "Para análise/RELATORIO_VALIDACAO_FNSP_2026.md",
-    "04_Normatizacao_e_Modelos/Expedientes_SEI_2026/DESPACHO_VALIDACAO_FNSP_2026.html",
-    "Para análise/RELATORIO_VALIDACAO_FNSP_2026.html",
-    "scripts/convert_to_sei.py",
-    "Para análise/SEI_37187279_Despacho (1).pdf",
-    "04_Normatizacao_e_Modelos/Relatorios/RELATORIO_TECNICO_ANALISE_FNSP_2026.md",
-    "Para análise/Não confirmado 872235.crdownload",
-    "Para análise",
-    "Nova pasta",
-    "05_Controle_Operacional_SGE/REFERENCIAS_BGO_ESTRATEGIA.md",
-    "04_Normatizacao_e_Modelos/Expedientes_SEI_2026/README.md",
-    "04_Normatizacao_e_Modelos/Expedientes_SEI_2026",
-    "01_Gestao_Estrategica/02_Politica_Institucional/RELATORIO_EVOLUCAO_POLITICA_ESTRATEGICA.md",
-    "01_Gestao_Estrategica/03_Monitoramento_e_Indicadores/03_Processos_BPMN/Processos_BPMN.md",
-    "01_Gestao_Estrategica/03_Monitoramento_e_Indicadores/03_Processos_BPMN/Proc-04-Solicitacao-Adiamento.bpmn",
-    "01_Gestao_Estrategica/03_Monitoramento_e_Indicadores/03_Processos_BPMN/Proc-04-Solicitacao-Adiamento.canvas",
-    "01_Gestao_Estrategica/03_Monitoramento_e_Indicadores/03_Processos_BPMN/Proc-03-Tratamento-Desvios-PCM.canvas",
-    "01_Gestao_Estrategica/03_Monitoramento_e_Indicadores/03_Processos_BPMN/Proc-03-Tratamento-Desvios-PCM.bpmn",
+    "01_Gestao_Estrategica/03_Monitoramento_e_Indicadores/01_Instrumentos_Oficiais/Versoes_Anteriores/Plano de Monitoramento da Estratégia 2025-2029.html",
+    "01_Gestao_Estrategica/03_Monitoramento_e_Indicadores/01_Instrumentos_Oficiais/Versoes_Anteriores/CADERNO_INDICADORES_COMPLETO_2025-2029.html",
+    "01_Gestao_Estrategica/03_Monitoramento_e_Indicadores/01_Instrumentos_Oficiais/Versoes_Anteriores/CADERNO_INDICADORES_2025-2029.html",
+    "01_Gestao_Estrategica/03_Monitoramento_e_Indicadores/01_Instrumentos_Oficiais/Versoes_Anteriores/Plano de Monitoramento da Estratégia 2025-2029.md",
+    "01_Gestao_Estrategica/03_Monitoramento_e_Indicadores/01_Instrumentos_Oficiais/Versoes_Anteriores/Caderno_de_Indicadores_Estrategicos_2025-2029.md",
+    "01_Gestao_Estrategica/03_Monitoramento_e_Indicadores/01_Instrumentos_Oficiais/Versoes_Anteriores/CADERNO_INDICADORES_COMPLETO_2025-2029.md",
+    "01_Gestao_Estrategica/03_Monitoramento_e_Indicadores/01_Instrumentos_Oficiais/Versoes_Anteriores",
+    "01_Gestao_Estrategica/03_Monitoramento_e_Indicadores/01_Instrumentos_Oficiais/Caderno_de_Indicadores_Estrategicos_2025-2029.md",
+    "01_Gestao_Estrategica/03_Monitoramento_e_Indicadores/01_Instrumentos_Oficiais/PLANO DE MONITORAMENTO DA ESTRATÉGIA.md",
+    "01_Gestao_Estrategica/03_Monitoramento_e_Indicadores/01_Instrumentos_Oficiais/CADERNO DE INDICADORES ESTRATÉGICOS.md",
+    "01_Gestao_Estrategica/03_Monitoramento_e_Indicadores/01_Instrumentos_Oficiais/Plano de Monitoramento da Estratégia 2025-2029.md",
+    "01_Gestao_Estrategica/03_Monitoramento_e_Indicadores/01_Instrumentos_Oficiais/Matriz_Rastreabilidade_OE_Indicador_Iniciativa.md",
+    "01_Gestao_Estrategica/03_Monitoramento_e_Indicadores/01_Instrumentos_Oficiais/CADERNO_INDICADORES_COMPLETO_2025-2029.md",
+    "Inbox/CADERNO DE INDICADORES ESTRATÉGICOS.md",
+    "Inbox/Não confirmado 553189.crdownload",
+    "01_Gestao_Estrategica/03_Monitoramento_e_Indicadores/PLANO DE MONITORAMENTO DA ESTRATÉGIA.md",
+    "Inbox/PLANO DE MONITORAMENTO DA ESTRATÉGIA.md",
+    "Inbox/Não confirmado 464026.crdownload",
+    "06_Diário_e_Memórias_IA/Arquivos_Diário/2026/2026-01-23_Diario_Conductor.md",
+    "06_Diário_e_Memórias_IA/Memorias_de_Sessao/HANDOFF_2026-01-22.md",
+    "01_Gestao_Estrategica/03_Monitoramento_e_Indicadores/03_Processos_BPMN/Proc-02-Rito-RME.bpmn",
     "01_Gestao_Estrategica/03_Monitoramento_e_Indicadores/03_Processos_BPMN/Proc-02-Rito-RME.canvas",
+    "01_Gestao_Estrategica/03_Monitoramento_e_Indicadores/02_Fichas_Tecnicas/Fichas_Tecnicas_Consolidadas.md",
+    "01_Gestao_Estrategica/02_Politica_Institucional/OFICIO_ENCAMINHAMENTO_POLITICA.md",
+    "03_Gestao_Processos/03_Mapeamento_BPMN/Processo_Nota_Tecnica.bpmn",
+    "KANBAN_ESTRATEGICO.md",
+    "01_Gestao_Estrategica/02_Politica_Institucional/POLITICA_ESTRATEGICA_PARA_SEI_V_FINAL.md",
+    "01_Gestao_Estrategica/03_Monitoramento_e_Indicadores/04_Relatorios_e_Despachos/Portaria_Instituicao_Plano_Monitoramento.md",
+    "01_Gestao_Estrategica/03_Monitoramento_e_Indicadores/04_Relatorios_e_Despachos/Oficio_Encaminhamento_Plano_Monitoramento.md",
+    "01_Gestao_Estrategica/03_Monitoramento_e_Indicadores/04_Relatorios_e_Despachos/Portaria_Instituicao_Caderno_Indicadores.md",
+    "01_Gestao_Estrategica/03_Monitoramento_e_Indicadores/04_Relatorios_e_Despachos/Oficio_Encaminhamento_Caderno_Indicadores.md",
+    "01_Gestao_Estrategica/03_Monitoramento_e_Indicadores/04_Relatorios_e_Despachos/Portaria_Instituicao_Plano_Monitoramento.html",
+    "01_Gestao_Estrategica/03_Monitoramento_e_Indicadores/04_Relatorios_e_Despachos/Oficio_Encaminhamento_Plano_Monitoramento.html",
+    "01_Gestao_Estrategica/03_Monitoramento_e_Indicadores/04_Relatorios_e_Despachos/Portaria_Instituicao_Caderno_Indicadores.html",
+    "01_Gestao_Estrategica/03_Monitoramento_e_Indicadores/04_Relatorios_e_Despachos/Checklist_SMART_Indicadores.md",
+    "01_Gestao_Estrategica/03_Monitoramento_e_Indicadores/04_Relatorios_e_Despachos/Resumo_Executivo_Despacho.md",
+    "01_Gestao_Estrategica/03_Monitoramento_e_Indicadores/04_Relatorios_e_Despachos/Relatorio_Indicadores_2025.md",
     "01_Gestao_Estrategica/03_Monitoramento_e_Indicadores/03_Processos_BPMN/Proc-01-Macrofluxo-Monitoramento.canvas",
     "01_Gestao_Estrategica/03_Monitoramento_e_Indicadores/03_Processos_BPMN/monitoramento-flow.canvas",
-    "05_Controle_Operacional_SGE/CRONOGRAMA_ENTREGAS_2025_2026.md",
-    "01_Gestao_Estrategica/03_Monitoramento_e_Indicadores/01_Instrumentos_Oficiais/Caderno_de_Indicadores_Estrategicos_2025-2029.md",
-    "KANBAN_ESTRATEGICO.md",
-    "Skills/taxa-bombeiros/SKILL - Taxa Bombeiro.md",
-    "Skills/especialista-paps/SKILL.md",
-    "01_Gestao_Estrategica/03_Monitoramento_e_Indicadores/01_Instrumentos_Oficiais/Plano de Monitoramento da Estratégia 2025-2029.md",
-    "Skills_BACKUP_2026-01-20/_arquivo/pptx/SKILL.md",
-    "Skills_BACKUP_2026-01-20/_arquivo/pptx/ooxml.md",
-    "Skills_BACKUP_2026-01-20/_arquivo/pptx/html2pptx.md",
-    "Skills_BACKUP_2026-01-20/_arquivo/pdf/SKILL.md",
-    "Skills_BACKUP_2026-01-20/_arquivo/pdf/reference.md",
-    "Skills_BACKUP_2026-01-20/_arquivo/pdf/forms.md",
-    "Skills_BACKUP_2026-01-20/_arquivo/obsidian-markdown/SKILL.md",
+    "01_Gestao_Estrategica/03_Monitoramento_e_Indicadores/01_Instrumentos_Oficiais/image.png",
+    "01_Gestao_Estrategica/03_Monitoramento_e_Indicadores/03_Processos_BPMN/Proc-04-Solicitacao-Adiamento.canvas",
+    "01_Gestao_Estrategica/03_Monitoramento_e_Indicadores/03_Processos_BPMN/Proc-03-Tratamento-Desvios-PCM.canvas",
     "04_Normatizacao_e_Modelos/Imagens_Geradas/04_Solicitacao_Adiamento.png",
     "04_Normatizacao_e_Modelos/Imagens_Geradas/03_Tratamento_Desvios_PCM.png",
     "04_Normatizacao_e_Modelos/Imagens_Geradas/02_Rito_Preparatorio_RME.png",

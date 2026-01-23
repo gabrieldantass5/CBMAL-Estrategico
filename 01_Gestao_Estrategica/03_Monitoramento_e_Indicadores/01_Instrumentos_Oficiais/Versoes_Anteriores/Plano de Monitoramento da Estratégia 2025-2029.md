@@ -37,18 +37,19 @@ TC QOEM BM Marcos Paulo Seara Barbosa
 
 ## GLOSSÁRIO DE SIGLAS E TERMOS
 
-| Sigla | Significado |
-| :--- | :--- |
-| **APO** | Assessoria de Planejamento e Orçamento |
-| **CBMAL** | Corpo de Bombeiros Militar de Alagoas |
-| **EMG** | Estado-Maior Geral |
-| **KPI** | *Key Performance Indicator* (Indicador-Chave de Desempenho) |
-| **ODS** | Órgão de Direção Setorial (Diretorias e Assessorias) |
-| **PCM** | Plano de Contramedida (Ação de correção para metas não batidas) |
-| **PDCA** | *Plan-Do-Check-Act* (Ciclo de melhoria contínua) |
-| **RME** | Reunião de Monitoramento Estratégico |
-| **SEI** | Sistema Eletrônico de Informações |
-| **SGE** | Sistema de Gestão Estratégica |
+| Sigla     | Significado                                                     |
+| :-------- | :-------------------------------------------------------------- |
+| **APO**   | Assessoria de Planejamento e Orçamento                          |
+| **CBMAL** | Corpo de Bombeiros Militar de Alagoas                           |
+| **EMG**   | Estado-Maior Geral                                              |
+| **KPI**   | *Key Performance Indicator* (Indicador-Chave de Desempenho)     |
+| **ODS**   | Órgão de Direção Setorial (Diretorias, Assessorias e Comando)   |
+| **OKR**   | *Objectives and Key Result* (Objetivos e Resultados-Chave)      |
+| **PCM**   | Plano de Contramedida (Ação de correção para metas não batidas) |
+| **PDCA**  | *Plan-Do-Check-Act* (Ciclo de melhoria contínua)                |
+| **RME**   | Reunião de Monitoramento Estratégico                            |
+| **SEI**   | Sistema Eletrônico de Informações                               |
+| **SGE**   | Sistema de Gestão Estratégica                                   |
 
 ---
 
@@ -75,7 +76,7 @@ A estrutura de governança do monitoramento define "quem faz o quê" no processo
 | Ator                   | Papel no Monitoramento | Responsabilidade                                                                                               |
 | :--------------------- | :--------------------- | :------------------------------------------------------------------------------------------------------------- |
 | **Oficial de Ligação** | *Coleta e Reporte*     | Alimentar os indicadores setoriais e reportar o andamento das iniciativas (Planos de Ação) dentro dos prazos.  |
-| **DIretores das ODS**  | *Validação Setorial*   | Validar a veracidade dos dados reportados pelo seu setor e justificar eventuais desvios de meta.               |
+| **Diretores das ODS**  | *Validação Setorial*   | Validar a veracidade dos dados reportados pelo seu setor e justificar eventuais desvios de meta.               |
 | **APO/CBMAL**          | *Análise e Suporte*    | Alimentar o SGE, auditar dados e realizar assessoramento "in loco" mensal às Diretorias e Oficiais de Ligação. |
 | **RME (Reunião)**      | *Deliberação*          | Discutir os problemas complexos (fórum tático-estratégico) e pactuar ações corretivas.                         |
 | **Alto Comando**       | *Aprovação*            | Homologar os resultados e decidir sobre mudanças de rota estratégica.                                          |
@@ -105,7 +106,7 @@ Todo indicador monitorado pelo CBMAL deve possuir uma **Ficha Técnica** contend
 1.  **Nome e Sigla**: Identificação única.
 2.  **Fórmula de Cálculo**: Expressão matemática precisa para evitar ambiguidade.
 3.  **Fonte de Dados**: Sistema ou documento de onde o dado é extraído (Auditabilidade).
-4.  **Linha de Base (Baseline)**: O valor do indicador no início do ciclo (ex: 2024).
+4.  **Linha de Base (*Baseline*)**: O valor do indicador no início do ciclo (ex: 2024).
 5.  **Meta**: O valor a ser alcançado em cada período.
 6.  **Sentido de Melhoria**: Maior é melhor (ex: salvamentos) ou Menor é melhor (ex: tempo resposta).
 
@@ -122,11 +123,11 @@ As RMEs são o fórum principal de governança. Não são reuniões de "leitura 
 #### 4.1.1. Calendário e Participantes
 *   **Periodicidade**: Trimestral (4 vezes ao ano).
     *   *Nota: A RME do 4º trimestre tem caráter de encerramento do exercício (Balanço Anual).*
-*   **Convocação**: Via ordem em Boletim Geral, expedida pelo Ch EMG com antecedência mínima de 15 dias.
+*   **Convocação**: Via ordem em Boletim Geral, expedida pelo Gabinete do Comando-Geral ou do Gabinete do SubComandante / Ch EMG com antecedência **mínima de 15 dias**.
 *   **Participantes**:
     *   **Alta Gestão**: Comandante-Geral, Subcomandante-Geral/Chefe do EMG.
     *   **Executivos**: Diretores de Órgãos de Direção Setorial (ODS) .
-    *   **Técnico**: Assessor da APO, Chefe da Seção de Planejamento Estratégico e Oficiais de Ligação.
+    *   **Técnico**: Assessor da APO, Chefe da Seção de Gestão Estratégica e Oficiais de Ligação e convidados.
 
 #### 4.1.2. Fase Preparatória (Pré-RME)
 Para garantir a produtividade da reunião, segue-se o cronograma reverso:
@@ -135,18 +136,18 @@ Para garantir a produtividade da reunião, segue-se o cronograma reverso:
 3.  (sugestão) **D-3**: ODSs com indicadores em **VERMELHO** ou **AMARELO** devem enviar à APO os slides de justificativa e proposta de correção (Plano de Contramedida). *Indicadores Verdes não demandam apresentação na RME.*
 4.  **D-1**: APO envia o material consolidado para o Alto Comando.
 
-#### 4.1.3. Dinâmica da Pauta (Tempo estimado: 2h)
+#### 4.1.3. Dinâmica da Pauta (Tempo estimado: até 2h)
 A reunião deve ser objetiva e focada em solução de problemas.
 
 1.  **Abertura Institucional (10 min)**:
-    *   Contexto do Comando-Geral / Ch EMG.
+    *   Contexto do Comando-Geral ou  Subcomando / Ch EMG.
 2.  **Visão Geral do Desempenho (20 min)**:
     *   Apresentação do "Painel de Bordo" pela APO.
     *   Destaques positivos (Reconhecimento de mérito).
-3.  **Deep Dive: Tratamento de Desvios (60 min)**:
+3.  **Feedback e Tratamento de Desvios (60 min)**:
     *   Apresentação **exclusiva dos ODS com metas não atingidas**.
     *   Foco na apresentação da **Causa Raiz** e do **Plano de Ação Corretiva**.
-    *   *Regra de Ouro: Não se discute o "que" (o dado), discute-se o "como" (a solução).*
+    *   *obs:* Não se discute o "que" (o dado), discute-se o "como" (a solução).*
 4.  **Monitoramento de Riscos (20 min)**:
     *   Revisão dos riscos críticos (Matriz de Riscos Institucional).
     *   Verificação da efetividade das medidas mitigadoras.
@@ -156,13 +157,13 @@ A reunião deve ser objetiva e focada em solução de problemas.
     *   Palavras finais do Comando.
 
 #### 4.1.4. Pós-RME
-*   **Ata de Reunião**: A APO lavrará a ata decisória em até 48h úteis, registrando apenas as decisões tomadas e os prazos repactuados.
+*   **Ata de Reunião**: A APO lavrará a ata decisória, registrando apenas as decisões tomadas e os prazos repactuados.
 *   **Monitoramento de Pendências**: As ações corretivas aprovadas entram imediatamente no painel de monitoramento da APO para acompanhamento mensal.
 
 ### 4.2. Relatórios de Gestão
 A instrumentação do monitoramento se dá via:
 
-*   **Relatório de Farol (Bimestral)**: Informativo executivo simplificado para o Subcomando e ODS, alertando sobre prazos e entregas críticas.
+*   **Relatório de Farol (Trimestral)**: Informativo executivo simplificado para o Comando, Subcomando/Ch EMG e ODS, alertando sobre prazos e entregas críticas.
 *   **Relatório de Avaliação Estratégica (Anual)**: Documento robusto consolidando o desempenho do ano, servindo de base para o Relatório de Gestão e prestação de contas aos órgãos de controle.
 
 ### 4.3. Divulgação e Transparência
@@ -185,26 +186,40 @@ O pedido de prorrogação é medida excepcional. A Diretoria deverá solicitar v
 
 ---
 
+## 6. REFERÊNCIAS
+
+1.  **BRASIL. Presidência da República.** *Manual de Redação da Presidência da República*. 3. ed. Brasília, 2018.
+2.  **KAPLAN, Robert S.; NORTON, David P.** *A execução estratégica: o prêmio Balanced Scorecard*. Rio de Janeiro: Elsevier, 2008.
+3.  **ALAGOAS. Corpo de Bombeiros Militar.** *Portaria CBMAL nº 178/2024*. Define as atribuições dos órgãos de direção setorial e unidades organizacionais.
+4.  **ALAGOAS. Corpo de Bombeiros Militar.** *Plano Estratégico CBMAL 2025-2029*. Maceió-AL, 2025.
+5.  **ALAGOAS. Corpo de Bombeiros Militar.** *Plano de Implementação da Estratégia 2025-2029*. Maceió-AL, 2025.
+6.  **TORRES, Teresa.** *Continuous Discovery Habits*. 2021. (Princípios aplicados ao monitoramento contínuo).
+7.  **DOERR, John.** *Avalie o que importa: Como o Google, a Bono Vox e a Fundação Gates sacudiram o mundo com os OKRs*. Rio de Janeiro: Alta Books, 2019.
+8.  **ALAGOAS. Corpo de Bombeiros Militar.** *Relatório da Avaliação da Estratégia 2020-2024*. Maceió-AL, 2024.
+9.  **ALAGOAS. Corpo de Bombeiros Militar.** *Caderno de Indicadores Estratégicos (Ciclo anterior)*. Maceió-AL, 2020.
+
+---
+
 ## ANEXOS
 
 ### Anexo I - Modelo de Ficha Técnica do Indicador
 
-| Campo | Descrição / Exemplo |
-| :--- | :--- |
-| **Nome do Indicador** | *Ex: Tempo Resposta Operacional (TRO)* |
-| **Sigla** | *TRO* |
-| **Objetivo Estratégico Vinculado** | *Ex: OE.02 - Aperfeiçoar a Gestão Operacional* |
-| **Definição** | *Tempo decorrido entre o acionamento via 193 e a chegada da viatura ao local.* |
-| **Fórmula de Cálculo** | `(Hora Chegada no Local - Hora Despacho) / Total de Ocorrências` |
-| **Unidade de Medida** | *Minutos* |
-| **Frequência de Medição** | *Mensal* |
-| **Fonte de Dados** | *Sistema SysBM / Relatório de Ocorrências* |
-| **Responsável (Setor/Cargo)** | *Diretoria Operacional (DOP) / Chefe da Seção de Estatística* |
-| **Linha de Base (Ano Anterior)** | *Ex: 12 min* |
-| **Meta (Ano Corrente)** | *Ex: < 10 min* |
-| **Polaridade** | ( ) Quanto Maior, Melhor <br> (x) Quanto Menor, Melhor |
-| **Faixas de Desempenho (Farol)** | 🟢 **Verde**: ≤ 10 min <br> 🟡 **Amarelo**: 10,1 a 12 min <br> 🔴 **Vermelho**: > 12 min |
-| **Observações** | *Excluem-se ocorrências de trotes ou canceladas antes da saída.* |
+| Campo                              | Descrição / Exemplo                                                                      |
+| :--------------------------------- | :--------------------------------------------------------------------------------------- |
+| **Nome do Indicador**              | *Ex: Tempo Resposta Operacional (TRO)*                                                   |
+| **Sigla**                          | *TRO*                                                                                    |
+| **Objetivo Estratégico Vinculado** | *Ex: OE.02 - Aperfeiçoar a Gestão Operacional*                                           |
+| **Definição**                      | *Tempo decorrido entre o acionamento via 193 e a chegada da viatura ao local.*           |
+| **Fórmula de Cálculo**             | `(Hora Chegada no Local - Hora Despacho) / Total de Ocorrências`                         |
+| **Unidade de Medida**              | *Minutos*                                                                                |
+| **Frequência de Medição**          | *Mensal*                                                                                 |
+| **Fonte de Dados**                 | *Fênix / Relatório de Ocorrências*                                                       |
+| **Responsável (Setor/Cargo)**      | *Diretoria Operacional (DOP) / Chefe da Seção de Estatística*                            |
+| **Linha de Base (Ano Anterior)**   | *Ex: 12 min*                                                                             |
+| **Meta (Ano Corrente)**            | *Ex: < 10 min*                                                                           |
+| **Polaridade**                     | ( ) Quanto Maior, Melhor <br> (x) Quanto Menor, Melhor                                   |
+| **Faixas de Desempenho (Farol)**   | 🟢 **Verde**: ≤ 10 min <br> 🟡 **Amarelo**: 10,1 a 12 min <br> 🔴 **Vermelho**: > 12 min |
+| **Observações**                    | *Excluem-se ocorrências de trotes ou canceladas antes da saída.*                         |
 
 ### Anexo II - Tabela de Referência das RMEs (Ciclo Padrão)
 
@@ -231,7 +246,7 @@ Deve ser preenchido por todo ODS que apresentar indicador com desempenho **VERME
 1.  Por que a meta não foi atingida? *R: Falta de médicos.*
 2.  Por que faltam médicos? *R: Licenças médicas e aposentadorias.*
 3.  Por que não houve reposição? *R: Concurso travado.*
-4.  (...)
+4.  Por que o concurso está travado? *R: Restrições orçamentárias e morosidade no fluxo administrativo externo (SEPLAG).*
 5.  **Causa Raiz Validada**: *Dificuldade estrutural de reposição de pessoal especializado.*
 
 **Plano de Ação Corretiva:**
@@ -247,10 +262,10 @@ Deve ser preenchido por todo ODS que apresentar indicador com desempenho **VERME
 
 Ferramenta para monitoramento preventivo de ameaças à estratégia.
 
-| Risco Identificado | Probabilidade (1-5) | Impacto (1-5) | Nível (PxI) | Ação Mitigadora (Preventiva) | Ação de Contingência (Se ocorrer) |
-| :--- | :--- | :--- | :--- | :--- | :--- |
-| *Corte Orçamentário Estadual* | *4 (Alto)* | *5 (Crítico)* | **20 (Extremo)** | *Priorizar despesas obrigatórias e suspender novos projetos.* | *Acionar emendas parlamentares.* |
-| *Falha no Sistema de TI (SysBM)* | *2 (Baixo)* | *4 (Alto)* | **8 (Médio)** | *Manter backup diário e link redundante.* | *Ativar protocolo de despacho manual (via rádio).* |
+| Risco Identificado            | Probabilidade (1-5) | Impacto (1-5) | Nível (PxI)      | Ação Mitigadora (Preventiva)                                  | Ação de Contingência (Se ocorrer)                  |
+| :---------------------------- | :------------------ | :------------ | :--------------- | :------------------------------------------------------------ | :------------------------------------------------- |
+| *Corte Orçamentário Estadual* | *4 (Alto)*          | *5 (Crítico)* | **20 (Extremo)** | *Priorizar despesas obrigatórias e suspender novos projetos.* | *Acionar emendas parlamentares.*                   |
+| *Falha no Sistema de TI*      | *2 (Baixo)*         | *4 (Alto)*    | **8 (Médio)**    | *Manter backup diário e link redundante.*                     | *Ativar protocolo de despacho manual (via rádio).* |
 
 ---
 
@@ -284,8 +299,7 @@ O Alto Comando determinou a abertura de Plano de Contramedida para a *Diretoria 
 
 **Participantes**:
 *   Cel Cmt Geral (Presidente)
-*   Cel Subcmt Geral
-*   Ch EMG
+*   Cel Subcmt Geral /Ch EMG
 *   (Lista de Diretores Presentes)
 
 **Pauta 1: Apresentação de Resultados**

@@ -8,5 +8,6 @@
   "templater-obsidian",
   "obsidian-style-settings",
   "obsidian-banners",
-  "terminal"
+  "terminal",
+  "better-export-pdf"
 ]

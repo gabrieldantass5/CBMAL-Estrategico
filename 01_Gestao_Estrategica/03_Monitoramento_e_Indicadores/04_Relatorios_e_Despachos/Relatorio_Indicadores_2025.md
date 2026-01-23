@@ -87,25 +87,25 @@ A tabela abaixo destaca a evolução dos principais indicadores estratégicos em
 
 #### TEMA 1: OPERACIONAL
 
-**IE-02: Taxa de Demanda Reprimida em Vistorias Técnicas**
+**IE-01.02: Taxa de Demanda Reprimida em Vistorias Técnicas**
 - **Linha de Base (2024)**: 0,27% (36 pendentes / 13.017 pedidos)
 - **Meta 2025**: < 15%
 - **Resultado 2025**: *[Inserir dado]*
 - **Análise**: Em 2024, a DAT demonstrou alta eficiência. O objetivo para 2025 é manter o nível de excelência.
 
-**IE-03: Taxa de Demanda Reprimida em Análises Técnicas**
+**IE-01.03: Taxa de Demanda Reprimida em Análises Técnicas**
 - **Linha de Base (2024)**: 3,87% (20 pendentes / 516 pedidos)
 - **Meta 2025**: < 15%
 - **Resultado 2025**: *[Inserir dado]*
 - **Análise**: Indicador iniciou o ciclo com desempenho positivo.
 
-**IE-05: Tempo Resposta Operacional (TRO)**
+**IE-02.01: Tempo Resposta Operacional (TRO)**
 - **Linha de Base (2024)**: 15 min e 24 seg (Média Anual)
 - **Meta 2025**: ≤ 12 min
 - **Resultado 2025**: *[Inserir dado]*
 - **Análise**: O desafio para 2025 é reduzir o TRO em aproximadamente 3 minutos para atingir a meta, exigindo otimização de despacho.
 
-**IE-06: Fiscalizações Técnicas**
+**IE-02.02: Fiscalizações Técnicas**
 - **Linha de Base (2024)**: 3.433 fiscalizações
 - **Meta 2025**: Aumentar 10%
 - **Resultado 2025**: *[Inserir dado]*
@@ -119,7 +119,7 @@ A tabela abaixo destaca a evolução dos principais indicadores estratégicos em
 
 #### TEMA 2: GOVERNANÇA E GESTÃO
 
-**IE-15: Reuniões de Monitoramento Estratégico**
+**IE-05.02: Reuniões de Monitoramento Estratégico**
 - **Linha de Base (2024)**: 4 RMEs realizadas (100%)
 - **Meta 2025**: 100% (4 reuniões)
 - **Resultado 2025**: *[Inserir dado]*
@@ -128,7 +128,7 @@ A tabela abaixo destaca a evolução dos principais indicadores estratégicos em
 
 #### TEMA 4: PESSOAS
 
-**IE-25: Índice de Clima Organizacional**
+**IE-09.01: Índice de Clima Organizacional**
 - **Linha de Base (2024)**: 3,86 (Satisfatório)
 - **Meta 2025**: ≥ 4,0
 - **Resultado 2025**: *[Inserir dado]*
@@ -138,7 +138,7 @@ A tabela abaixo destaca a evolução dos principais indicadores estratégicos em
 
 #### TEMA 5: CONHECIMENTO
 
-**IE-33: Taxa de Capacitação Continuada**
+**IE-12.02: Taxa de Capacitação Continuada**
 - **Linha de Base (2024)**: 76,81%
 - **Meta 2025**: ≥ 80%
 - **Resultado 2025**: *[Inserir dado]*
@@ -147,10 +147,24 @@ A tabela abaixo destaca a evolução dos principais indicadores estratégicos em
 
 #### TEMA 8: ARRECADAÇÃO E FINANÇAS
 
-**IE-47: Execução Financeira-Orçamentária**
+**IE-17.01: Execução Financeira-Orçamentária**
 - **Linha de Base (2024)**: 86,35%
 - **Meta 2025**: ≥ 90%
 - **Resultado 2025**: *[Inserir dado]*
+
+---
+
+### 4.4 Monitoramento de Indicadores Táticos (Projetos e Entregas)
+
+Este tópico monitora o progresso de entregas críticas do Plano de Gestão 2025-2026 (Indicadores de Esforço):
+
+| Indicador Tático (IT) | Projeto/Entrega | Meta | Status |
+|:---|:---|:---:|:---:|
+| **IT-01.05** | Entrega da Doutrina de Perícia (Manual/COSCIE) | 100% | *[A preencher]* |
+| **IT-02.04** | Implementação do Projeto Drones | 100% | *[A preencher]* |
+| **IT-05.04** | Implantação da Gestão de Riscos | 100% | *[A preencher]* |
+| **IT-09.03** | Cobertura de Suporte Emocional (TEPT) | 100% | *[A preencher]* |
+| **IT-15.04** | Plano Diretor de Logística (PDLP) | 100% | *[A preencher]* |
 
 ---
 

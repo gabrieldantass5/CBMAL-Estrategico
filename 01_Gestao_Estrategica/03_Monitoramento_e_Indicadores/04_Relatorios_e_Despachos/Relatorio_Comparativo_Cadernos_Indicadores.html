@@ -1,0 +1,450 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Análise Comparativa - Cadernos de Indicadores</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Inter', Arial, sans-serif;
+            line-height: 1.6;
+            color: #1a1a2e;
+            background: #fff;
+            padding: 40px;
+            max-width: 900px;
+            margin: 0 auto;
+        }
+
+        .header {
+            text-align: center;
+            border-bottom: 3px solid #c41e3a;
+            padding-bottom: 20px;
+            margin-bottom: 30px;
+        }
+
+        .header h1 {
+            font-size: 24px;
+            color: #c41e3a;
+            margin-bottom: 8px;
+        }
+
+        .header .subtitle {
+            font-size: 14px;
+            color: #666;
+        }
+
+        .header .date {
+            font-size: 12px;
+            color: #888;
+            margin-top: 8px;
+        }
+
+        h2 {
+            font-size: 18px;
+            color: #1a1a2e;
+            margin: 25px 0 15px 0;
+            padding-bottom: 8px;
+            border-bottom: 2px solid #e0e0e0;
+        }
+
+        h3 {
+            font-size: 15px;
+            color: #444;
+            margin: 15px 0 10px 0;
+        }
+
+        .score-box {
+            background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+            border-left: 4px solid #c41e3a;
+            padding: 15px 20px;
+            margin: 15px 0;
+            border-radius: 0 8px 8px 0;
+        }
+
+        .score-box.dea {
+            border-left-color: #2563eb;
+        }
+
+        .score-box .institution {
+            font-size: 16px;
+            font-weight: 700;
+            color: #1a1a2e;
+        }
+
+        .score-box .score {
+            font-size: 28px;
+            font-weight: 700;
+            color: #c41e3a;
+        }
+
+        .score-box.dea .score {
+            color: #2563eb;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 15px 0;
+            font-size: 13px;
+        }
+
+        th {
+            background: #1a1a2e;
+            color: white;
+            padding: 10px 12px;
+            text-align: left;
+            font-weight: 600;
+        }
+
+        td {
+            padding: 10px 12px;
+            border-bottom: 1px solid #e0e0e0;
+        }
+
+        tr:nth-child(even) {
+            background: #f8f9fa;
+        }
+
+        .stars {
+            color: #f59e0b;
+            letter-spacing: 2px;
+        }
+
+        .highlight-box {
+            background: #fff3cd;
+            border: 1px solid #ffc107;
+            border-radius: 8px;
+            padding: 15px;
+            margin: 15px 0;
+        }
+
+        .highlight-box.success {
+            background: #d4edda;
+            border-color: #28a745;
+        }
+
+        .highlight-box h4 {
+            font-size: 13px;
+            color: #856404;
+            margin-bottom: 8px;
+        }
+
+        .highlight-box.success h4 {
+            color: #155724;
+        }
+
+        .highlight-box ul {
+            margin-left: 20px;
+            font-size: 13px;
+        }
+
+        .highlight-box li {
+            margin-bottom: 5px;
+        }
+
+        .winner-badge {
+            display: inline-block;
+            background: #28a745;
+            color: white;
+            font-size: 11px;
+            padding: 2px 8px;
+            border-radius: 10px;
+            font-weight: 600;
+        }
+
+        .conclusion {
+            background: linear-gradient(135deg, #1a1a2e 0%, #2d2d44 100%);
+            color: white;
+            padding: 25px;
+            border-radius: 12px;
+            margin-top: 30px;
+        }
+
+        .conclusion h2 {
+            color: white;
+            border-bottom-color: rgba(255, 255, 255, 0.3);
+        }
+
+        .conclusion p {
+            margin-bottom: 12px;
+            font-size: 14px;
+        }
+
+        .recommendation {
+            background: rgba(255, 255, 255, 0.1);
+            padding: 15px;
+            border-radius: 8px;
+            margin-top: 15px;
+        }
+
+        .recommendation h4 {
+            color: #ffc107;
+            margin-bottom: 10px;
+            font-size: 14px;
+        }
+
+        .recommendation ol {
+            margin-left: 20px;
+            font-size: 13px;
+        }
+
+        .recommendation li {
+            margin-bottom: 5px;
+        }
+
+        .footer {
+            text-align: center;
+            margin-top: 40px;
+            padding-top: 20px;
+            border-top: 1px solid #e0e0e0;
+            font-size: 11px;
+            color: #888;
+        }
+
+        @media print {
+            body {
+                padding: 20px;
+            }
+
+            .conclusion {
+                break-inside: avoid;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="header">
+        <h1>ANÁLISE COMPARATIVA DE CADERNOS DE INDICADORES</h1>
+        <div class="subtitle">Benchmarking Técnico: CBMAL 2025-2029 vs. DEA 2026</div>
+        <div class="date">Assessoria de Planejamento e Orçamento | 23 de Janeiro de 2026</div>
+    </div>
+
+    <!-- CBMAL Section -->
+    <h2>📘 Caderno de Indicadores CBMAL 2025-2029</h2>
+
+    <div class="score-box">
+        <span class="institution">Corpo de Bombeiros Militar de Alagoas</span>
+        <div class="score">8.2 / 10</div>
+    </div>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Dimensão</th>
+                <th>Nota</th>
+                <th>Justificativa</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><strong>Alinhamento Estratégico</strong></td>
+                <td>9.5</td>
+                <td>Rastreabilidade impecável: cada indicador vinculado a OE, Tema e Iniciativa. Estrutura "OE → IE/IT →
+                    Processo SEI" é exemplar.</td>
+            </tr>
+            <tr>
+                <td><strong>Completude Metodológica</strong></td>
+                <td>7.5</td>
+                <td>Fichas técnicas robustas (13 campos), mas ausentes: "Viabilidade de Coleta", "Indicador
+                    Leading/Lagging" e "Variantes Complementares".</td>
+            </tr>
+            <tr>
+                <td><strong>Praticidade Operacional</strong></td>
+                <td>9.0</td>
+                <td>Calendário de coleta definido, responsáveis claros, processos SEI mapeados. Baixa fricção para
+                    execução.</td>
+            </tr>
+            <tr>
+                <td><strong>Equilíbrio de Perspectivas</strong></td>
+                <td>7.0</td>
+                <td>Predominância de indicadores de resultado (lagging). Poucos indicadores preditivos que antecipem
+                    desvios.</td>
+            </tr>
+            <tr>
+                <td><strong>Governança e Auditabilidade</strong></td>
+                <td>9.0</td>
+                <td>Farol de semaforização, Plano de Contramedida obrigatório para vermelho, vínculo com RMEs.</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <div class="highlight-box success">
+        <h4>✅ Pontos de Destaque</h4>
+        <ul>
+            <li>Sistema de numeração padronizado (IE-XX.XX) que facilita comunicação institucional</li>
+            <li>Integração com ecossistema SEI já operacional</li>
+            <li>Cobertura completa dos 17 Objetivos Estratégicos</li>
+        </ul>
+    </div>
+
+    <div class="highlight-box">
+        <h4>⚠️ Oportunidades de Melhoria</h4>
+        <ul>
+            <li>Incluir campo "Viabilidade" nas fichas técnicas</li>
+            <li>Adicionar indicadores precursores (leading) em áreas críticas como Operações e Saúde</li>
+            <li>Considerar métricas de engajamento modernas (eNPS) como complemento ao Clima Organizacional</li>
+        </ul>
+    </div>
+
+    <!-- DEA Section -->
+    <h2>🚁 Caderno de Indicadores DEA 2026</h2>
+
+    <div class="score-box dea">
+        <span class="institution">Departamento Estadual de Aviação</span>
+        <div class="score">9.1 / 10</div>
+    </div>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Dimensão</th>
+                <th>Nota</th>
+                <th>Justificativa</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><strong>Alinhamento Estratégico</strong></td>
+                <td>9.0</td>
+                <td>Conexão explícita com Visão 2030 e objetivos estratégicos. Narrativa clara do "por que importa".
+                </td>
+            </tr>
+            <tr>
+                <td><strong>Completude Metodológica</strong></td>
+                <td>9.5</td>
+                <td>Campos diferenciados: "Variante Complementar", "Viabilidade", "Linha de Base e Observações",
+                    "Origem".</td>
+            </tr>
+            <tr>
+                <td><strong>Praticidade Operacional</strong></td>
+                <td>7.5</td>
+                <td>Alta dependência de sistemas integrados (Falcão, SGSO). Risco de degradação se infraestrutura de
+                    dados falhar.</td>
+            </tr>
+            <tr>
+                <td><strong>Equilíbrio de Perspectivas</strong></td>
+                <td>9.5</td>
+                <td>Mistura explícita de indicadores "leading" e "lagging". Pensamento preventivo.</td>
+            </tr>
+            <tr>
+                <td><strong>Governança e Auditabilidade</strong></td>
+                <td>8.5</td>
+                <td>Donos de indicador bem definidos, mas sem processo documental formal equivalente ao SEI.</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <div class="highlight-box success">
+        <h4>✅ Pontos de Destaque</h4>
+        <ul>
+            <li>Campo "O que mede e por que importa" em cada KPI — excelente para comunicação executiva</li>
+            <li>Explicitação da "Viabilidade" evita indicadores "de prateleira" que nunca serão coletados</li>
+            <li>Indicadores de redundância de competências (KPI 17) e resiliência financeira (KPI 26) são inovadores
+            </li>
+        </ul>
+    </div>
+
+    <div class="highlight-box">
+        <h4>⚠️ Oportunidades de Melhoria</h4>
+        <ul>
+            <li>Estruturar canal formal de evidenciação (equivalente ao SEI)</li>
+            <li>Definir calendário fixo de coleta por tema</li>
+            <li>Vincular indicadores a processos administrativos rastreáveis</li>
+        </ul>
+    </div>
+
+    <!-- Comparative Matrix -->
+    <h2>📊 Matriz Comparativa Final</h2>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Critério</th>
+                <th>CBMAL</th>
+                <th>DEA</th>
+                <th>Vencedor</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Rastreabilidade documental</td>
+                <td class="stars">★★★★★</td>
+                <td class="stars">★★★☆☆</td>
+                <td><span class="winner-badge">CBMAL</span></td>
+            </tr>
+            <tr>
+                <td>Sofisticação metodológica</td>
+                <td class="stars">★★★★☆</td>
+                <td class="stars">★★★★★</td>
+                <td><span class="winner-badge" style="background:#2563eb">DEA</span></td>
+            </tr>
+            <tr>
+                <td>Facilidade de implementação</td>
+                <td class="stars">★★★★★</td>
+                <td class="stars">★★★☆☆</td>
+                <td><span class="winner-badge">CBMAL</span></td>
+            </tr>
+            <tr>
+                <td>Indicadores preditivos (leading)</td>
+                <td class="stars">★★★☆☆</td>
+                <td class="stars">★★★★★</td>
+                <td><span class="winner-badge" style="background:#2563eb">DEA</span></td>
+            </tr>
+            <tr>
+                <td>Gestão de riscos incorporada</td>
+                <td class="stars">★★★☆☆</td>
+                <td class="stars">★★★★★</td>
+                <td><span class="winner-badge" style="background:#2563eb">DEA</span></td>
+            </tr>
+            <tr>
+                <td>Prontidão para auditoria externa</td>
+                <td class="stars">★★★★★</td>
+                <td class="stars">★★★★☆</td>
+                <td><span class="winner-badge">CBMAL</span></td>
+            </tr>
+        </tbody>
+    </table>
+
+    <!-- Conclusion -->
+    <div class="conclusion">
+        <h2>🎯 Síntese Executiva</h2>
+
+        <p>O <strong>Caderno CBMAL</strong> é um instrumento de <strong>alta confiabilidade institucional</strong> —
+            pronto para publicação, auditoria e pactuação imediata com os diretores. Sua força está na organização
+            processual e na integração com o ecossistema SEI.</p>
+
+        <p>O <strong>Caderno DEA</strong> é um instrumento de <strong>alta sofisticação técnica</strong> — ideal para
+            ambientes de risco elevado onde a prevenção de falhas catastróficas justifica maior complexidade de medição.
+        </p>
+
+        <div class="recommendation">
+            <h4>📋 Recomendação para o CBMAL</h4>
+            <p>Na próxima revisão anual (pós-4ª RME de 2026), considerar a incorporação de três elementos do DEA:</p>
+            <ol>
+                <li>Campo "Viabilidade" nas fichas técnicas</li>
+                <li>Ao menos 2 indicadores "leading" por Tema Estratégico</li>
+                <li>Campo "Origem" para documentar a genealogia do indicador</li>
+            </ol>
+            <p style="margin-top:15px;font-style:italic;">Isso elevaria a nota do CBMAL para aproximadamente
+                <strong>9.0/10</strong> sem comprometer a praticidade operacional que é sua principal vantagem
+                competitiva.</p>
+        </div>
+    </div>
+
+    <div class="footer">
+        <p>Documento gerado pela Seção de Gestão Estratégica | APO/CBMAL</p>
+        <p>Referencial técnico: BSC (Balanced Scorecard) e Governança Pública (TCU)</p>
+    </div>
+</body>
+
+</html>

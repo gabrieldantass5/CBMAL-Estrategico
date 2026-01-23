@@ -77,6 +77,4 @@ Lá você encontrará:
 2.  **Manual de Operações**: Lista de comandos (`/insights`, `/aprender`, etc).
 3.  **Filosofia**: Como operar o agente Conductor.
 
----
-**CBMAL - Por uma Alagoas mais segura.**
-*Superintendência de Planejamento e Modernização*
+
