@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cockpit Estratégico | CBMAL</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&family=Montserrat:wght@700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <div class="header-title">
+                <img src="logo_cbmal_white.png" alt="CBMAL" style="height: 60px;">
+                <h1>Dashboard de Política e Monitoramento</h1>
+            </div>
+            <div class="date-badge" id="current-date">Janeiro 2026</div>
+        </header>
+
+        <!-- KPIS SUPERIORES -->
+        <div class="stats-grid">
+            <div class="card card-primary">
+                <div class="card-label">Cumprimento da Política</div>
+                <div class="card-value">78%</div>
+                <div class="gauge-container">
+                    <div class="gauge-fill" style="width: 78%;"></div>
+                </div>
+            </div>
+            <div class="card card-success">
+                <div class="card-label">Planos Monitorados</div>
+                <div class="card-value">12<span style="font-size: 1rem; color: var(--text-muted);">/15</span></div>
+                <p style="font-size: 0.875rem; color: var(--cbmal-verde); margin-top: 0.5rem;">↑ 2 em relação ao mês
+                    anterior</p>
+            </div>
+            <div class="card card-warning">
+                <div class="card-label">Projetos em Alerta</div>
+                <div class="card-value">02</div>
+                <p style="font-size: 0.875rem; color: var(--cbmal-vermelho); margin-top: 0.5rem;">Necessita decisão do
+                    Comando</p>
+            </div>
+        </div>
+
+        <div class="main-grid">
+            <!-- COLUNA ESQUERDA: OBJETIVOS -->
+            <div class="section-content">
+                <div class="section-title">
+                    <span>Evolução por Objetivo Estratégico (OE)</span>
+                    <span style="font-size: 0.875rem; font-weight: normal;">Ciclo 2025-2029</span>
+                </div>
+                <ul class="oe-list">
+                    <li class="oe-item">
+                        <div class="oe-header">
+                            <span class="oe-name">OE.01 - Excelência no Atendimento Operacional</span>
+                            <span class="oe-percent">82%</span>
+                        </div>
+                        <div class="gauge-container">
+                            <div class="gauge-fill" style="width: 82%;"></div>
+                        </div>
+                    </li>
+                    <li class="oe-item">
+                        <div class="oe-header">
+                            <span class="oe-name">OE.02 - Modernização Tecnológica e Inovação</span>
+                            <span class="oe-percent">55%</span>
+                        </div>
+                        <div class="gauge-container">
+                            <div class="gauge-fill" style="width: 55%; background: var(--cbmal-ouro);"></div>
+                        </div>
+                    </li>
+                    <li class="oe-item">
+                        <div class="oe-header">
+                            <span class="oe-name">OE.03 - Valorização e Saúde do Bombeiro Militar</span>
+                            <span class="oe-percent">91%</span>
+                        </div>
+                        <div class="gauge-container">
+                            <div class="gauge-fill" style="width: 91%; background: var(--cbmal-verde);"></div>
+                        </div>
+                    </li>
+                    <li class="oe-item">
+                        <div class="oe-header">
+                            <span class="oe-name">OE.04 - Transparência e Governança</span>
+                            <span class="oe-percent">70%</span>
+                        </div>
+                        <div class="gauge-container">
+                            <div class="gauge-fill" style="width: 70%;"></div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+
+            <!-- COLUNA DIREITA: AÇÕES IMEDIATAS -->
+            <div class="section-content">
+                <div class="section-title">Fila de Decisões (APO/EMG)</div>
+                <ul class="action-list">
+                    <li class="action-item">
+                        <div class="status-dot dot-red"></div>
+                        <div class="action-text">
+                            <strong>Assinatura de Portaria:</strong> Caderno de Indicadores v2.0 aguardando Comando.
+                        </div>
+                    </li>
+                    <li class="action-item">
+                        <div class="status-dot dot-gold"></div>
+                        <div class="action-text">
+                            <strong>Revisão de Taxas:</strong> Análise de impacto financeiro Jan/26 em curso.
+                        </div>
+                    </li>
+                    <li class="action-item">
+                        <div class="status-dot dot-green"></div>
+                        <div class="action-text">
+                            <strong>Briefing RME:</strong> Agendado para próxima Terça às 09h.
+                        </div>
+                    </li>
+                    <li class="action-item">
+                        <div class="status-dot dot-green"></div>
+                        <div class="action-text">
+                            <strong>Relatório FNSP:</strong> Envios para o Ministério da Justiça validados.
+                        </div>
+                    </li>
+                </ul>
+                <div
+                    style="margin-top: 2rem; padding: 1rem; background: #FFF9E6; border-radius: 8px; border: 1px solid #FFE58F;">
+                    <p style="font-size: 0.875rem; color: #856404;">
+                        <strong>💡 Insight da IA:</strong> OE.02 está abaixo da meta. Recomenda-se priorizar o projeto
+                        de radiocomunicação digital.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <footer
+            style="margin-top: 2rem; border-top: 1px solid #E2E8F0; padding-top: 1rem; display: flex; justify-content: space-between; color: var(--text-muted); font-size: 0.75rem;">
+            <span>Seção de Gestão Estratégica (APO/EMG)</span>
+            <span>Documento Classificado - Uso Institucional</span>
+        </footer>
+    </div>
+</body>
+
+</html>

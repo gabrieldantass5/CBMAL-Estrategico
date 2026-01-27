@@ -11,14 +11,10 @@
             "id": "a5325cb1090173dd",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "01_Gestao_Estrategica/03_Monitoramento_e_Indicadores/CRONOGRAMA_DE_COLETA_INDICADORES_2026.md",
-                "mode": "preview",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "CRONOGRAMA_DE_COLETA_INDICADORES_2026"
+              "title": "Nova aba"
             }
           }
         ]
@@ -78,7 +74,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 445.5
+    "width": 371.5
   },
   "right": {
     "id": "0afd2f79d9d0a845",
@@ -392,13 +388,29 @@
   },
   "active": "a5325cb1090173dd",
   "lastOpenFiles": [
+    "01_Gestao_Estrategica/03_Monitoramento_e_Indicadores/01_Instrumentos_Oficiais/CADERNO_DE_INDICADORES_ESTRATEGICOS_v2.0.docx",
+    "06_Diário_e_Memórias_IA/Memorias_de_Sessao/HANDOFF_2026-01-22.md",
+    "06_Diário_e_Memórias_IA/Memorias_de_Sessao/HANDOFF_2026-01-23_1550.md",
+    "06_Diário_e_Memórias_IA/Memorias_de_Sessao/~$NDOFF_2026-01-23_1550.docx",
+    "00_Scripts_Utilitarios/ajustar_ref.py",
+    "00_Scripts_Utilitarios/reference_base.docx",
+    "01_Gestao_Estrategica/04_Avaliacao_Estrategica/Plano_de_Avaliacao_Anexo_I_Template_Relatorio.md",
+    "01_Gestao_Estrategica/04_Avaliacao_Estrategica/Resumo_Executivo_Despacho_Avaliacao.md",
+    "01_Gestao_Estrategica/04_Avaliacao_Estrategica/Plano_de_Avaliacao_Estrategica_proc-aval-03.bpmn",
+    "01_Gestao_Estrategica/04_Avaliacao_Estrategica/Plano_de_Avaliacao_Estrategica_proc-aval-02.bpmn",
+    "01_Gestao_Estrategica/04_Avaliacao_Estrategica/Plano_de_Avaliacao_Estrategica_proc-aval-01.bpmn",
+    "01_Gestao_Estrategica/04_Avaliacao_Estrategica/Plano_de_Avaliacao_Estrategica_2025-2029.md",
+    "01_Gestao_Estrategica/04_Avaliacao_Estrategica/Plano_de_Avaliacao_Anexo_III_Checklist.md",
+    "01_Gestao_Estrategica/04_Avaliacao_Estrategica/Plano_de_Avaliacao_Anexo_II_Roteiro_Entrevistas.md",
+    "03_Gestao_Processos/03_Mapeamento_BPMN/Processo_Nota_Tecnica.bpmn",
+    "03_Gestao_Processos/PAPs/PAP_01_Gestao_Rotina_Kanban.md",
+    "01_Gestao_Estrategica/03_Monitoramento_e_Indicadores/CRONOGRAMA_DE_COLETA_INDICADORES_2026.md",
     "01_Gestao_Estrategica/03_Monitoramento_e_Indicadores/01_Instrumentos_Oficiais/Versoes_Anteriores/Plano de Monitoramento da Estratégia 2025-2029.html",
     "01_Gestao_Estrategica/03_Monitoramento_e_Indicadores/01_Instrumentos_Oficiais/Versoes_Anteriores/CADERNO_INDICADORES_COMPLETO_2025-2029.html",
     "01_Gestao_Estrategica/03_Monitoramento_e_Indicadores/01_Instrumentos_Oficiais/Versoes_Anteriores/CADERNO_INDICADORES_2025-2029.html",
     "01_Gestao_Estrategica/03_Monitoramento_e_Indicadores/01_Instrumentos_Oficiais/Versoes_Anteriores/Plano de Monitoramento da Estratégia 2025-2029.md",
     "01_Gestao_Estrategica/03_Monitoramento_e_Indicadores/01_Instrumentos_Oficiais/Versoes_Anteriores/Caderno_de_Indicadores_Estrategicos_2025-2029.md",
     "01_Gestao_Estrategica/03_Monitoramento_e_Indicadores/01_Instrumentos_Oficiais/Versoes_Anteriores/CADERNO_INDICADORES_COMPLETO_2025-2029.md",
-    "01_Gestao_Estrategica/03_Monitoramento_e_Indicadores/01_Instrumentos_Oficiais/Versoes_Anteriores",
     "01_Gestao_Estrategica/03_Monitoramento_e_Indicadores/01_Instrumentos_Oficiais/Caderno_de_Indicadores_Estrategicos_2025-2029.md",
     "01_Gestao_Estrategica/03_Monitoramento_e_Indicadores/01_Instrumentos_Oficiais/PLANO DE MONITORAMENTO DA ESTRATÉGIA.md",
     "01_Gestao_Estrategica/03_Monitoramento_e_Indicadores/01_Instrumentos_Oficiais/CADERNO DE INDICADORES ESTRATÉGICOS.md",
@@ -406,29 +418,13 @@
     "01_Gestao_Estrategica/03_Monitoramento_e_Indicadores/01_Instrumentos_Oficiais/Matriz_Rastreabilidade_OE_Indicador_Iniciativa.md",
     "01_Gestao_Estrategica/03_Monitoramento_e_Indicadores/01_Instrumentos_Oficiais/CADERNO_INDICADORES_COMPLETO_2025-2029.md",
     "Inbox/CADERNO DE INDICADORES ESTRATÉGICOS.md",
-    "Inbox/Não confirmado 553189.crdownload",
     "01_Gestao_Estrategica/03_Monitoramento_e_Indicadores/PLANO DE MONITORAMENTO DA ESTRATÉGIA.md",
     "Inbox/PLANO DE MONITORAMENTO DA ESTRATÉGIA.md",
-    "Inbox/Não confirmado 464026.crdownload",
     "06_Diário_e_Memórias_IA/Arquivos_Diário/2026/2026-01-23_Diario_Conductor.md",
-    "06_Diário_e_Memórias_IA/Memorias_de_Sessao/HANDOFF_2026-01-22.md",
-    "01_Gestao_Estrategica/03_Monitoramento_e_Indicadores/03_Processos_BPMN/Proc-02-Rito-RME.bpmn",
     "01_Gestao_Estrategica/03_Monitoramento_e_Indicadores/03_Processos_BPMN/Proc-02-Rito-RME.canvas",
     "01_Gestao_Estrategica/03_Monitoramento_e_Indicadores/02_Fichas_Tecnicas/Fichas_Tecnicas_Consolidadas.md",
     "01_Gestao_Estrategica/02_Politica_Institucional/OFICIO_ENCAMINHAMENTO_POLITICA.md",
-    "03_Gestao_Processos/03_Mapeamento_BPMN/Processo_Nota_Tecnica.bpmn",
     "KANBAN_ESTRATEGICO.md",
-    "01_Gestao_Estrategica/02_Politica_Institucional/POLITICA_ESTRATEGICA_PARA_SEI_V_FINAL.md",
-    "01_Gestao_Estrategica/03_Monitoramento_e_Indicadores/04_Relatorios_e_Despachos/Portaria_Instituicao_Plano_Monitoramento.md",
-    "01_Gestao_Estrategica/03_Monitoramento_e_Indicadores/04_Relatorios_e_Despachos/Oficio_Encaminhamento_Plano_Monitoramento.md",
-    "01_Gestao_Estrategica/03_Monitoramento_e_Indicadores/04_Relatorios_e_Despachos/Portaria_Instituicao_Caderno_Indicadores.md",
-    "01_Gestao_Estrategica/03_Monitoramento_e_Indicadores/04_Relatorios_e_Despachos/Oficio_Encaminhamento_Caderno_Indicadores.md",
-    "01_Gestao_Estrategica/03_Monitoramento_e_Indicadores/04_Relatorios_e_Despachos/Portaria_Instituicao_Plano_Monitoramento.html",
-    "01_Gestao_Estrategica/03_Monitoramento_e_Indicadores/04_Relatorios_e_Despachos/Oficio_Encaminhamento_Plano_Monitoramento.html",
-    "01_Gestao_Estrategica/03_Monitoramento_e_Indicadores/04_Relatorios_e_Despachos/Portaria_Instituicao_Caderno_Indicadores.html",
-    "01_Gestao_Estrategica/03_Monitoramento_e_Indicadores/04_Relatorios_e_Despachos/Checklist_SMART_Indicadores.md",
-    "01_Gestao_Estrategica/03_Monitoramento_e_Indicadores/04_Relatorios_e_Despachos/Resumo_Executivo_Despacho.md",
-    "01_Gestao_Estrategica/03_Monitoramento_e_Indicadores/04_Relatorios_e_Despachos/Relatorio_Indicadores_2025.md",
     "01_Gestao_Estrategica/03_Monitoramento_e_Indicadores/03_Processos_BPMN/Proc-01-Macrofluxo-Monitoramento.canvas",
     "01_Gestao_Estrategica/03_Monitoramento_e_Indicadores/03_Processos_BPMN/monitoramento-flow.canvas",
     "01_Gestao_Estrategica/03_Monitoramento_e_Indicadores/01_Instrumentos_Oficiais/image.png",

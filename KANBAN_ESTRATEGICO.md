@@ -10,15 +10,14 @@ kanban-plugin: board
 - [ ] **Dica de Ouro:** <br>Mantenha apenas 2 ou 3 tarefas em "Produção" para não se perder! 🎯
 - [ ] **Link Úteis:** <br>[[00_START_HERE|Manual de Início]] <br>[[PAINEL_DE_CONTROLE|Acompanhamento Geral]]
 
-
 ## 📥 Backlog (Aguardando)
-### Tarefas planejadas que ainda não começaram.
 
+### Tarefas planejadas que ainda não começaram
+
+- [ ] **Implementar PowerPoint Generator CBMAL** (Alta prioridade) #foco_profundo #inovacao
+- [ ] **Otimizar Skills: Progressive Disclosure** (Otimização de Contexto) #sistemas #performance
+- [ ] **Refatorar Skill `visual_identity_pro`**: Ler cores de `brands/CBMAL.md` #estetica #sistemas
 - [ ] **Dashboard do Comando Geral** (Previsto: Março/2026) #foco_profundo
-- [ ] Atualizar o PAP do SEI até sexta #foco_profundo #urgente
-- [ ] Criar um dashboard para o Comandante Geral #foco_profundo
-- [ ] Baixar a portaria nova de redação oficial #burocracia_sei
-- [ ] Ajustar estética do Painel (Azul CBMAL) #estetica
 
 - [ ] PAP 10: Benchmarking e Melhores Práticas
 - [ ] PAP 11: Comunicação Estratégica (Visual)
@@ -27,25 +26,26 @@ kanban-plugin: board
 - [ ] PAP 14: Gestão de Projetos Estratégicos (MGP)
 - [ ] PAP 15: Organização do Seminário Anual
 
-
 ## 🏗️ Em Curso (Produção)
-### O que está sendo feito AGORA. Foque aqui!
 
-- [ ] **Enviar Política Estratégica para o Comando**: Preparar despacho de encaminhamento e formalizar via SEI.
-- [ ] **Finalizar Análise do Plano de Monitoramento**: Revisar documento e emitir parecer técnico final.
+### O que está sendo feito AGORA. Foque aqui
 
+- [x] **Enviar Política Estratégica para o Comando**: Despacho realizado. Aguardando publicação em BGO. ✅
 
 ## ⏳ Revisão / Bloqueado
-### Pronto, mas depende de terceiros ou revisão.
+
+### Pronto, mas depende de terceiros ou revisão
 
 - [ ] Aguardando Publicação do MGA
 - [ ] Assinatura Final dos Instrumentos (Ten Gabriel Dantas)
-- [ ] Publicação da Política PGE (SEI)
-
+- [ ] Publicação da Política Estratégica (BGO) ⏳
+- [ ] ⚠️ **Aprovação do Caderno de Indicadores v2.0**: Aguardando revisão de Tc Marcos Paulo.
 
 ## ✅ Concluído (Janeiro/2026)
-### Missões cumpridas (Histórico do mês).
 
+### Missões cumpridas (Histórico do mês)
+
+- [x] **Plano de Monitoramento v2.0 (27/01)**: Atualizado com Governança do Alto Comando, Accountability Gradual e novos KPIs de eficiência. ✅
 - [x] **Otimização Radical do Ecossistema (21/01)**: Redução de 15 para 5 workflows, criação de regras atômicas e consolidação de documentação. ✅
 - [x] **Deploy GitHub CBMAL-Estrategico (21/01)**: Repositório privado configurado com banner profissional e limpeza de histórico. ✅
 - [x] **Upgrade Arquitetural Affaan Mustafa Style (21/01)**: Implementação de memória persistente, regras modulares e aprendizado contínuo. ✅
@@ -79,6 +79,9 @@ kanban-plugin: board
 - [x] **Kit de Imagens Estratégicas**: 04 fluxogramas padronizados (Marinho/Vermelho) para Google Docs. ✅
 - [x] **Upgrade Manual EPD v2.0**: Incluindo Arquitetura de 3 Camadas e DNA Digital (agents.md). ✅
 - [x] **Ajuste BPMN**: Verticalização e correção de erros de renderização em todos os fluxogramas. ✅
+- [x] **Assimilação Minervia (25/01)**: Criado GPS (`CONTEXT_MAP.md`) e Escriba (`/log-session`). ✅
+- [x] **Criação Skill Creator CBMAL (25/01)**: Implementado "Modo Borg" para assimilação de skills externas. ✅
+- [x] **Dashboard Estratégico v1.0 (25/01)**: Criada especificação e versão HTML/CSS para o Comando Geral. ✅
 - [x] **Integração Vercel Agent Browser**: Automação de navegador configurada para workspace. ✅
 
 %% kanban:settings

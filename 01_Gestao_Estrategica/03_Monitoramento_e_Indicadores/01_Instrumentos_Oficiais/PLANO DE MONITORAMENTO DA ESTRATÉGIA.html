@@ -1,0 +1,874 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>PLANO DE MONITORAMENTO DA ESTRATÉGIA.md</title>
+<meta http-equiv="Content-type" content="text/html;charset=UTF-8">
+
+<style>
+/* https://github.com/microsoft/vscode/blob/master/extensions/markdown-language-features/media/markdown.css */
+/*---------------------------------------------------------------------------------------------
+ *  Copyright (c) Microsoft Corporation. All rights reserved.
+ *  Licensed under the MIT License. See License.txt in the project root for license information.
+ *--------------------------------------------------------------------------------------------*/
+
+body {
+	font-family: var(--vscode-markdown-font-family, -apple-system, BlinkMacSystemFont, "Segoe WPC", "Segoe UI", "Ubuntu", "Droid Sans", sans-serif);
+	font-size: var(--vscode-markdown-font-size, 14px);
+	padding: 0 26px;
+	line-height: var(--vscode-markdown-line-height, 22px);
+	word-wrap: break-word;
+}
+
+#code-csp-warning {
+	position: fixed;
+	top: 0;
+	right: 0;
+	color: white;
+	margin: 16px;
+	text-align: center;
+	font-size: 12px;
+	font-family: sans-serif;
+	background-color:#444444;
+	cursor: pointer;
+	padding: 6px;
+	box-shadow: 1px 1px 1px rgba(0,0,0,.25);
+}
+
+#code-csp-warning:hover {
+	text-decoration: none;
+	background-color:#007acc;
+	box-shadow: 2px 2px 2px rgba(0,0,0,.25);
+}
+
+body.scrollBeyondLastLine {
+	margin-bottom: calc(100vh - 22px);
+}
+
+body.showEditorSelection .code-line {
+	position: relative;
+}
+
+body.showEditorSelection .code-active-line:before,
+body.showEditorSelection .code-line:hover:before {
+	content: "";
+	display: block;
+	position: absolute;
+	top: 0;
+	left: -12px;
+	height: 100%;
+}
+
+body.showEditorSelection li.code-active-line:before,
+body.showEditorSelection li.code-line:hover:before {
+	left: -30px;
+}
+
+.vscode-light.showEditorSelection .code-active-line:before {
+	border-left: 3px solid rgba(0, 0, 0, 0.15);
+}
+
+.vscode-light.showEditorSelection .code-line:hover:before {
+	border-left: 3px solid rgba(0, 0, 0, 0.40);
+}
+
+.vscode-light.showEditorSelection .code-line .code-line:hover:before {
+	border-left: none;
+}
+
+.vscode-dark.showEditorSelection .code-active-line:before {
+	border-left: 3px solid rgba(255, 255, 255, 0.4);
+}
+
+.vscode-dark.showEditorSelection .code-line:hover:before {
+	border-left: 3px solid rgba(255, 255, 255, 0.60);
+}
+
+.vscode-dark.showEditorSelection .code-line .code-line:hover:before {
+	border-left: none;
+}
+
+.vscode-high-contrast.showEditorSelection .code-active-line:before {
+	border-left: 3px solid rgba(255, 160, 0, 0.7);
+}
+
+.vscode-high-contrast.showEditorSelection .code-line:hover:before {
+	border-left: 3px solid rgba(255, 160, 0, 1);
+}
+
+.vscode-high-contrast.showEditorSelection .code-line .code-line:hover:before {
+	border-left: none;
+}
+
+img {
+	max-width: 100%;
+	max-height: 100%;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+a:focus,
+input:focus,
+select:focus,
+textarea:focus {
+	outline: 1px solid -webkit-focus-ring-color;
+	outline-offset: -1px;
+}
+
+hr {
+	border: 0;
+	height: 2px;
+	border-bottom: 2px solid;
+}
+
+h1 {
+	padding-bottom: 0.3em;
+	line-height: 1.2;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+}
+
+h1, h2, h3 {
+	font-weight: normal;
+}
+
+table {
+	border-collapse: collapse;
+}
+
+table > thead > tr > th {
+	text-align: left;
+	border-bottom: 1px solid;
+}
+
+table > thead > tr > th,
+table > thead > tr > td,
+table > tbody > tr > th,
+table > tbody > tr > td {
+	padding: 5px 10px;
+}
+
+table > tbody > tr + tr > td {
+	border-top: 1px solid;
+}
+
+blockquote {
+	margin: 0 7px 0 5px;
+	padding: 0 16px 0 10px;
+	border-left-width: 5px;
+	border-left-style: solid;
+}
+
+code {
+	font-family: Menlo, Monaco, Consolas, "Droid Sans Mono", "Courier New", monospace, "Droid Sans Fallback";
+	font-size: 1em;
+	line-height: 1.357em;
+}
+
+body.wordWrap pre {
+	white-space: pre-wrap;
+}
+
+pre:not(.hljs),
+pre.hljs code > div {
+	padding: 16px;
+	border-radius: 3px;
+	overflow: auto;
+}
+
+pre code {
+	color: var(--vscode-editor-foreground);
+	tab-size: 4;
+}
+
+/** Theming */
+
+.vscode-light pre {
+	background-color: rgba(220, 220, 220, 0.4);
+}
+
+.vscode-dark pre {
+	background-color: rgba(10, 10, 10, 0.4);
+}
+
+.vscode-high-contrast pre {
+	background-color: rgb(0, 0, 0);
+}
+
+.vscode-high-contrast h1 {
+	border-color: rgb(0, 0, 0);
+}
+
+.vscode-light table > thead > tr > th {
+	border-color: rgba(0, 0, 0, 0.69);
+}
+
+.vscode-dark table > thead > tr > th {
+	border-color: rgba(255, 255, 255, 0.69);
+}
+
+.vscode-light h1,
+.vscode-light hr,
+.vscode-light table > tbody > tr + tr > td {
+	border-color: rgba(0, 0, 0, 0.18);
+}
+
+.vscode-dark h1,
+.vscode-dark hr,
+.vscode-dark table > tbody > tr + tr > td {
+	border-color: rgba(255, 255, 255, 0.18);
+}
+
+</style>
+
+<style>
+/* Tomorrow Theme */
+/* http://jmblog.github.com/color-themes-for-google-code-highlightjs */
+/* Original theme - https://github.com/chriskempson/tomorrow-theme */
+
+/* Tomorrow Comment */
+.hljs-comment,
+.hljs-quote {
+	color: #8e908c;
+}
+
+/* Tomorrow Red */
+.hljs-variable,
+.hljs-template-variable,
+.hljs-tag,
+.hljs-name,
+.hljs-selector-id,
+.hljs-selector-class,
+.hljs-regexp,
+.hljs-deletion {
+	color: #c82829;
+}
+
+/* Tomorrow Orange */
+.hljs-number,
+.hljs-built_in,
+.hljs-builtin-name,
+.hljs-literal,
+.hljs-type,
+.hljs-params,
+.hljs-meta,
+.hljs-link {
+	color: #f5871f;
+}
+
+/* Tomorrow Yellow */
+.hljs-attribute {
+	color: #eab700;
+}
+
+/* Tomorrow Green */
+.hljs-string,
+.hljs-symbol,
+.hljs-bullet,
+.hljs-addition {
+	color: #718c00;
+}
+
+/* Tomorrow Blue */
+.hljs-title,
+.hljs-section {
+	color: #4271ae;
+}
+
+/* Tomorrow Purple */
+.hljs-keyword,
+.hljs-selector-tag {
+	color: #8959a8;
+}
+
+.hljs {
+	display: block;
+	overflow-x: auto;
+	color: #4d4d4c;
+	padding: 0.5em;
+}
+
+.hljs-emphasis {
+	font-style: italic;
+}
+
+.hljs-strong {
+	font-weight: bold;
+}
+</style>
+
+<style>
+/*
+ * Markdown PDF CSS
+ */
+
+ body {
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe WPC", "Segoe UI", "Ubuntu", "Droid Sans", sans-serif, "Meiryo";
+	padding: 0 12px;
+}
+
+pre {
+	background-color: #f8f8f8;
+	border: 1px solid #cccccc;
+	border-radius: 3px;
+	overflow-x: auto;
+	white-space: pre-wrap;
+	overflow-wrap: break-word;
+}
+
+pre:not(.hljs) {
+	padding: 23px;
+	line-height: 19px;
+}
+
+blockquote {
+	background: rgba(127, 127, 127, 0.1);
+	border-color: rgba(0, 122, 204, 0.5);
+}
+
+.emoji {
+	height: 1.4em;
+}
+
+code {
+	font-size: 14px;
+	line-height: 19px;
+}
+
+/* for inline code */
+:not(pre):not(.hljs) > code {
+	color: #C9AE75; /* Change the old color so it seems less like an error */
+	font-size: inherit;
+}
+
+/* Page Break : use <div class="page"/> to insert page break
+-------------------------------------------------------- */
+.page {
+	page-break-after: always;
+}
+
+</style>
+
+<script src="https://unpkg.com/mermaid/dist/mermaid.min.js"></script>
+</head>
+<body>
+  <script>
+    mermaid.initialize({
+      startOnLoad: true,
+      theme: document.body.classList.contains('vscode-dark') || document.body.classList.contains('vscode-high-contrast')
+          ? 'dark'
+          : 'default'
+    });
+  </script>
+<h1 id="plano-de-monitoramento-da-estrat%C3%A9gia">PLANO DE MONITORAMENTO DA ESTRATÉGIA</h1>
+<h1 id="2025-2029"><strong>2025-2029</strong></h1>
+<h1 id="">---</h1>
+<h2 id="autoridades"><strong>AUTORIDADES</strong></h2>
+<h2 id="comandante-geral-do-cbmal-cel-qoem-bm-s%C3%A9rgio-andr%C3%A9-silva-ver%C3%A7osa"><strong>COMANDANTE-GERAL DO CBMAL:</strong> Cel QOEM BM Sérgio André Silva Verçosa</h2>
+<h2 id="chefe-do-estado-maior-geral-do-cbmal-cel-qoem-bm-eduardo-hercules-da-silva-justo"><strong>CHEFE DO ESTADO-MAIOR GERAL DO CBMAL:</strong> Cel QOEM BM Eduardo Hercules da Silva Justo</h2>
+<h2 id="assessor-de-planejamento-e-or%C3%A7amento-tc-qoem-bm-marcos-paulo-seara-barbosa"><strong>ASSESSOR DE PLANEJAMENTO E ORÇAMENTO:</strong> TC QOEM BM Marcos Paulo Seara Barbosa</h2>
+<h2 id="chefe-da-se%C3%A7%C3%A3o-de-gest%C3%A3o-estrat%C3%A9gica-1%C2%BA-ten-qoem-gabriel-dantas-da-cruz"><strong>CHEFE DA SEÇÃO DE GESTÃO ESTRATÉGICA:</strong> 1º Ten QOEM Gabriel Dantas da Cruz</h2>
+<h1 id="macei%C3%B3---al-2026">Maceió - AL 2026</h1>
+<h2 id="sum%C3%A1rio"><strong>SUMÁRIO</strong></h2>
+<ol>
+<li><strong>FINALIDADE E CONCEITO</strong></li>
+<li><strong>GOVERNANÇA E CADEIA DE VALOR</strong></li>
+<li><strong>SISTEMÁTICA DE INDICADORES (KPIs)</strong></li>
+<li><strong>CICLOS DE ACOMPANHAMENTO (RITO)</strong></li>
+<li><strong>AÇÕES CORRETIVAS E GESTÃO DE PRAZOS</strong>
+<ul>
+<li><strong>ANEXO I</strong> <strong>-</strong> Ficha Técnica do Indicador</li>
+<li><strong>ANEXO II</strong> <strong>-</strong> Calendário das RMEs</li>
+<li><strong>ANEXO III -</strong> Modelo de Plano de Contramedida (PCM)</li>
+<li><strong>ANEXO IV -</strong> Estrutura do Relatório de Farol (BGO)</li>
+<li><strong>ANEXO V -</strong> Modelo de Ata de RME</li>
+</ul>
+</li>
+</ol>
+<hr>
+<h2 id="gloss%C3%A1rio-de-siglas-e-termos"><strong>GLOSSÁRIO DE SIGLAS E TERMOS</strong></h2>
+<table>
+<thead>
+<tr>
+<th style="text-align:left">Sigla</th>
+<th style="text-align:left">Significado</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left"><strong>APO</strong></td>
+<td style="text-align:left">Assessoria de Planejamento e Orçamento</td>
+</tr>
+<tr>
+<td style="text-align:left"><strong>CBMAL</strong></td>
+<td style="text-align:left">Corpo de Bombeiros Militar de Alagoas</td>
+</tr>
+<tr>
+<td style="text-align:left"><strong>EMG</strong></td>
+<td style="text-align:left">Estado-Maior Geral</td>
+</tr>
+<tr>
+<td style="text-align:left"><strong>KPI</strong></td>
+<td style="text-align:left"><em>Key Performance Indicator</em> (Indicador-Chave de Desempenho)</td>
+</tr>
+<tr>
+<td style="text-align:left"><strong>ODS</strong></td>
+<td style="text-align:left">Órgão de Direção Setorial (Diretorias, Assessorias e Comando)</td>
+</tr>
+<tr>
+<td style="text-align:left"><strong>OKR</strong></td>
+<td style="text-align:left"><em>Objectives and Key Result</em> (Objetivos e Resultados-Chave)</td>
+</tr>
+<tr>
+<td style="text-align:left"><strong>PCM</strong></td>
+<td style="text-align:left">Plano de Contramedida (Ação de correção para metas não batidas)</td>
+</tr>
+<tr>
+<td style="text-align:left"><strong>PDCA</strong></td>
+<td style="text-align:left"><em>Plan-Do-Check-Act</em> (Ciclo de melhoria contínua)</td>
+</tr>
+<tr>
+<td style="text-align:left"><strong>RME</strong></td>
+<td style="text-align:left">Reunião de Monitoramento Estratégico</td>
+</tr>
+<tr>
+<td style="text-align:left"><strong>SEI</strong></td>
+<td style="text-align:left">Sistema Eletrônico de Informações</td>
+</tr>
+<tr>
+<td style="text-align:left"><strong>SGE</strong></td>
+<td style="text-align:left">Sistema de Gestão Estratégica</td>
+</tr>
+</tbody>
+</table>
+<hr>
+<h2 id="1-finalidade-e-conceito"><strong>1. FINALIDADE E CONCEITO</strong></h2>
+<p>O <strong>Plano de Monitoramento da Estratégia</strong> tem por finalidade estabelecer a sistemática de acompanhamento, controle e avaliação do desempenho institucional do CBMAL. Este instrumento regulamenta a <strong>Seção 6 - Monitoramento e Avaliação</strong> do <em>Plano de Implementação da Estratégia 2025-2029</em>, operacionalizando a cultura de gestão por resultados.</p>
+<h3 id="11-conceito-de-monitoramento"><strong>1.1. Conceito de Monitoramento</strong></h3>
+<p>No âmbito do CBMAL, monitoramento não é fiscalização punitiva, mas uma <strong>vigilância ativa e contínua</strong> sobre a execução da estratégia. Seu objetivo é fornecer informações tempestivas para a tomada de decisão, permitindo:<br>
+1. Identificar desvios de rota antecipadamente.<br>
+2. Celebrar conquistas e vitórias de curto prazo.<br>
+3. Promover o aprendizado organizacional baseada em evidências.</p>
+<h2 id="a-metodologia-adota-o-ciclo-pdca-plan-do-check-act-onde-o-monitoramento-representa-a-etapa-de-check-fundamental-para-o-ajuste-de-rumos-act">A metodologia adota o ciclo <strong>PDCA</strong> (Plan-Do-Check-Act), onde o Monitoramento representa a etapa de <strong>CHECK</strong>, fundamental para o ajuste de rumos (<strong>ACT</strong>).</h2>
+<h2 id="2-governan%C3%A7a-e-cadeia-de-valor"><strong>2. GOVERNANÇA E CADEIA DE VALOR</strong></h2>
+<p>A estrutura de governança do monitoramento define &quot;quem faz o quê&quot; no processo de coleta e análise de dados.</p>
+<h3 id="21-atores-e-responsabilidades"><strong>2.1. Atores e Responsabilidades</strong></h3>
+<table>
+<thead>
+<tr>
+<th style="text-align:center">Ator</th>
+<th style="text-align:center">Papel no Monitoramento</th>
+<th style="text-align:left">Responsabilidade</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center"><strong>Oficial de Ligação</strong></td>
+<td style="text-align:center"><em>Coleta e Reporte</em></td>
+<td style="text-align:left">Alimentar os indicadores setoriais e reportar o andamento das iniciativas (Planos de Ação) dentro dos prazos.</td>
+</tr>
+<tr>
+<td style="text-align:center"><strong>Diretores das ODS</strong></td>
+<td style="text-align:center"><em>Validação Setorial</em></td>
+<td style="text-align:left">Validar a veracidade dos dados reportados pelo seu setor e justificar eventuais desvios de meta.</td>
+</tr>
+<tr>
+<td style="text-align:center"><strong>APO/CBMAL</strong></td>
+<td style="text-align:center"><em>Análise e Suporte</em></td>
+<td style="text-align:left">Alimentar o SGE, auditar dados e realizar assessoramento &quot;in loco&quot; mensal às Diretorias e Oficiais de Ligação.</td>
+</tr>
+<tr>
+<td style="text-align:center"><strong>RME (Reunião)</strong></td>
+<td style="text-align:center"><em>Deliberação</em></td>
+<td style="text-align:left">Fórum tático-estratégico para discussão de problemas complexos, pactuação de ações corretivas e alinhamento institucional.</td>
+</tr>
+<tr>
+<td style="text-align:center"><strong>Alto Comando / EMG</strong></td>
+<td style="text-align:center"><em>Validação Estratégica</em></td>
+<td style="text-align:left">Presidido pelo Comandante-Geral, delibera sobre ajustes estratégicos, homologa resultados e valida planos de contramedida.</td>
+</tr>
+</tbody>
+</table>
+<h3 id="22-cadeia-de-valor-do-dado-e-sistemas"><strong>2.2. Cadeia de Valor do Dado e Sistemas</strong></h3>
+<p>O fluxo de informação deve garantir a oficialidade e a integridade dos dados:</p>
+<ol>
+<li><strong>REGISTRO (Diretorias)</strong>: As metas, iniciativas, indicadores e evidências devem ser anexados aos processos administrativos no <strong>SEI</strong> por cada Diretoria.</li>
+<li><strong>SISTEMATIZAÇÃO (APO)</strong>: A APO extrai as informações dos processos SEI e alimenta o <strong>Sistema de Gestão Estratégica (SGE)</strong> para monitoramento centralizado do avanço institucional.</li>
+<li><strong>ANÁLISE (APO)</strong>: Transformação do dado em informação estratégica (Cálculo de variações, tendências e farol).</li>
+<li><strong>DECISÃO (RME)</strong>: Conversão da inteligência em ação gerencial e deliberativa.</li>
+</ol>
+<h3 id="23-governan%C3%A7a-e-tomada-de-decis%C3%A3o"><strong>2.3. Governança e Tomada de Decisão</strong></h3>
+<p>O monitoramento e a avaliação dos indicadores estratégicos são conduzidos de forma <strong>colaborativa e hierarquizada</strong>, respeitando a linha de comando da corporação:</p>
+<ul>
+<li><strong>Nível Operacional</strong>: Os Órgãos de Direção Setorial (ODS) são responsáveis pela aferição, reporte e execução das metas.</li>
+<li><strong>Nível Tático</strong>: A Assessoria de Planejamento e Orçamento (APO) consolida os dados, analisa desvios e propõe contramedidas.</li>
+<li><strong>Nível Estratégico</strong>: O <strong>Estado-Maior Geral</strong>, sob a presidência do Comandante-Geral, delibera sobre ajustes estratégicos, aprovação de planos de contramedida e validação de revisões do Caderno.</li>
+</ul>
+<p>As Reuniões de Monitoramento Estratégico (RME) têm caráter <strong>consultivo e deliberativo</strong>, constituindo-se em fórum de governança para alinhamento institucional, sem prejuízo da autoridade decisória final do Comandante-Geral.</p>
+<hr>
+<h2 id="3-sistem%C3%A1tica-de-indicadores-kpis"><strong>3. SISTEMÁTICA DE INDICADORES (KPIs)</strong></h2>
+<p>Os Indicadores-Chave de Desempenho (KPIs) são os termômetros da estratégia.</p>
+<h3 id="31-classifica%C3%A7%C3%A3o-dos-indicadores"><strong>3.1. Classificação dos Indicadores</strong></h3>
+<p>Os indicadores serão classificados em dois níveis:</p>
+<ul>
+<li><strong>Indicadores Estratégicos (IE)</strong>: Vinculados aos <em>Objetivos Estratégicos</em>. Medem o impacto final na sociedade ou na instituição (ex: &quot;Tempo Resposta Operacional&quot;, &quot;Índice de Satisfação da Tropa&quot;). Monitorados pelo Alto Comando.</li>
+<li><strong>Indicadores Operacionais/Táticos (IO)</strong>: Vinculados às <em>Iniciativas e Planos de Ação</em>. Medem o esforço e a entrega (ex: &quot;Percentual de Vistorias Realizadas&quot;, &quot;Nº de Militares Capacitados&quot;). Monitorados pelos ODS e APO.</li>
+</ul>
+<h3 id="32-metadados-obrigat%C3%B3rios"><strong>3.2. Metadados Obrigatórios</strong></h3>
+<h2 id="todo-indicador-monitorado-pelo-cbmal-deve-possuir-uma-ficha-t%C3%A9cnica-contendo-no-m%C3%ADnimo1-nome-e-sigla-identifica%C3%A7%C3%A3o-%C3%BAnica2-f%C3%B3rmula-de-c%C3%A1lculo-express%C3%A3o-matem%C3%A1tica-precisa-para-evitar-ambiguidade3fonte-de-dados-sistema-ou-documento-de-onde-o-dado-%C3%A9-extra%C3%ADdo-auditabilidade4-linha-de-base-baseline-o-valor-do-indicador-no-in%C3%ADcio-do-ciclo-ex-20245-meta-o-valor-a-ser-alcan%C3%A7ado-em-cada-per%C3%ADodo6-sentido-de-melhoria-maior-%C3%A9-melhor-ex-salvamentos-ou-menor-%C3%A9-melhor-ex-tempo-resposta">Todo indicador monitorado pelo CBMAL deve possuir uma <strong>Ficha Técnica</strong> contendo, no mínimo:<br>
+1. <strong>Nome e Sigla</strong>: Identificação única.<br>
+2. <strong>Fórmula de Cálculo</strong>: Expressão matemática precisa para evitar ambiguidade.<br>
+3.<strong>Fonte de Dados</strong>: Sistema ou documento de onde o dado é extraído (Auditabilidade).<br>
+4. <strong>Linha de Base (<em>Baseline</em>)</strong>: O valor do indicador no início do ciclo (ex: 2024).<br>
+5. <strong>Meta</strong>: O valor a ser alcançado em cada período.<br>
+6. <strong>Sentido de Melhoria</strong>: Maior é melhor (ex: salvamentos) ou Menor é melhor (ex: tempo resposta).</h2>
+<h2 id="4-ciclos-de-acompanhamento-rito"><strong>4. CICLOS DE ACOMPANHAMENTO (RITO)</strong></h2>
+<p>O monitoramento ocorre em ciclos pré-definidos para criar disciplina institucional. A eficácia do rito depende da preparação prévia e do foco na tomada de decisão durante os encontros presenciais.</p>
+<h3 id="41-reuni%C3%B5es-de-monitoramento-estrat%C3%A9gico-rme"><strong>4.1. Reuniões de Monitoramento Estratégico (RME)</strong></h3>
+<p>As RMEs são o fórum principal de governança. Não são reuniões de &quot;leitura de relatório&quot;, mas sim de <strong>tomada de decisão</strong>.</p>
+<h4 id="411-calend%C3%A1rio-e-participantes"><strong>4.1.1. Calendário e Participantes</strong></h4>
+<ul>
+<li><strong>Periodicidade</strong>: Trimestral (4 vezes ao ano).
+<ul>
+<li><em>Nota: A RME do 4º trimestre tem caráter de encerramento do exercício (Balanço Anual).</em></li>
+</ul>
+</li>
+<li><strong>Convocação</strong>: Via ordem em Boletim Geral, expedida pelo Gabinete do Comando-Geral ou do Gabinete do SubComandante / Ch EMG com antecedência <strong>mínima de 15 dias</strong>.</li>
+<li><strong>Participantes</strong>:
+<ul>
+<li><strong>Alta Gestão</strong>: Comandante-Geral, Subcomandante-Geral/Chefe do EMG.</li>
+<li><strong>Executivos</strong>: Diretores de Órgãos de Direção Setorial (ODS) .</li>
+<li><strong>Técnico</strong>: Assessor da APO, Chefe da Seção de Gestão Estratégica e Oficiais de Ligação e convidados.</li>
+</ul>
+</li>
+</ul>
+<h4 id="412-fase-preparat%C3%B3ria-pr%C3%A9-rme"><strong>4.1.2. Fase Preparatória (Pré-RME)</strong></h4>
+<p>Para garantir a produtividade da reunião, segue-se o cronograma reverso:<br>
+1. <strong>D-10 (10 dias antes)</strong>: APO encerra a coleta de dados do trimestre.<br>
+2. <strong>D-7</strong>: APO envia o <strong>Relatório de Farol Preliminar</strong> aos ODS.<br>
+3. <strong>D-3</strong>: ODSs com indicadores em <strong>VERMELHO</strong> ou <strong>AMARELO</strong> devem enviar à APO os slides de justificativa e proposta de correção (Plano de Contramedida).</p>
+<p><em>Obs: Indicadores Verdes não demandam apresentação na RME.</em><br>
+4. <strong>D-1</strong>: APO envia o material consolidado para o Alto Comando.</p>
+<h4 id="413-din%C3%A2mica-da-pauta-tempo-estimado-at%C3%A9-2h"><strong>4.1.3. Dinâmica da Pauta (Tempo estimado: até 2h)</strong></h4>
+<p>A reunião deve ser objetiva e focada na solução de problemas.</p>
+<ol>
+<li><strong>Abertura Institucional (10 min)</strong>:
+<ul>
+<li>Contexto do Comando-Geral ou Subcomando / Ch EMG.</li>
+</ul>
+</li>
+<li><strong>Visão Geral do Desempenho (20 min)</strong>:
+<ul>
+<li>Apresentação do &quot;Painel de Bordo&quot; pela APO.</li>
+<li>Destaques positivos (Reconhecimento de mérito).</li>
+</ul>
+</li>
+<li><strong>Feedback e Tratamento de Desvios (60 min)</strong>:
+<ul>
+<li>Apresentação <strong>exclusiva dos ODS com metas não atingidas</strong>.</li>
+<li>Foco na apresentação da <strong>Causa Raiz</strong> e do <strong>Plano de Ação Corretiva</strong>.</li>
+<li><em>obs:</em> Não se discute o &quot;que&quot; (o dado), discute-se o &quot;como&quot; (a solução).*</li>
+</ul>
+</li>
+<li><strong>Monitoramento de Riscos (20 min)</strong>:
+<ul>
+<li>Revisão dos riscos críticos (Matriz de Riscos Institucionais).</li>
+<li>Verificação da efetividade das medidas mitigadoras.</li>
+</ul>
+</li>
+<li><strong>Deliberações e Encerramento (20 min)</strong>:
+<ul>
+<li>Aprovação dos Planos de Contramedida.</li>
+<li>Decisões de alocação de recursos ou desbloqueio de travas administrativas.</li>
+<li>Palavras finais do Comando.</li>
+</ul>
+</li>
+</ol>
+<h4 id="414-p%C3%B3s-rme"><strong>4.1.4. Pós-RME</strong></h4>
+<ul>
+<li><strong>Ata de Reunião</strong>: A APO lavrará a ata decisória, registrando apenas as decisões tomadas e os prazos repactuados.</li>
+<li><strong>Monitoramento de Pendências</strong>: As ações corretivas aprovadas entram imediatamente no painel de monitoramento da APO para acompanhamento mensal.</li>
+</ul>
+<h3 id="42-relat%C3%B3rios-de-gest%C3%A3o"><strong>4.2. Relatórios de Gestão</strong></h3>
+<p>A instrumentação do monitoramento se dá via:</p>
+<ul>
+<li><strong>Relatório de Farol (Trimestral)</strong>: Informativo executivo simplificado para o Comando, Subcomando/Ch EMG e ODS, alertando sobre prazos e entregas críticas.</li>
+<li><strong>Relatório de Avaliação Estratégica (Anual)</strong>: Documento robusto consolidando o desempenho do ano, servindo de base para o Relatório de Gestão e prestação de contas aos órgãos de controle.</li>
+</ul>
+<h3 id="43-divulga%C3%A7%C3%A3o-e-transpar%C3%AAncia"><strong>4.3. Divulgação e Transparência</strong></h3>
+<h2 id="em-conformidade-com-o-plano-de-comunica%C3%A7%C3%A3o-anexo-%C3%BAnico-do-plano-de-implementa%C3%A7%C3%A3o-os-resultados-monitorados-devem-ser-publicizados-para-a-tropa-boletim-geral-ostensivo-bgo-publica%C3%A7%C3%A3o-das-atas-das-rmes-e-do-extrato-de-desempenho-trimestral-intranet--mural-afixa%C3%A7%C3%A3o-do-%22painel-de-bordo%22-farol-atualizado-nas-diretorias-objetivo-garantir-que-cada-bombeiro-militar-saiba-como-o-desempenho-do-seu-setor-impacta-a-estrat%C3%A9gia-global">Em conformidade com o <em>Plano de Comunicação</em> (Anexo Único do Plano de Implementação), os resultados monitorados devem ser publicizados para a tropa:<br>
+* <strong>Boletim Geral Ostensivo (BGO)</strong>: Publicação das Atas das RMEs e do Extrato de Desempenho Trimestral.<br>
+* <strong>Intranet / Mural</strong>: Afixação do &quot;Painel de Bordo&quot; (Farol) atualizado nas Diretorias.<br>
+* <strong>Objetivo</strong>: Garantir que cada bombeiro militar saiba como o desempenho do seu setor impacta a estratégia global.</h2>
+<h2 id=""></h2>
+<h2 id="5-accountability-e-gest%C3%A3o-de-desvios"><strong>5. ACCOUNTABILITY E GESTÃO DE DESVIOS</strong></h2>
+<p>O rigor no cumprimento institucional é equilibrado por uma abordagem educativa, visando a consolidação da cultura de planejamento.</p>
+<h3 id="51-filosofia-de-responsabiliza%C3%A7%C3%A3o"><strong>5.1. Filosofia de Responsabilização</strong></h3>
+<p>O primeiro ciclo de monitoramento (2025-2026) adota uma <strong>abordagem educativa e colaborativa</strong>, priorizando o treinamento e a identificação de gargalos estruturais em detrimento de medidas punitivas imediatas.</p>
+<h3 id="52-tratamento-de-indicadores-em-farol-vermelho"><strong>5.2. Tratamento de Indicadores em Farol Vermelho</strong></h3>
+<p>Quando um indicador estratégico apresentar desempenho crítico (🔴 Farol Vermelho), o setor responsável deverá:</p>
+<ol>
+<li><strong>Elaborar Justificativa Técnica</strong> no prazo de 15 dias úteis via <strong>SEI</strong>, endereçada à APO, contendo:
+<ul>
+<li>Diagnóstico das causas raiz do desvio;</li>
+<li>Plano de Contramedida (Anexo III) com cronograma de recuperação;</li>
+<li>Solicitação de recursos ou suporte específico, se necessário.</li>
+</ul>
+</li>
+<li><strong>Apresentar o Plano na RME subsequente</strong> para validação e pactuação com o Estado-Maior Geral.</li>
+</ol>
+<h3 id="53-compet%C3%AAncia-para-avalia%C3%A7%C3%A3o-de-responsabilidade"><strong>5.3. Competência para Avaliação de Responsabilidade</strong></h3>
+<p>Nos casos de <strong>descumprimento reiterado</strong> (indicador em vermelho por 3 trimestres consecutivos) ou <strong>omissão injustificada de informações</strong>, a APO encaminhará relatório ao <strong>Estado-Maior Geral</strong> para:</p>
+<ul>
+<li>Avaliação da responsabilidade administrativa do dirigente setorial;</li>
+<li>Instauração de procedimento disciplinar, se cabível, conforme regulamento vigente.</li>
+</ul>
+<h3 id="54-solicita%C3%A7%C3%A3o-de-adiamento-de-prazo"><strong>5.4. Solicitação de Adiamento de Prazo</strong></h3>
+<p>O pedido de prorrogação é medida excepcional. A Diretoria deverá solicitar via <strong>SEI</strong> ao Gabinete do Comando-Geral, instruindo o processo com a viabilidade da prorrogação e a solicitação do novo prazo. Este documento será apreciado pela <strong>APO</strong>, que emitirá parecer técnico antes da deliberação do Comando.</p>
+<h2 id="6-refer%C3%AAncias"><strong>6. REFERÊNCIAS</strong></h2>
+<ol>
+<li><strong>BRASIL. Presidência da República.</strong> <em>Manual de Redação da Presidência da República</em>. 3. ed. Brasília, 2018.</li>
+<li><strong>KAPLAN, Robert S.; NORTON, David P.</strong> <em>A execução estratégica: o prêmio Balanced Scorecard</em>. Rio de Janeiro: Elsevier, 2008.</li>
+<li><strong>ALAGOAS. Corpo de Bombeiros Militar.</strong> <em>Portaria CBMAL nº 178/2024</em>. Define as atribuições dos órgãos de direção setorial e unidades organizacionais.</li>
+<li><strong>ALAGOAS. Corpo de Bombeiros Militar.</strong> <em>Plano Estratégico CBMAL 2025-2029</em>. Maceió-AL, 2025.</li>
+<li><strong>ALAGOAS. Corpo de Bombeiros Militar.</strong> <em>Plano de Implementação da Estratégia 2025-2029</em>. Maceió-AL, 2025.</li>
+<li><strong>TORRES, Teresa.</strong> <em>Continuous Discovery Habits</em>. 2021. (Princípios aplicados ao monitoramento contínuo).</li>
+<li><strong>DOERR, John.</strong> <em>Avalie o que importa: Como o Google, a Bono Vox e a Fundação Gates sacudiram o mundo com os OKRs</em>. Rio de Janeiro: Alta Books, 2019.</li>
+<li><strong>ALAGOAS. Corpo de Bombeiros Militar.</strong> <em>Relatório da Avaliação da Estratégia 2020-2024</em>. Maceió-AL, 2024.</li>
+<li><strong>ALAGOAS. Corpo de Bombeiros Militar.</strong> <em>Caderno de Indicadores Estratégicos (Ciclo anterior)</em>. Maceió-AL, 2020.</li>
+</ol>
+<h2 id="anexos"><strong>ANEXOS</strong></h2>
+<h3 id="anexo-i---modelo-de-ficha-t%C3%A9cnica-do-indicador"><strong>Anexo I - Modelo de Ficha Técnica do Indicador</strong></h3>
+<table>
+<thead>
+<tr>
+<th style="text-align:left">Campo</th>
+<th style="text-align:left">Descrição / Exemplo</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left"><strong>Nome do Indicador</strong></td>
+<td style="text-align:left"><em>Ex: Tempo Resposta Operacional (TRO)</em></td>
+</tr>
+<tr>
+<td style="text-align:left"><strong>Sigla</strong></td>
+<td style="text-align:left"><em>TRO</em></td>
+</tr>
+<tr>
+<td style="text-align:left"><strong>Objetivo Estratégico Vinculado</strong></td>
+<td style="text-align:left"><em>Ex: OE.02 - Aperfeiçoar a Gestão Operacional</em></td>
+</tr>
+<tr>
+<td style="text-align:left"><strong>Definição</strong></td>
+<td style="text-align:left"><em>Tempo decorrido entre o acionamento via 193 e a chegada da viatura ao local.</em></td>
+</tr>
+<tr>
+<td style="text-align:left"><strong>Fórmula de Cálculo</strong></td>
+<td style="text-align:left">(Hora Chegada no Local - Hora Despacho) / Total de Ocorrências</td>
+</tr>
+<tr>
+<td style="text-align:left"><strong>Unidade de Medida</strong></td>
+<td style="text-align:left"><em>Minutos</em></td>
+</tr>
+<tr>
+<td style="text-align:left"><strong>Frequência de Medição</strong></td>
+<td style="text-align:left"><em>Mensal</em></td>
+</tr>
+<tr>
+<td style="text-align:left"><strong>Fonte de Dados</strong></td>
+<td style="text-align:left"><em>Fênix / Relatório de Ocorrências</em></td>
+</tr>
+<tr>
+<td style="text-align:left"><strong>Responsável (Setor/Cargo)</strong></td>
+<td style="text-align:left"><em>Diretoria Operacional (DOP) / Chefe da Seção de Estatística</em></td>
+</tr>
+<tr>
+<td style="text-align:left"><strong>Linha de Base (Ano Anterior)</strong></td>
+<td style="text-align:left"><em>Ex: 12 min</em></td>
+</tr>
+<tr>
+<td style="text-align:left"><strong>Meta (Ano Corrente)</strong></td>
+<td style="text-align:left"><em>Ex: &lt; 10 min</em></td>
+</tr>
+<tr>
+<td style="text-align:left"><strong>Polaridade</strong></td>
+<td style="text-align:left">( ) Quanto Maior, Melhor (x) Quanto Menor, Melhor</td>
+</tr>
+<tr>
+<td style="text-align:left"><strong>Faixas de Desempenho (Farol)</strong></td>
+<td style="text-align:left">🟢 <strong>Verde</strong>: ≤ 10 min 🟡 <strong>Amarelo</strong>: 10,1 a 12 min 🔴 <strong>Vermelho</strong>: &gt; 12 min</td>
+</tr>
+<tr>
+<td style="text-align:left"><strong>Observações</strong></td>
+<td style="text-align:left"><em>Excluem-se ocorrências de trotes ou canceladas antes da saída.</em></td>
+</tr>
+</tbody>
+</table>
+<h3 id=""></h3>
+<h3 id=""></h3>
+<h3 id="anexo-ii---tabela-de-refer%C3%AAncia-das-rmes-ciclo-padr%C3%A3o"><strong>Anexo II - Tabela de Referência das RMEs (Ciclo Padrão)</strong></h3>
+<p>A data exata será definida em Boletim Geral, mas o ciclo de referência segue o padrão abaixo para previsibilidade das Diretorias:</p>
+<table>
+<thead>
+<tr>
+<th style="text-align:center">Reunião</th>
+<th style="text-align:center">Fatos Geradores (Trimestre)</th>
+<th style="text-align:center">Data Limite (Previsão)</th>
+<th style="text-align:center">Escopo Principal</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center"><strong>1ª RME</strong></td>
+<td style="text-align:center">Jan, Fev, Mar (1º Trim)</td>
+<td style="text-align:center"><strong>2ª Quinzena de Maio</strong></td>
+<td style="text-align:center">Avaliação inicial do ano.</td>
+</tr>
+<tr>
+<td style="text-align:center"><strong>2ª RME</strong></td>
+<td style="text-align:center">Abr, Mai, Jun (2º Trim)</td>
+<td style="text-align:center"><strong>2ª Quinzena de Agosto</strong></td>
+<td style="text-align:center">Correção de meio de ciclo.</td>
+</tr>
+<tr>
+<td style="text-align:center"><strong>3ª RME</strong></td>
+<td style="text-align:center">Jul, Ago, Set (3º Trim)</td>
+<td style="text-align:center"><strong>2ª Quinzena de Novembro</strong></td>
+<td style="text-align:center">Reta final de execução.</td>
+</tr>
+<tr>
+<td style="text-align:center"><strong>4ª RME</strong></td>
+<td style="text-align:center">Out, Nov, Dez (4º Trim)</td>
+<td style="text-align:center"><strong>2ª Quinzena de Fevereiro</strong></td>
+<td style="text-align:center">Encerramento do exercício (Balanço Anual).</td>
+</tr>
+</tbody>
+</table>
+<h3 id=""></h3>
+<h3 id="anexo-iii---modelo-de-plano-de-contramedida-pcm"><strong>Anexo III - Modelo de Plano de Contramedida (PCM)</strong></h3>
+<p>Deve ser preenchido por todo ODS que apresentar indicador com desempenho <strong>VERMELHO</strong> ou <strong>AMARELO</strong> persistente.</p>
+<table>
+<thead>
+<tr>
+<th style="text-align:left">Cabeçalho</th>
+<th style="text-align:left"></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left"><strong>Setor Responsável</strong></td>
+<td style="text-align:left"><em>Ex: Diretoria de Saúde</em></td>
+</tr>
+<tr>
+<td style="text-align:left"><strong>Indicador Afetado</strong></td>
+<td style="text-align:left"><em>Ex: Tempo de Espera por Junta Médica</em></td>
+</tr>
+<tr>
+<td style="text-align:left"><strong>Meta / Realizado</strong></td>
+<td style="text-align:left"><em>Meta: 15 dias / Realizado: 45 dias</em></td>
+</tr>
+</tbody>
+</table>
+<p><strong>Análise de Causa Raiz (5 Porquês):</strong><br>
+1. Por que a meta não foi atingida? <em>R: Falta de médicos.</em><br>
+2. Por que faltam médicos? <em>R: Licenças médicas e aposentadorias.</em><br>
+3. Por que não houve reposição? <em>R: Concurso travado.</em><br>
+4. Por que o concurso está travado? <em>R: Restrições orçamentárias e morosidade no fluxo administrativo externo (SEPLAG).</em><br>
+5. <strong>Causa Raiz Validada</strong>: <em>Dificuldade estrutural de reposição de pessoal especializado.</em></p>
+<p><strong>Plano de Ação Corretiva:</strong></p>
+<table>
+<thead>
+<tr>
+<th style="text-align:center">O Que (Ação)</th>
+<th style="text-align:center">Quem (Responsável)</th>
+<th style="text-align:center">Quando (Prazo)</th>
+<th style="text-align:center">Como (Recurso)</th>
+<th style="text-align:center">Status</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center"><em>Solicitar credenciamento de clínicas externas</em></td>
+<td style="text-align:center"><em>Dir. Saúde</em></td>
+<td style="text-align:center"><em>30/Jun</em></td>
+<td style="text-align:center"><em>Processo SEI nº...</em></td>
+<td style="text-align:center"><em>A Iniciar</em></td>
+</tr>
+<tr>
+<td style="text-align:center"><em>Realizar mutirão de fim de semana</em></td>
+<td style="text-align:center"><em>Ch Juntas</em></td>
+<td style="text-align:center"><em>15/Mai</em></td>
+<td style="text-align:center"><em>Escala Extra</em></td>
+<td style="text-align:center"><em>Em Andamento</em></td>
+</tr>
+</tbody>
+</table>
+<hr>
+<h3 id="anexo-iv---estrutura-do-relat%C3%B3rio-de-farol-bgo"><strong>Anexo IV - Estrutura do Relatório de Farol (BGO)</strong></h3>
+<p>Modelo de extrato executivo para publicação em Boletim Geral Ostensivo (Transparência).</p>
+<p><strong>EXTRATO DE DESEMPENHO ESTRATÉGICO - [TRIMESTRE/ANO]</strong></p>
+<p><strong>1. Resumo do Período</strong><br>
+O CBMAL atingiu <strong>X%</strong> das metas previstas para o período. Destaque para a redução do tempo resposta e aumento das vistorias.</p>
+<p><strong>2. Painel de Indicadores (Farol)</strong></p>
+<table>
+<thead>
+<tr>
+<th style="text-align:center">Objetivo Estratégico</th>
+<th style="text-align:center">Indicador</th>
+<th style="text-align:center">Meta</th>
+<th style="text-align:center">Realizado</th>
+<th style="text-align:center">Farol</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center"><em>Salvar Vidas</em></td>
+<td style="text-align:center"><em>Tempo Resposta</em></td>
+<td style="text-align:center"><em>&lt; 12 min</em></td>
+<td style="text-align:center"><em>11 min</em></td>
+<td style="text-align:center">🟢</td>
+</tr>
+<tr>
+<td style="text-align:center"><em>Reduzir Riscos</em></td>
+<td style="text-align:center"><em>Vistorias Técnicas</em></td>
+<td style="text-align:center"><em>2.000</em></td>
+<td style="text-align:center"><em>1.500</em></td>
+<td style="text-align:center">🔴</td>
+</tr>
+<tr>
+<td style="text-align:center"><em>Valorizar Tropa</em></td>
+<td style="text-align:center"><em>Satisfação Interna</em></td>
+<td style="text-align:center"><em>Net Promoter</em></td>
+<td style="text-align:center"><em>8.5</em></td>
+<td style="text-align:center">🟡</td>
+</tr>
+</tbody>
+</table>
+<h2 id="3-delibera%C3%A7%C3%B5es-da-rmeo-alto-comando-determinou-a-abertura-de-plano-de-contramedida-para-a-diretoria-de-atividades-t%C3%A9cnicas-visando-regularizar-o-passivo-de-vistorias-at%C3%A9-o-pr%C3%B3ximo-trimestre"><strong>3. Deliberações da RME</strong><br>
+O Alto Comando determinou a abertura de Plano de Contramedida para a <em>Diretoria de Atividades Técnicas</em> visando regularizar o passivo de vistorias até o próximo trimestre.</h2>
+<h3 id="anexo-v---modelo-de-ata-de-rme"><strong>Anexo V - Modelo de Ata de RME</strong></h3>
+<p><strong>ATA DA [Nº]ª REUNIÃO DE MONITORAMENTO ESTRATÉGICO</strong></p>
+<p><strong>Data</strong>: DD/MM/AAAA | <strong>Local</strong>: Sala de Situação QCG | <strong>Horário</strong>: 09h00 - 11h00</p>
+<p><strong>Participantes</strong>:<br>
+* Cel Cmt Geral (Presidente)<br>
+* Cel Subcmt Geral /Ch EMG<br>
+* (Lista de Diretores Presentes)</p>
+<p><strong>Pauta 1: Apresentação de Resultados</strong><br>
+A APO apresentou o desempenho global de <strong>85%</strong>.</p>
+<p><strong>Pauta 2: Monitoramento de Riscos</strong><br>
+Foi alertado sobre o risco orçamentário para aquisição de viaturas.</p>
+<p><strong>Pauta 3: Deliberações (Decisões Tomadas)</strong><br>
+1. <strong>APROVADO</strong> o Plano de Contramedida da Diretoria de Ensino.<br>
+2. <strong>DETERMINADO</strong> que a DAL apresente estudo de viabilidade para nova licitação em 15 dias.<br>
+3. <strong>REPACTUADA</strong> a meta do indicador de &quot;Inovação&quot; para o 2º semestre, devido a atraso tecnológico.</p>
+<p><strong>Encerramento</strong>: Nada mais havendo a tratar, lavra-se a presente ata.</p>
+<p><em>(Assinaturas Digitais via SEI)</em></p>
+
+</body>
+</html>

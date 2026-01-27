@@ -1,6 +1,6 @@
 # PLANO DE MONITORAMENTO DA ESTRATÉGIA
 
-#  **2025-2029**
+# **2025-2029**
 
 # ---
 
@@ -74,8 +74,8 @@ A estrutura de governança do monitoramento define "quem faz o quê" no processo
 | **Oficial de Ligação** | *Coleta e Reporte* | Alimentar os indicadores setoriais e reportar o andamento das iniciativas (Planos de Ação) dentro dos prazos. |
 | **Diretores das ODS** | *Validação Setorial* | Validar a veracidade dos dados reportados pelo seu setor e justificar eventuais desvios de meta. |
 | **APO/CBMAL** | *Análise e Suporte* | Alimentar o SGE, auditar dados e realizar assessoramento "in loco" mensal às Diretorias e Oficiais de Ligação. |
-| **RME (Reunião)** | *Deliberação* | Discutir os problemas complexos (fórum tático-estratégico) e pactuar ações corretivas. |
-| **Alto Comando** | *Aprovação* | Homologar os resultados e decidir sobre mudanças de rota estratégica. |
+| **RME (Reunião)** | *Deliberação* | Fórum tático-estratégico para discussão de problemas complexos, pactuação de ações corretivas e alinhamento institucional. |
+| **Alto Comando / EMG** | *Validação Estratégica* | Presidido pelo Comandante-Geral, delibera sobre ajustes estratégicos, homologa resultados e valida planos de contramedida. |
 
 ### **2.2. Cadeia de Valor do Dado e Sistemas**
 
@@ -84,7 +84,17 @@ O fluxo de informação deve garantir a oficialidade e a integridade dos dados:
 1. **REGISTRO (Diretorias)**: As metas, iniciativas, indicadores e evidências devem ser anexados aos processos administrativos no **SEI** por cada Diretoria.  
 2. **SISTEMATIZAÇÃO (APO)**: A APO extrai as informações dos processos SEI e alimenta o **Sistema de Gestão Estratégica (SGE)** para monitoramento centralizado do avanço institucional.  
 3. **ANÁLISE (APO)**: Transformação do dado em informação estratégica (Cálculo de variações, tendências e farol).  
-4. **DECISÃO (RME)**: Conversão da inteligência em ação gerencial.
+4. **DECISÃO (RME)**: Conversão da inteligência em ação gerencial e deliberativa.
+
+### **2.3. Governança e Tomada de Decisão**
+
+O monitoramento e a avaliação dos indicadores estratégicos são conduzidos de forma **colaborativa e hierarquizada**, respeitando a linha de comando da corporação:
+
+* **Nível Operacional**: Os Órgãos de Direção Setorial (ODS) são responsáveis pela aferição, reporte e execução das metas.
+* **Nível Tático**: A Assessoria de Planejamento e Orçamento (APO) consolida os dados, analisa desvios e propõe contramedidas.
+* **Nível Estratégico**: O **Estado-Maior Geral**, sob a presidência do Comandante-Geral, delibera sobre ajustes estratégicos, aprovação de planos de contramedida e validação de revisões do Caderno.
+
+As Reuniões de Monitoramento Estratégico (RME) têm caráter **consultivo e deliberativo**, constituindo-se em fórum de governança para alinhamento institucional, sem prejuízo da autoridade decisória final do Comandante-Geral.
 
 ---
 
@@ -133,7 +143,7 @@ As RMEs são o fórum principal de governança. Não são reuniões de "leitura 
 Para garantir a produtividade da reunião, segue-se o cronograma reverso:  
 1\. **D-10 (10 dias antes)**: APO encerra a coleta de dados do trimestre.  
 2\. **D-7**: APO envia o **Relatório de Farol Preliminar** aos ODS.  
-3\. **D-3**: ODSs com indicadores em **VERMELHO** ou **AMARELO** devem enviar à APO os slides de justificativa e proposta de correção (Plano de Contramedida). 
+3\. **D-3**: ODSs com indicadores em **VERMELHO** ou **AMARELO** devem enviar à APO os slides de justificativa e proposta de correção (Plano de Contramedida).
 
 *Obs: Indicadores Verdes não demandam apresentação na RME.*  
 4\. **D-1**: APO envia o material consolidado para o Alto Comando.
@@ -179,19 +189,36 @@ Em conformidade com o *Plano de Comunicação* (Anexo Único do Plano de Impleme
 \* **Objetivo**: Garantir que cada bombeiro militar saiba como o desempenho do seu setor impacta a estratégia global.  
 ---
 
-## 
+##
 
-## **5\. AÇÕES CORRETIVAS E GESTÃO DE PRAZOS**
+## **5\. ACCOUNTABILITY E GESTÃO DE DESVIOS**
 
-O rigor no cumprimento de prazos é essencial para a credibilidade da estratégia.
+O rigor no cumprimento institucional é equilibrado por uma abordagem educativa, visando a consolidação da cultura de planejamento.
 
-### **5.1. Justificativa de Não Cumprimento**
+### **5.1. Filosofia de Responsabilização**  
 
-Caso o prazo da meta não seja atingido, a Diretoria responsável deverá apresentar justificativa formal no **prazo improrrogável de 15 (quinze) dias** após a data limite estabelecida no Plano de Gestão vigente. A justificativa deve conter a Causa Raiz e o Plano de Recuperação.
+O primeiro ciclo de monitoramento (2025-2026) adota uma **abordagem educativa e colaborativa**, priorizando o treinamento e a identificação de gargalos estruturais em detrimento de medidas punitivas imediatas.
 
-### **5.2. Solicitação de Adiamento de Prazo**
+### **5.2. Tratamento de Indicadores em Farol Vermelho**  
 
-O pedido de prorrogação é medida excepcional. A Diretoria deverá solicitar via **SEI** ao Gabinete do Comando-Geral, instruindo o processo com a viabilidade da prorrogação e a solicitação do novo prazo. Este documento será obrigatoriamente apreciado pela **APO**, que emitirá parecer técnico antes da deliberação do Comando.
+Quando um indicador estratégico apresentar desempenho crítico (🔴 Farol Vermelho), o setor responsável deverá:
+
+1. **Elaborar Justificativa Técnica** no prazo de 15 dias úteis via **SEI**, endereçada à APO, contendo:
+    * Diagnóstico das causas raiz do desvio;
+    * Plano de Contramedida (Anexo III) com cronograma de recuperação;
+    * Solicitação de recursos ou suporte específico, se necessário.
+2. **Apresentar o Plano na RME subsequente** para validação e pactuação com o Estado-Maior Geral.
+
+### **5.3. Competência para Avaliação de Responsabilidade**  
+
+Nos casos de **descumprimento reiterado** (indicador em vermelho por 3 trimestres consecutivos) ou **omissão injustificada de informações**, a APO encaminhará relatório ao **Estado-Maior Geral** para:
+
+* Avaliação da responsabilidade administrativa do dirigente setorial;
+* Instauração de procedimento disciplinar, se cabível, conforme regulamento vigente.
+
+### **5.4. Solicitação de Adiamento de Prazo**  
+
+O pedido de prorrogação é medida excepcional. A Diretoria deverá solicitar via **SEI** ao Gabinete do Comando-Geral, instruindo o processo com a viabilidade da prorrogação e a solicitação do novo prazo. Este documento será apreciado pela **APO**, que emitirá parecer técnico antes da deliberação do Comando.
 
 ## **6\. REFERÊNCIAS**
 
@@ -226,9 +253,9 @@ O pedido de prorrogação é medida excepcional. A Diretoria deverá solicitar v
 | **Faixas de Desempenho (Farol)** | 🟢 **Verde**: ≤ 10 min 🟡 **Amarelo**: 10,1 a 12 min 🔴 **Vermelho**: \> 12 min |
 | **Observações** | *Excluem-se ocorrências de trotes ou canceladas antes da saída.* |
 
-### 
+###
 
-### 
+###
 
 ### **Anexo II \- Tabela de Referência das RMEs (Ciclo Padrão)**
 
@@ -241,7 +268,7 @@ A data exata será definida em Boletim Geral, mas o ciclo de referência segue o
 | **3ª RME** | Jul, Ago, Set (3º Trim) | **2ª Quinzena de Novembro** | Reta final de execução. |
 | **4ª RME** | Out, Nov, Dez (4º Trim) | **2ª Quinzena de Fevereiro** | Encerramento do exercício (Balanço Anual). |
 
-### 
+###
 
 ### **Anexo III \- Modelo de Plano de Contramedida (PCM)**
 
@@ -315,8 +342,3 @@ Foi alertado sobre o risco orçamentário para aquisição de viaturas.
 **Encerramento**: Nada mais havendo a tratar, lavra-se a presente ata.
 
 *(Assinaturas Digitais via SEI)*
-
-## 🧠 Conexões Neurais (IA)
-- [[CADERNO DE INDICADORES ESTRATÉGICOS]] - *Instrumento complementar que detalha a métrica de cada KPI citado neste plano.*
-- [[Plano Estratégico CBMAL 2025-2029]] - *Documento mestre de onde derivam os Objetivos Estratégicos e a necessidade de monitoramento.*
-- [[CRONOGRAMA_DE_COLETA_INDICADORES_2026]] - *Operacionalização temporal das coletas definidas neste plano.*

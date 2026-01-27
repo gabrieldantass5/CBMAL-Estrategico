@@ -22,3 +22,6 @@ PyYAML==6.0.3
 # Suporte ao Windows/Sistema
 pywin32==311
 psutil==7.2.1
+
+# Transcrição de Áudio
+openai-whisper  # Transcrição de áudio via IA
