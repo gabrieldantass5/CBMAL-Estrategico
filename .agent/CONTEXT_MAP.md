@@ -56,5 +56,6 @@ Este arquivo serve como o mapa oficial da estrutura de diretórios para agentes 
 
 ## 🤖 Configuração do Agente (`.agent`)
 
+* **`GLOBAL_RULES.md`**: 🌐 Regras "pétreas" e instruções de automação (ex: consulta de processos SEI).
 * **`skills/`**: Habilidades especializadas (scripts e prompts).
 * **`workflows/`**: Instruções passo-a-passo para tarefas complexas.

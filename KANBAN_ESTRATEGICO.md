@@ -39,11 +39,14 @@ kanban-plugin: board
 - [ ] Aguardando Publicação do MGA
 - [ ] Assinatura Final dos Instrumentos (Ten Gabriel Dantas)
 - [ ] Publicação da Política Estratégica (BGO) ⏳
-- [ ] ⚠️ **Aprovação do Caderno de Indicadores v2.0**: Aguardando revisão de Tc Marcos Paulo.
+- [ ] ⚠️ **Aprovação do Caderno de Indicadores v2.1**: Enviado para Maj Macedo. Aguardando revisão de Tc Marcos Paulo e Maj Macedo. ⏳
+- [ ] ⚠️ **Plano de Monitoramento**: Enviado para Maj Macedo. Aguardando revisão. ⏳
 
 ## ✅ Concluído (Janeiro/2026)
 
 ### Missões cumpridas (Histórico do mês)
+
+- [x] **Memória da 4ª Reunião Ordinária do CONAGC (27/01)**: Ata processada e estruturada. ✅
 
 - [x] **Plano de Monitoramento v2.0 (27/01)**: Atualizado com Governança do Alto Comando, Accountability Gradual e novos KPIs de eficiência. ✅
 - [x] **Otimização Radical do Ecossistema (21/01)**: Redução de 15 para 5 workflows, criação de regras atômicas e consolidação de documentação. ✅
