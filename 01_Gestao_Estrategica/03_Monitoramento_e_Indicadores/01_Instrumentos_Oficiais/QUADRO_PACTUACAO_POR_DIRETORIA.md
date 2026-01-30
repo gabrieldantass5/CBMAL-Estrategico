@@ -5,6 +5,7 @@ Este documento contém a visão filtrada da Matriz de Rastreabilidade, organizad
 ---
 
 ## 1. DIRETORIA DE ATIVIDADES TÉCNICAS (DAT)
+
 **Processo SEI para Evidências:** `E:01203.0000011910/2025`
 
 | Código | Indicador | Freq. | Meses de Coleta | OE Vinculado |
@@ -12,12 +13,13 @@ Este documento contém a visão filtrada da Matriz de Rastreabilidade, organizad
 | **IE-01.01** | Taxa Atualização ITs | **A** | Jan | OE.01 |
 | **IE-01.02** | Demanda Reprimida Vistorias | **S** | Jan, Jul | OE.01 |
 | **IE-01.03** | Demanda Reprimida Análises | **S** | Jan, Jul | OE.01 |
-| **IE-01.04** | Perícias de Incêndio | **S** | Jan, Jul | OE.01 |
+| **IE-01.04** | Cobertura Perícias Obrigatórias | **S** | Jan, Jul | OE.01 |
 | **IT-01.05** | Doutrina de Perícia | **T** | Abr, Jul, Out, Jan | OE.01 |
 
 ---
 
 ## 2. COMANDO OPERACIONAL (COB / DOP / BSA)
+
 **Processo SEI para Evidências:** `E:01203.0000011917/2025`
 
 | Código | Indicador | Freq. | Meses de Coleta | OE Vinculado | Setor Específico |
@@ -31,6 +33,7 @@ Este documento contém a visão filtrada da Matriz de Rastreabilidade, organizad
 ---
 
 ## 3. DIRETORIA DE APOIO LOGÍSTICO (DAL)
+
 **Processo SEI para Evidências:** `E:01203.0000011920/2025`
 
 | Código | Indicador | Freq. | Meses de Coleta | OE Vinculado |
@@ -44,6 +47,7 @@ Este documento contém a visão filtrada da Matriz de Rastreabilidade, organizad
 ---
 
 ## 4. DIRETORIA DE PESSOAL (DP)
+
 **Processo SEI para Evidências:** `E:01203.0000011923/2025`
 
 | Código | Indicador | Freq. | Meses de Coleta | OE Vinculado |
@@ -55,17 +59,20 @@ Este documento contém a visão filtrada da Matriz de Rastreabilidade, organizad
 ---
 
 ## 5. DIRETORIA DE SAÚDE (DS / NSQVT)
+
 **Processos SEI:** `E:01203.0000011924/2025` (DS) \| `E:01203.0000011928/2025` (NSQVT)
 
 | Código | Indicador | Freq. | Meses de Coleta | OE Vinculado | Setor |
 |:---|:---|:---:|:---|:---|:---|
 | **IE-10.02** | Inspeção de Saúde | **A** | Jan | OE.10 | DS |
 | **IE-10.03** | Afastamentos Saúde | **M** | Todos os meses | OE.10 | DS |
+| **IE-09.04** | Resposta Assistência Social | **T** | Abr, Jul, Out, Jan | OE.09 | DS |
 | **IT-09.03** | Suporte Emocional (TEPT) | **T** | Abr, Jul, Out, Jan | OE.09 | NSQVT |
 
 ---
 
 ## 6. DIRETORIA DE ENSINO (DE / CTFID)
+
 **Processo SEI para Evidências:** `E:01203.0000011922/2025`
 
 | Código | Indicador | Freq. | Meses de Coleta | OE Vinculado | Setor |
@@ -80,6 +87,7 @@ Este documento contém a visão filtrada da Matriz de Rastreabilidade, organizad
 ---
 
 ## 7. ASCOM E SECRETARIA GERAL (SG / BANDA / OUVIDORIA)
+
 **Processos SEI:** `E:01203.0000011914/2025` (ASCOM) \| `E:01203.0000011929/2025` (SG)
 
 | Código | Indicador | Freq. | Meses de Coleta | Setor | OE |
@@ -90,10 +98,12 @@ Este documento contém a visão filtrada da Matriz de Rastreabilidade, organizad
 | **IE-07.03** | Escolas Atendidas | **A** | Jan | ASCOM | OE.07 |
 | **IE-06.03** | Apresentações Banda | **S** | Jan, Jul | SG/BANDA | OE.06 |
 | **IE-11.02** | Demandas Ouvidoria | **M** | Todos os meses | SG/OUVIDOR | OE.11 |
+| **IE-11.03** | Resposta Ouvidoria | **T** | Abr, Jul, Out, Jan | SG/OUVIDOR | OE.11 |
 
 ---
 
 ## 8. APO (GESTÃO, ARRECADAÇÃO E SOF)
+
 **Processo SEI para Evidências:** `E:01203.0000011912/2025`
 
 | Código | Indicador | Freq. | Meses de Coleta | OE Vinculado |
@@ -116,6 +126,7 @@ Este documento contém a visão filtrada da Matriz de Rastreabilidade, organizad
 ---
 
 ## 9. DTI E CORREGEDORIA
+
 **Processos SEI:** `E:01203.0000011925/2025` (DTI) \| `E:01203.0000011918/2025` (CORREG)
 
 | Código | Indicador | Freq. | Meses de Coleta | Setor |

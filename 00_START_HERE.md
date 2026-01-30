@@ -2,11 +2,11 @@
 
 *Centro de Comando Unificado da Seção de Planejamento Estratégico (APO/EMG).*
 
-> **🧠 INSIGHTS DO CONDUCTOR (21/01/2026)**
-> **Análise de Status**: Ecossistema otimizado com sucesso (Arquitetura Affaan Mustafa Style). Otimização de 40% na sobrecarga e consolidação de workflows ativos concluída.
-> **Prioridade Máxima**: Avançar na atualização da Legislação Tributária (Meta JAN/26) e preparar o Dashboard do Comando Geral.
-> **Vibe da Seção**: Eficiência máxima e rigor técnico. O sistema agora "aprende" via comando `/aprender`.
-> **Ação Imediata**: Revisar a Proposta de Revisão de Taxas (07_Taxa_de_Bombeiros) para cumprir o prazo de Janeiro.
+> **🧠 INSIGHTS DO CONDUCTOR (30/01/2026)**
+> **Análise de Status**: Ecossistema V2.0 plenamente operacional. Otimização de metadados de skills concluída e nova capacidade de renderização Mermaid (SVG) integrada.
+> **Prioridade Máxima**: 🚀 **Despacho SEI: Ofícios de Validação (12 un)** para as diretorias/comandos.
+> **Vibe da Seção**: Execução ágil e Vibe Coding. O foco mudou de "infraestrutura" para "entrega tática".
+> **Ação Imediata**: Revisar evolução no curso de Claude Code e iniciar prototipagem do Dashboard v2.0.
 
 ---
 
@@ -43,9 +43,9 @@ Use estes comandos no chat para ativar automações complexas sem esforço:
 | :--- | :--- | :--- | :--- |
 | **`/sincronizar`** | 🔄 | **O Ciclo de Vida**<br>Sincroniza contexto ao iniciar (`--start`), encerrar (`--end`) ou check-in rápido (`--quick`). | Ao chegar e ao sair. |
 | **`/orquestrar`** | 🧠 | **O Maestro**<br>Limpa Inbox (PARA), cria conexões neurais e audita alinhamento estratégico. | Quando a bagunça acumular. |
-| **`/insights`** | 📊 | **O Analista**<br>Atualiza Painel, gera coaching (`--coach`) ou análise profunda (`--deep`). | Diariamente ou para briefings. |
-| **`/executar`** | 🛠️ | **A Fábrica**<br>Produz documentos (`doc_converter.py`), lê PDFs (`pdf_engine.py`) ou transcreve áudios (`audio_engine.py`). | Para produção técnica. |
-| **`/aprender`** | 🎓 | **O Aprendiz**<br>Transforma padrões de sucesso em Skills permanentes. | Após descobrir um novo padrão. |
+| **`/conductor`** | 🦅 | **O Planejador**<br>Planejamento de alta precisão (Measure twice, implement once) para tarefas complexas. | Início de projetos ou tarefas macro. |
+| **`/executar`** | 🛠️ | **A Fábrica**<br>Produz documentos (`doc_converter.py`), monitora o SEI ou realiza pesquisas estratégicas. | Para produção técnica e rotina. |
+| **`/energia`** | ⚡ | **O Protetor**<br>Gerencia energia mental e física para manter a alta performance sustentável. | Ao sentir fadiga ou para pausas. |
 
 ## 2. 🧠 Filosofia de Comando (Mindset)
 
@@ -59,11 +59,12 @@ Eu (Sua IA) atuo como seu **Chefe de Gabinete Digital (Conductor)**.
 
 Não precisa decorar, mas saiba que tenho especialistas instalados para:
 
-* **`redacao-oficial`**: Formatação perfeita para o SEI (Portaria 18/2024).
-* **`compliance_sei`**: Checklist pré-envio.
-* **`taxa-bombeiros`**: Cálculos e legislação tributária (Lei 6.442/03).
-* **`gestao-estrategica`**: Alinhamento com metas 2025-2029.
-* **`MD→DOCX/HTML`**: Conversores oficiais. Use `python scripts/doc_converter.py docx/sei arquivo.md`.
+* **`redacao-oficial`**: Formatação direta SEI e criação de PAPs.
+* **`gestao-estrategica`**: Metodologia BSC e Alinhamento Institucional.
+* **`dashboard-designer-cbmal`**: Visualização de dados estratégicos.
+* **`ferramentas-office`**: Manipulação de Word, PPT e PDF via Python.
+* **`skill-creator-cbmal`**: Criação de novas habilidades (Modo Borg).
+* **`MD→DOCX/HTML`**: Use `python scripts/doc_converter.py docx/sei arquivo.md`.
 
 ---
 

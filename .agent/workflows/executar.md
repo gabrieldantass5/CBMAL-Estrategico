@@ -45,6 +45,7 @@ Use: `/executar sei`
     * Identificar processos críticos (DTI, COB, DAT).
 
 **Comandos Disponíveis**:
+
 * `python scripts/sei_monitor.py` - Verifica novos processos
 * `python scripts/sei_monitor.py --login` - Faz login e salva sessão
 * `python scripts/sei_monitor.py --screenshot` - Screenshot da caixa
@@ -107,6 +108,7 @@ Use: `/executar web [Tarefa]`
     ```
 
 **Casos de Uso Comuns**:
+
 * **Screenshot**: `agent-browser open URL && agent-browser screenshot --full pagina.png`
 * **Formulário**: Identificar refs com `snapshot -i`, preencher com `fill`, enviar com `click`
 * **Extração**: `agent-browser get text ".classe" > dados.txt`
@@ -120,7 +122,7 @@ Use: `/executar docx` para o arquivo atual ou `/executar docx [caminho]`
     * Verificar a existência do arquivo `.md`.
 
 2. **Conversão Inteligente**:
-    * Executar `python "00_Scripts_Utilitarios\gerar_documento.py" "[caminho_do_arquivo.md]"`.
+    * Executar `python scripts/doc_converter.py docx "[caminho_do_arquivo.md]"`.
     * O script aplicará automaticamente o **Brasão CBMAL**, margens normatizadas (Portaria 18/2024), fonte Arial 12 e numeração de páginas.
 
 3. **Entrega**:

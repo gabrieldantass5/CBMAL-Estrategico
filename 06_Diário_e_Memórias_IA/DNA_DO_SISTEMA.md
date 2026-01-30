@@ -8,6 +8,12 @@ Este arquivo é a memória de longo prazo do Agente Conductor. Ele armazena deci
 
 | Data | Decisão | Contexto | Status |
 | :--- | :--- | :--- | :--- |
+| 29/01/2026 | **Democratização de IA no CBMAL** | Proposta aprovada para implementação de IA em 3 perfis (Comando, Gestão, Operacional). ROI 132%, investimento R$ 62k/ano. Documentos: Relatório Executivo, Plano de Implementação e Guia Prático. | Aprovado ✅ |
+| 29/01/2026 | **Otimização de Skills (Metadata)** | Atualizados metadados (YAML description) das 13 institutional skills para maior economia de tokens e precisão de gatilhos (triggers). | Finalizado ✅ |
+| 28/01/2026 | **Conductor v2.0 (2026)** | Refinado workflow `/conductor` com filosofia "Plan First", Context Docs obrigatórios e Protocolo STOP & THINK. | Finalizado ✅ |
+| 28/01/2026 | **Transcritor YouTube Local** | Criado script `youtube_transcriber.py` com `yt-dlp` (Android client) e Whisper local para transcrição sem custo de tokens. | Finalizado ✅ |
+| 28/01/2026 | **Dashboards Dinâmicos** | Iniciado projeto de visualização de dados estratégica (Remotion/HTML). Memória de contexto criada. | Em Aberto ⏳ |
+| 28/01/2026 | **Antigravity Customizations** | Aprendizado sobre Rules (Always On), Workflows e Skills. | Finalizado ✅ |
 | 27/01/2026 | **Plano Monitoramento v2.0** | Atualizado com Governança do Alto Comando, Accountability Gradual e novos KPIs de eficiência. | Finalizado ✅ |
 | 27/01/2026 | **Escola SEPA (CEPA)** | Não será realizado nenhum documento formal para esta demanda. Encaminhamento via rito operacional padrão. | Finalizado ✅ |
 | 27/01/2026 | **Despacho Política** | Política Estratégica despachada via SEI. Aguardando publicação em BGO. | Aguardando ⏳ |
@@ -47,6 +53,10 @@ Este arquivo é a memória de longo prazo do Agente Conductor. Ele armazena deci
 3. **Compacting**: Ao final da sessão, condensar o que foi aprendido e atualizar este arquivo.
 4. **Energy Management**: Deep Work deve ser respeitado como ativo protegido (blocos de 90min sem interrupção).
 5. **Periodicidade de Sync**: Sincronizar o `DNA_DO_SISTEMA.md` e o `KANBAN_ESTRATEGICO.md` **somente no final de cada sessão (dia)**, evitando atualizações fragmentadas após cada tarefa.
+6. **Context-Driven Development**: Documentação é parte do fluxo de desenvolvimento. Guidelines e padrões devem ser constantemente atualizados para melhorar a assertividade das LLMs.
+7. **RAG over Context Flooding**: Preferir técnicas de RAG (Retrieval-Augmented Generation) para reduzir contexto enviado às LLMs, evitando alucinações e custos excessivos.
+8. **MCPs como Padrão**: Usar Model Context Protocol (Anthropic) para integrar ferramentas externas (SEI, Jira, Confluence) de forma padronizada.
+9. **Agentes Multi-Especializados**: Criar agentes com contextos específicos (ex: Agente de Arquitetura, Agente de Integração Atlassian) para tarefas focadas.
 
 ---
-*Última atualização: 27/01/2026*
+*Última atualização: 29/01/2026*

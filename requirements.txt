@@ -23,5 +23,7 @@ PyYAML==6.0.3
 pywin32==311
 psutil==7.2.1
 
-# Transcrição de Áudio
+# Transcrição de Áudio e Vídeo
 openai-whisper  # Transcrição de áudio via IA
+yt-dlp          # Extração de áudio do YouTube
+imageio-ffmpeg  # Suporte ao binário do ffmpeg

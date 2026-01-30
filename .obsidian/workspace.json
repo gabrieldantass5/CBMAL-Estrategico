@@ -4,17 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "feb07fdc4056e954",
+        "id": "bda2fd202af05fad",
         "type": "tabs",
         "children": [
           {
-            "id": "a5325cb1090173dd",
+            "id": "bba3c780e7e7c20e",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "Nova aba"
+              "type": "pdf",
+              "state": {
+                "file": "01_Gestao_Estrategica/02_Politica_Institucional/00_REFERENCIAS_LEGAIS/LEI DELEGADA Nº 48, DE 30 DE DEZEMBRO DE 2022 - INSTITUI O MODELO DE GESTÃO DA.pdf"
+              },
+              "icon": "lucide-file-text",
+              "title": "LEI DELEGADA Nº 48, DE 30 DE DEZEMBRO DE 2022 - INSTITUI O MODELO DE GESTÃO DA"
             }
           }
         ]
@@ -74,301 +76,14 @@
       }
     ],
     "direction": "horizontal",
-    "width": 371.5
+    "width": 285.5
   },
   "right": {
     "id": "0afd2f79d9d0a845",
     "type": "split",
-    "children": [
-      {
-        "id": "e2c1a0e77d67073c",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "557388c3e83ca25a",
-            "type": "leaf",
-            "state": {
-              "type": "backlink",
-              "state": {
-                "collapseAll": false,
-                "extraContext": false,
-                "sortOrder": "alphabetical",
-                "showSearch": false,
-                "searchQuery": "",
-                "backlinkCollapsed": false,
-                "unlinkedCollapsed": true
-              },
-              "icon": "links-coming-in",
-              "title": "Backlinks"
-            }
-          },
-          {
-            "id": "7ababd6591a5668f",
-            "type": "leaf",
-            "state": {
-              "type": "outgoing-link",
-              "state": {
-                "file": "PAINEL_DE_CONTROLE.md",
-                "linksCollapsed": false,
-                "unlinkedCollapsed": true
-              },
-              "icon": "links-going-out",
-              "title": "Links externos de PAINEL_DE_CONTROLE"
-            }
-          },
-          {
-            "id": "33ac17ec667dc9a6",
-            "type": "leaf",
-            "state": {
-              "type": "tag",
-              "state": {
-                "sortOrder": "frequency",
-                "useHierarchy": true,
-                "showSearch": false,
-                "searchQuery": ""
-              },
-              "icon": "lucide-tags",
-              "title": "Tags"
-            }
-          },
-          {
-            "id": "bf4f93169b8c59f7",
-            "type": "leaf",
-            "state": {
-              "type": "all-properties",
-              "state": {
-                "sortOrder": "frequency",
-                "showSearch": false,
-                "searchQuery": ""
-              },
-              "icon": "lucide-archive",
-              "title": "All properties"
-            }
-          },
-          {
-            "id": "2b4df86d7db71b71",
-            "type": "leaf",
-            "state": {
-              "type": "outline",
-              "state": {
-                "file": "PAINEL_DE_CONTROLE.md",
-                "followCursor": false,
-                "showSearch": false,
-                "searchQuery": ""
-              },
-              "icon": "lucide-list",
-              "title": "Índice de PAINEL_DE_CONTROLE"
-            }
-          },
-          {
-            "id": "96542c39e2fee09e",
-            "type": "leaf",
-            "state": {
-              "type": "file-properties",
-              "state": {},
-              "icon": "lucide-info",
-              "title": "File properties"
-            }
-          },
-          {
-            "id": "846c5f610c72860a",
-            "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "terminal:terminal",
-              "state": {
-                "terminal:terminal": {
-                  "cwd": "C:\\Users\\D_A_N\\OneDrive\\Desktop\\Planejamento Estratégico - CBMAL",
-                  "focus": false,
-                  "profile": {
-                    "args": [],
-                    "executable": "C:\\Windows\\System32\\cmd.exe",
-                    "followTheme": true,
-                    "name": "",
-                    "platforms": {
-                      "win32": true
-                    },
-                    "pythonExecutable": "python3",
-                    "restoreHistory": false,
-                    "rightClickAction": "copyPaste",
-                    "successExitCodes": [
-                      "0",
-                      "SIGINT",
-                      "SIGTERM"
-                    ],
-                    "terminalOptions": {
-                      "documentOverride": null
-                    },
-                    "type": "integrated",
-                    "useWin32Conhost": true
-                  },
-                  "serial": null
-                }
-              },
-              "pinned": true,
-              "icon": "terminal",
-              "title": "Terminal: cmd"
-            }
-          },
-          {
-            "id": "8e2a76570e577bef",
-            "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "terminal:terminal",
-              "state": {
-                "terminal:terminal": {
-                  "cwd": "C:\\Users\\D_A_N\\OneDrive\\Desktop\\Planejamento Estratégico - CBMAL",
-                  "focus": false,
-                  "profile": {
-                    "followTheme": true,
-                    "name": "",
-                    "restoreHistory": false,
-                    "rightClickAction": "copyPaste",
-                    "successExitCodes": [
-                      "0",
-                      "SIGINT",
-                      "SIGTERM"
-                    ],
-                    "terminalOptions": {
-                      "documentOverride": null
-                    },
-                    "type": "developerConsole"
-                  },
-                  "serial": null
-                }
-              },
-              "pinned": true,
-              "icon": "terminal",
-              "title": "Terminal: Developer console"
-            }
-          },
-          {
-            "id": "39fc7c84a63f1d3b",
-            "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "terminal:terminal",
-              "state": {
-                "terminal:terminal": {
-                  "cwd": "C:\\Users\\D_A_N\\OneDrive\\Desktop\\Planejamento Estratégico - CBMAL",
-                  "focus": false,
-                  "profile": {
-                    "args": [],
-                    "executable": "C:\\Windows\\System32\\cmd.exe",
-                    "followTheme": true,
-                    "name": "",
-                    "platforms": {
-                      "win32": true
-                    },
-                    "pythonExecutable": "python3",
-                    "restoreHistory": false,
-                    "rightClickAction": "copyPaste",
-                    "successExitCodes": [
-                      "0",
-                      "SIGINT",
-                      "SIGTERM"
-                    ],
-                    "terminalOptions": {
-                      "documentOverride": null
-                    },
-                    "type": "integrated",
-                    "useWin32Conhost": true
-                  },
-                  "serial": null
-                }
-              },
-              "pinned": true,
-              "icon": "terminal",
-              "title": "Terminal: cmd"
-            }
-          },
-          {
-            "id": "fc5b2d7da3f45f50",
-            "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "terminal:terminal",
-              "state": {
-                "terminal:terminal": {
-                  "cwd": "C:\\Users\\D_A_N\\OneDrive\\Desktop\\Planejamento Estratégico - CBMAL\\01_Gestao_Estrategica\\03_Monitoramento_e_Indicadores\\03_Processos_BPMN",
-                  "focus": false,
-                  "profile": {
-                    "args": [],
-                    "executable": "C:\\Windows\\System32\\cmd.exe",
-                    "followTheme": true,
-                    "name": "",
-                    "platforms": {
-                      "win32": true
-                    },
-                    "pythonExecutable": "python3",
-                    "restoreHistory": false,
-                    "rightClickAction": "copyPaste",
-                    "successExitCodes": [
-                      "0",
-                      "SIGINT",
-                      "SIGTERM"
-                    ],
-                    "terminalOptions": {
-                      "documentOverride": null
-                    },
-                    "type": "integrated",
-                    "useWin32Conhost": true
-                  },
-                  "serial": null
-                }
-              },
-              "pinned": true,
-              "icon": "terminal",
-              "title": "Terminal: cmd"
-            }
-          },
-          {
-            "id": "2db69b4470f99b48",
-            "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "terminal:terminal",
-              "state": {
-                "terminal:terminal": {
-                  "cwd": "C:\\Users\\D_A_N\\OneDrive\\Desktop\\Planejamento Estratégico - CBMAL\\01_Gestao_Estrategica\\03_Monitoramento_e_Indicadores\\03_Processos_BPMN",
-                  "focus": false,
-                  "profile": {
-                    "args": [],
-                    "executable": "C:\\Windows\\System32\\cmd.exe",
-                    "followTheme": true,
-                    "name": "",
-                    "platforms": {
-                      "win32": true
-                    },
-                    "pythonExecutable": "python3",
-                    "restoreHistory": false,
-                    "rightClickAction": "copyPaste",
-                    "successExitCodes": [
-                      "0",
-                      "SIGINT",
-                      "SIGTERM"
-                    ],
-                    "terminalOptions": {
-                      "documentOverride": null
-                    },
-                    "type": "integrated",
-                    "useWin32Conhost": true
-                  },
-                  "serial": null
-                }
-              },
-              "pinned": true,
-              "icon": "terminal",
-              "title": "Terminal: ◇  Ready (03_Processos_BPMN)"
-            }
-          }
-        ],
-        "currentTab": 10
-      }
-    ],
+    "children": [],
     "direction": "horizontal",
-    "width": 539.5,
+    "width": 570.5,
     "collapsed": true
   },
   "left-ribbon": {
@@ -386,45 +101,44 @@
       "terminal:Open terminal": false
     }
   },
-  "active": "a5325cb1090173dd",
+  "active": "bba3c780e7e7c20e",
   "lastOpenFiles": [
-    "01_Gestao_Estrategica/03_Monitoramento_e_Indicadores/01_Instrumentos_Oficiais/CADERNO_DE_INDICADORES_ESTRATEGICOS_v2.0.docx",
+    "01_Gestao_Estrategica/02_Politica_Institucional/00_REFERENCIAS_LEGAIS/LEI DELEGADA Nº 48, DE 30 DE DEZEMBRO DE 2022 - INSTITUI O MODELO DE GESTÃO DA.pdf",
+    "99_Base_de_Conhecimento/00_Legislacoes/PORTARIA_18_2024_REDACAO_OFICIAL.md",
+    "99_Base_de_Conhecimento/00_Legislacoes/MANUAL_IDENTIDADE_VISUAL_2022.md",
+    "99_Base_de_Conhecimento/00_Legislacoes",
+    "01_Gestao_Estrategica/01_Planejamento_2025-2029/Plano Setorial/PLANO SETORIAL AJUDÂNCIA 2020-2021_revisado-compactado.pdf",
+    "01_Gestao_Estrategica/000_INDICE_ESTRATEGICO.md",
+    "99_Base_de_Conhecimento/00_FONTE_DE_VERDADE_PROVA_DOS_NOVE/MANUAL_IDENTIDADE_VISUAL_2022.md",
+    "99_Base_de_Conhecimento/00_FONTE_DE_VERDADE_PROVA_DOS_NOVE/PORTARIA_18_2024_REDACAO_OFICIAL.md",
+    "99_Base_de_Conhecimento/00_FONTE_DE_VERDADE_PROVA_DOS_NOVE",
+    "02_Escritorio_Projetos/05_Projetos_Prioritarios/01_PPT_Generator_CBMAL/Relatorio_Auditoria_PPT.md",
+    "Inbox/teste_tabela.md",
+    "KANBAN_ESTRATEGICO.md",
+    "Inbox/despacho_ia_slides.md",
+    "Inbox/despacho_ia_slides.pptx",
+    "01_Gestao_Estrategica/03_Monitoramento_e_Indicadores/04_Relatorios_e_Despachos/01_Auditorias/Auditoria_Caderno_v2.0.md",
+    "01_Gestao_Estrategica/03_Monitoramento_e_Indicadores/01_Instrumentos_Oficiais/CADERNO_DE_INDICADORES_ESTRATEGICOS_v2.0.md",
+    "00_START_HERE.md",
+    "Inbox/teste_tabela.pptx",
+    "scripts/ppt_generator.py",
+    "scripts/templates_pptx",
+    "02_Escritorio_Projetos/05_Projetos_Prioritarios/01_PPT_Generator_CBMAL/plan.md",
+    "02_Escritorio_Projetos/05_Projetos_Prioritarios/01_PPT_Generator_CBMAL/product.md",
+    "02_Escritorio_Projetos/05_Projetos_Prioritarios/01_PPT_Generator_CBMAL",
+    "README.md",
+    "PAINEL_DE_CONTROLE.md",
+    "04_Normatizacao_e_Modelos/Relatorios/RELATORIO_TECNICO_ANALISE_FNSP_2026.md",
+    "backup_agent_architecture_20260127_192927",
+    "01_Gestao_Estrategica/03_Monitoramento_e_Indicadores/CRONOGRAMA_DE_COLETA_INDICADORES_2026.md",
+    "99_Base_de_Conhecimento/99_Skills_Arquivadas/_arquivo/pptx/ooxml.md",
     "06_Diário_e_Memórias_IA/Memorias_de_Sessao/HANDOFF_2026-01-22.md",
     "06_Diário_e_Memórias_IA/Memorias_de_Sessao/HANDOFF_2026-01-23_1550.md",
-    "06_Diário_e_Memórias_IA/Memorias_de_Sessao/~$NDOFF_2026-01-23_1550.docx",
-    "00_Scripts_Utilitarios/ajustar_ref.py",
-    "00_Scripts_Utilitarios/reference_base.docx",
     "01_Gestao_Estrategica/04_Avaliacao_Estrategica/Plano_de_Avaliacao_Anexo_I_Template_Relatorio.md",
     "01_Gestao_Estrategica/04_Avaliacao_Estrategica/Resumo_Executivo_Despacho_Avaliacao.md",
-    "01_Gestao_Estrategica/04_Avaliacao_Estrategica/Plano_de_Avaliacao_Estrategica_proc-aval-03.bpmn",
-    "01_Gestao_Estrategica/04_Avaliacao_Estrategica/Plano_de_Avaliacao_Estrategica_proc-aval-02.bpmn",
-    "01_Gestao_Estrategica/04_Avaliacao_Estrategica/Plano_de_Avaliacao_Estrategica_proc-aval-01.bpmn",
     "01_Gestao_Estrategica/04_Avaliacao_Estrategica/Plano_de_Avaliacao_Estrategica_2025-2029.md",
     "01_Gestao_Estrategica/04_Avaliacao_Estrategica/Plano_de_Avaliacao_Anexo_III_Checklist.md",
-    "01_Gestao_Estrategica/04_Avaliacao_Estrategica/Plano_de_Avaliacao_Anexo_II_Roteiro_Entrevistas.md",
-    "03_Gestao_Processos/03_Mapeamento_BPMN/Processo_Nota_Tecnica.bpmn",
-    "03_Gestao_Processos/PAPs/PAP_01_Gestao_Rotina_Kanban.md",
-    "01_Gestao_Estrategica/03_Monitoramento_e_Indicadores/CRONOGRAMA_DE_COLETA_INDICADORES_2026.md",
-    "01_Gestao_Estrategica/03_Monitoramento_e_Indicadores/01_Instrumentos_Oficiais/Versoes_Anteriores/Plano de Monitoramento da Estratégia 2025-2029.html",
-    "01_Gestao_Estrategica/03_Monitoramento_e_Indicadores/01_Instrumentos_Oficiais/Versoes_Anteriores/CADERNO_INDICADORES_COMPLETO_2025-2029.html",
-    "01_Gestao_Estrategica/03_Monitoramento_e_Indicadores/01_Instrumentos_Oficiais/Versoes_Anteriores/CADERNO_INDICADORES_2025-2029.html",
-    "01_Gestao_Estrategica/03_Monitoramento_e_Indicadores/01_Instrumentos_Oficiais/Versoes_Anteriores/Plano de Monitoramento da Estratégia 2025-2029.md",
-    "01_Gestao_Estrategica/03_Monitoramento_e_Indicadores/01_Instrumentos_Oficiais/Versoes_Anteriores/Caderno_de_Indicadores_Estrategicos_2025-2029.md",
-    "01_Gestao_Estrategica/03_Monitoramento_e_Indicadores/01_Instrumentos_Oficiais/Versoes_Anteriores/CADERNO_INDICADORES_COMPLETO_2025-2029.md",
-    "01_Gestao_Estrategica/03_Monitoramento_e_Indicadores/01_Instrumentos_Oficiais/Caderno_de_Indicadores_Estrategicos_2025-2029.md",
-    "01_Gestao_Estrategica/03_Monitoramento_e_Indicadores/01_Instrumentos_Oficiais/PLANO DE MONITORAMENTO DA ESTRATÉGIA.md",
-    "01_Gestao_Estrategica/03_Monitoramento_e_Indicadores/01_Instrumentos_Oficiais/CADERNO DE INDICADORES ESTRATÉGICOS.md",
-    "01_Gestao_Estrategica/03_Monitoramento_e_Indicadores/01_Instrumentos_Oficiais/Plano de Monitoramento da Estratégia 2025-2029.md",
-    "01_Gestao_Estrategica/03_Monitoramento_e_Indicadores/01_Instrumentos_Oficiais/Matriz_Rastreabilidade_OE_Indicador_Iniciativa.md",
-    "01_Gestao_Estrategica/03_Monitoramento_e_Indicadores/01_Instrumentos_Oficiais/CADERNO_INDICADORES_COMPLETO_2025-2029.md",
-    "Inbox/CADERNO DE INDICADORES ESTRATÉGICOS.md",
-    "01_Gestao_Estrategica/03_Monitoramento_e_Indicadores/PLANO DE MONITORAMENTO DA ESTRATÉGIA.md",
-    "Inbox/PLANO DE MONITORAMENTO DA ESTRATÉGIA.md",
-    "06_Diário_e_Memórias_IA/Arquivos_Diário/2026/2026-01-23_Diario_Conductor.md",
     "01_Gestao_Estrategica/03_Monitoramento_e_Indicadores/03_Processos_BPMN/Proc-02-Rito-RME.canvas",
-    "01_Gestao_Estrategica/03_Monitoramento_e_Indicadores/02_Fichas_Tecnicas/Fichas_Tecnicas_Consolidadas.md",
-    "01_Gestao_Estrategica/02_Politica_Institucional/OFICIO_ENCAMINHAMENTO_POLITICA.md",
-    "KANBAN_ESTRATEGICO.md",
     "01_Gestao_Estrategica/03_Monitoramento_e_Indicadores/03_Processos_BPMN/Proc-01-Macrofluxo-Monitoramento.canvas",
     "01_Gestao_Estrategica/03_Monitoramento_e_Indicadores/03_Processos_BPMN/monitoramento-flow.canvas",
     "01_Gestao_Estrategica/03_Monitoramento_e_Indicadores/01_Instrumentos_Oficiais/image.png",

@@ -1,0 +1,21 @@
+{
+  "name": "cbmal-estrategico",
+  "version": "2.1.0",
+  "description": "Ecossistema de Gestão Estratégica CBMAL - Automação e Orquestração",
+  "main": "index.js",
+  "scripts": {
+    "mermaid:render": "node scripts/mermaid_engine.mjs",
+    "mermaid:test": "node scripts/mermaid_engine.mjs \"graph TD; A-->B\" default svg"
+  },
+  "keywords": [
+    "CBMAL",
+    "Estratégia",
+    "IA",
+    "Mermaid"
+  ],
+  "author": "Assessoria de Planejamento e Orçamento (APO/EMG)",
+  "license": "MIT",
+  "dependencies": {
+    "beautiful-mermaid": "^0.1.3"
+  }
+}

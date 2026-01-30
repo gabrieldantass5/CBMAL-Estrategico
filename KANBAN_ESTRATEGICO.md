@@ -1,24 +1,34 @@
 ---
+
 kanban-plugin: board
+
 ---
 
 ## 📖 GUIA / COMO USAR
 
-- [ ] **Bem-vindo ao Workflow!** <br>Este quadro organiza nossas missões. Leia este guia para entender as colunas. 💡
-- [ ] **Como mover?** <br>No Obsidian, clique e arraste os cartões entre as colunas conforme a tarefa evolui. 🖱️
-- [ ] **Legenda de Símbolos:** <br>✅ = Concluído <br>⚠️ = Bloqueado/Aguardando <br>🚀 = Prioridade <br>📎 = Tem arquivo linkado
-- [ ] **Dica de Ouro:** <br>Mantenha apenas 2 ou 3 tarefas em "Produção" para não se perder! 🎯
-- [ ] **Link Úteis:** <br>[[00_START_HERE|Manual de Início]] <br>[[PAINEL_DE_CONTROLE|Acompanhamento Geral]]
+- [ ] **Bem-vindo ao Workflow!**
+ Este quadro organiza nossas missões. Leia este guia para entender as colunas. 💡
+- [ ] **Como mover?**
+ No Obsidian, clique e arraste os cartões entre as colunas conforme a tarefa evolui. 🖱️
+- [ ] **Legenda de Símbolos:**
+ ✅ = Concluído
+ ⚠️ = Bloqueado/Aguardando
+ 🚀 = Prioridade
+ 📎 = Tem arquivo linkado
+- [ ] **Dica de Ouro:**
+ Mantenha apenas 2 ou 3 tarefas em "Produção" para não se perder! 🎯
+- [ ] **Link Úteis:**
+ [[00_START_HERE|Manual de Início]]
+ [[PAINEL_DE_CONTROLE|Acompanhamento Geral]]
 
 ## 📥 Backlog (Aguardando)
 
-### Tarefas planejadas que ainda não começaram
+## Tarefas planejadas que ainda não começaram
 
-- [ ] **Implementar PowerPoint Generator CBMAL** (Alta prioridade) #foco_profundo #inovacao
-- [ ] **Otimizar Skills: Progressive Disclosure** (Otimização de Contexto) #sistemas #performance
-- [ ] **Refatorar Skill `visual_identity_pro`**: Ler cores de `brands/CBMAL.md` #estetica #sistemas
 - [ ] **Dashboard do Comando Geral** (Previsto: Março/2026) #foco_profundo
-
+- [ ] **Atualizar PAP do SEI no padrão novo** #redacao #burocracia
+- [ ] **Baixar a nova Portaria de Redação Oficial** #redacao #externo
+- [ ] **Ajustar paleta de cores do Painel (Azul CBMAL)** #estetica
 - [ ] PAP 10: Benchmarking e Melhores Práticas
 - [ ] PAP 11: Comunicação Estratégica (Visual)
 - [ ] PAP 12: Capacitação de Pontos de Foco
@@ -28,26 +38,34 @@ kanban-plugin: board
 
 ## 🏗️ Em Curso (Produção)
 
-### O que está sendo feito AGORA. Foque aqui
+## O que está sendo feito AGORA. Foque aqui
 
-- [x] **Enviar Política Estratégica para o Comando**: Despacho realizado. Aguardando publicação em BGO. ✅
+- [ ] **Dashboard do Comando Geral** (Previsto: Março/2026) #foco_profundo
+- [ ] 🚀 **Despacho SEI: Ofícios de Validação (12 un)**: Envio prioridade 01 para todas as diretorias. (Amanhã) #prioridade #sei
+- [x] 🎓 **Curso Claude Code Completo**: Evolução e aprendizado em Vibe Coding (31% Concluído). ✅ #aprendizado #ia
+- [x] 🧜‍♀️ **Motor Mermaid Premium**: Implementação da skill `visual-diagrams-mermaid` e renderizador SVG. ✅ #estetica #ia
 
 ## ⏳ Revisão / Bloqueado
 
-### Pronto, mas depende de terceiros ou revisão
+## Pronto, mas depende de terceiros ou revisão
 
+- [ ] ⚠️ **Ativar Créditos OpenRouter (Kimi K2.5)**: Infraestrutura pronta, aguardando saldo para teste final. ⏳
+- [ ] ⚠️ **Proposta: Democratização de IA CBMAL**: Relatório Executivo e Plano de Implementação concluídos. Aguardando validação do Comando. ⏳
 - [ ] Aguardando Publicação do MGA
 - [ ] Assinatura Final dos Instrumentos (Ten Gabriel Dantas)
 - [ ] Publicação da Política Estratégica (BGO) ⏳
 - [ ] ⚠️ **Aprovação do Caderno de Indicadores v2.1**: Enviado para Maj Macedo. Aguardando revisão de Tc Marcos Paulo e Maj Macedo. ⏳
 - [ ] ⚠️ **Plano de Monitoramento**: Enviado para Maj Macedo. Aguardando revisão. ⏳
 
+- [x] **Caderno de Indicadores v2.2 (28/01)**: Finalizado após feedback do Maj Macedo. Incluído novos KPIs de Saúde e Ouvidoria. ✅
+- [x] **Sincronização Sistêmica (28/01)**: Alinhamento entre Caderno, Plano de Monitoramento e Matriz de Rastreabilidade. ✅
+- [x] **Kit de Validação Setorial (28/01)**: Geração de 12 minutas de Ofícios personalizadas para pactuação 2026. ✅
+
 ## ✅ Concluído (Janeiro/2026)
 
-### Missões cumpridas (Histórico do mês)
+## Missões cumpridas (Histórico do mês)
 
 - [x] **Memória da 4ª Reunião Ordinária do CONAGC (27/01)**: Ata processada e estruturada. ✅
-
 - [x] **Plano de Monitoramento v2.0 (27/01)**: Atualizado com Governança do Alto Comando, Accountability Gradual e novos KPIs de eficiência. ✅
 - [x] **Otimização Radical do Ecossistema (21/01)**: Redução de 15 para 5 workflows, criação de regras atômicas e consolidação de documentação. ✅
 - [x] **Deploy GitHub CBMAL-Estrategico (21/01)**: Repositório privado configurado com banner profissional e limpeza de histórico. ✅
@@ -69,6 +87,12 @@ kanban-plugin: board
 - [x] **Apresentação Tc Marcos Paulo** - Slides profissionais (45 min) ^completed-pres
 - [x] Reorganização Geral do Repositório (Ativo vs Arquivo) ^completed-repo
 - [x] Unificação dos Agentes de IA (Gemini Conductor CBMAL) ^completed-ai
+
+### 3. 🛡️ Auditoria e Evolução
+
+- [ ] Sincronizar o Kanban com o progresso do dia.
+- [x] Iniciar registro do curso **Claude Code Completo** ✅
+- [ ] Estudar aula 14: "Comandos Claude Code".
 - [x] Consolidação das Pastas de Configuração (.agent/.claude/.gemini) ^completed-config
 - [x] Organização do Diretório Principal
 - [x] Criação da Skill de Secretário
@@ -86,7 +110,20 @@ kanban-plugin: board
 - [x] **Criação Skill Creator CBMAL (25/01)**: Implementado "Modo Borg" para assimilação de skills externas. ✅
 - [x] **Dashboard Estratégico v1.0 (25/01)**: Criada especificação e versão HTML/CSS para o Comando Geral. ✅
 - [x] **Integração Vercel Agent Browser**: Automação de navegador configurada para workspace. ✅
+- [x] **Refatoração Visual (28/01)**: Skill `visual_identity_pro` e `doc_converter.py` atualizados para padrão de rascunho limpo e tabelas 1pt. ✅
+- [x] **Implementação DRAFT_CLEAN_MODE (28/01)**: Regras globais de texto puro para Google Docs e SEI estabelecidas. ✅
+- [x] **Consolidação GLOBAL_RULES (28/01)**: Criado arquivo de regras pétreas para o ecossistema CBMAL. ✅
+- [x] **PPT Generator CBMAL v1.0 (28/01)**: Criado script e skill para geração automática de slides institucionais. ✅
+- [x] **Sistema de Legislações (28/01)**: Implementado "Jardim Murado" com diretório `00_Legislacoes` para Prova dos Nove. ✅
+- [x] **Otimização de Skills: Metadata (29/01)**: Refatoração das 13 institucional skills para alta economia de tokens e gatilhos ultra-rápidos. ✅
+- [x] **Análise: Ecossistema de IA (29/01)**: Análise profunda do Tech Leaders Club (LLMs, MCPs, Agentes). Walkthrough criado. ✅
+- [x] **Kit Democratização IA v1.0 (29/01)**: Gerado Plano de Implementação, Relatório Executivo e Guia Prático para o militar. ✅
+- [x] **Refatoração visual (28/01)**: Skill `visual_identity_pro` agora lê cores de `brands/CBMAL.md`. ✅
 
 %% kanban:settings
-{"kanban-plugin":"board","list-collapse":[false,false,false,false,false]}
+
+```
+{"kanban-plugin":"board"}
+```
+
 %%

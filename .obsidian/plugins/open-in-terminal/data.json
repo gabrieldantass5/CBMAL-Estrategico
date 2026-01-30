@@ -1,5 +1,5 @@
 {
-  "terminalApp": "cmd.exe",
+  "terminalApp": "powershell.exe",
   "enableClaude": false,
   "enableCodex": false,
   "enableGemini": true,

@@ -1,6 +1,7 @@
 # MANUAL DE IMPLEMENTAÇÃO DO ECOSSISTEMA DE PRODUTIVIDADE DIGITAL (EPD)
 
 ## CORPO DE BOMBEIROS MILITAR DE ALAGOAS
+
 **Guia Prático para Transformação Digital das Seções Administrativas**
 
 ---
@@ -33,21 +34,26 @@ TC QOEM BM Marcos Paulo Seara Barbosa
 ## SUMÁRIO
 
 ### PARTE I – FUNDAMENTOS
+
 1. [Apresentação e Visão do Futuro](#capítulo-1-apresentação-e-visão-do-futuro)
 2. [O "Segundo Cérebro" – Instalando sua Base de Conhecimento](#capítulo-2-o-segundo-cérebro)
 
 ### PARTE II – O AGENTE DIGITAL
+
 3. [Gênese do Agente – Criando sua "Inteligência Setorial"](#capítulo-3-gênese-do-agente)
-4. [Arquitetura de Skills – Ensinando sua IA a Trabalhar](#capítulo-4-arquitetura-de-skills)
+2. [Arquitetura de Skills – Ensinando sua IA a Trabalhar](#capítulo-4-arquitetura-de-skills)
 
 ### PARTE III – FERRAMENTAS AVANÇADAS
+
 5. [Interface de Comando – Operando o Antigravity/Gemini CLI](#capítulo-5-interface-de-comando)
-6. [Metodologia de Rotina – O "Ritual de Alta Performance"](#capítulo-6-metodologia-de-rotina)
+2. [Metodologia de Rotina – O "Ritual de Alta Performance"](#capítulo-6-metodologia-de-rotina)
 
 ### PARTE IV – ESTUDO DE CASO
+
 7. [Na Prática – O Assessor de Planejamento (APO/SGE)](#capítulo-7-estudo-de-caso)
 
 ### ANEXOS
+
 - [Anexo A: Template de System Prompt](#anexo-a)
 - [Anexo B: Template de Skill](#anexo-b)
 - [Anexo C: Estrutura de Pastas Obsidian](#anexo-c)
@@ -120,17 +126,20 @@ Este manual não é teoria. Tudo o que você aprenderá aqui foi **testado e val
 Antes de começar, verifique se você possui:
 
 **Hardware:**
+
 - [ ] Computador com Windows 10 ou 11
 - [ ] Mínimo de 8 GB de RAM (recomendado: 16 GB)
 - [ ] Conexão estável com a internet
 
 **Software (todos gratuitos):**
+
 - [ ] Conta Google (para o Google Drive)
 - [ ] Obsidian (download em obsidian.md)
 - [ ] Google Drive Desktop (backup automático)
 - [ ] Acesso ao Google Antigravity ou Gemini CLI (via assinatura Google)
 
 **Conhecimentos Prévios:**
+
 - [ ] Saber usar o Windows básico (pastas, arquivos)
 - [ ] Saber navegar na internet
 - [ ] **NÃO é necessário saber programar!**
@@ -150,6 +159,7 @@ Este manual foi projetado para ser seguido **sequencialmente**, do Capítulo 1 a
 | 📖 | Conceito a ser memorizado |
 
 **Tempo estimado de leitura e implementação:**
+
 - Leitura completa: ~2 horas
 - Implementação básica: ~4 horas
 - Domínio completo: ~2 semanas de prática
@@ -177,6 +187,7 @@ O **Obsidian** é um aplicativo gratuito para criar e organizar notas. Mas não 
 > Imagine que sua mente é o Quartel General (QG). O Obsidian é como ter um **Estado-Maior digital** que organiza todas as informações, cria conexões entre elas e as deixa prontas para consulta instantânea.
 
 **Por que o Obsidian?**
+
 - ✅ **Gratuito** para uso pessoal
 - ✅ **Offline** – seus dados ficam no seu computador, não em servidores externos
 - ✅ **Formato aberto** – arquivos em texto simples (.md), legíveis por qualquer editor
@@ -186,7 +197,8 @@ O **Obsidian** é um aplicativo gratuito para criar e organizar notas. Mas não 
 ### 2.2 Instalação Passo a Passo (Windows)
 
 **Passo 1: Download**
-1. Acesse: https://obsidian.md
+
+1. Acesse: <https://obsidian.md>
 2. Clique em "Download for Windows"
 3. Execute o instalador e siga as instruções
 
@@ -200,6 +212,7 @@ O "Vault" é a pasta onde todos os seus arquivos serão armazenados.
 💡 **Dica:** Use o padrão `[Sigla_Seção]_CBMAL` para facilitar identificação.
 
 **Passo 3: Configurações Iniciais**
+
 1. Vá em ⚙️ Settings → Editor
 2. Ative "Spell check" (corretor ortográfico)
 3. Em Settings → Files & Links → Default location for new notes → Escolha "In the folder specified below" e crie uma pasta `Inbox`
@@ -257,23 +270,27 @@ O Obsidian possui plugins que ampliam suas funcionalidades. Para instalá-los:
 Esta é a **etapa mais importante** para segurança dos seus dados.
 
 **Por que usar o Google Drive?**
+
 - ✅ Backup automático em tempo real
 - ✅ Acesso de qualquer dispositivo
 - ✅ Histórico de versões (recupere arquivos antigos)
 - ✅ Sincronização instantânea
 
 **Passo 1: Instalar o Google Drive Desktop**
-1. Acesse: https://www.google.com/drive/download/
+
+1. Acesse: <https://www.google.com/drive/download/>
 2. Baixe o "Drive for Desktop"
 3. Instale e faça login com sua conta Google
 
 **Passo 2: Configurar Sincronização**
+
 1. Após a instalação, clique no ícone do Drive na barra de tarefas
 2. Vá em ⚙️ Preferências → Google Drive
 3. Selecione "Espelhar arquivos" (Mirror files)
 4. Sua pasta do Drive aparecerá em `G:\Meu Drive\` (ou letra similar)
 
 **Passo 3: Mover seu Vault para o Drive**
+
 1. Feche o Obsidian
 2. Mova toda a pasta do seu Vault para `G:\Meu Drive\[NOME_VAULT]`
 3. Abra o Obsidian novamente
@@ -283,7 +300,8 @@ Esta é a **etapa mais importante** para segurança dos seus dados.
 💡 **Dica:** A partir de agora, todas as suas notas serão salvas automaticamente na nuvem!
 
 **Verificando o Backup:**
-1. Acesse https://drive.google.com no navegador
+
+1. Acesse <https://drive.google.com> no navegador
 2. Você deve ver sua pasta do Vault lá
 3. Qualquer alteração no Obsidian aparecerá em segundos no Drive
 
@@ -314,7 +332,7 @@ Vamos criar sua página inicial:
 *Última atualização: {{date}}*
 ```
 
-4. Salve com `Ctrl + S`
+1. Salve com `Ctrl + S`
 
 ✅ Parabéns! Seu "Segundo Cérebro" está funcionando!
 
@@ -328,7 +346,6 @@ Vamos criar sua página inicial:
 ✅ O Google Drive Desktop garante backup automático e seguro.
 
 **Próximo capítulo:** Vamos criar seu Agente Digital – a IA que entende seu setor.
-
 
 ---
 
@@ -344,6 +361,7 @@ Um **Agente de IA** é uma inteligência artificial configurada para entender o 
 
 > **Analogia Militar:**  
 > Imagine que você recebeu um novo soldado na seção. Antes de colocá-lo para trabalhar, você precisa explicar:
+>
 > - Qual é a missão da seção?
 > - Quais são as regras e normas?
 > - Como ele deve se comportar?
@@ -352,6 +370,7 @@ Um **Agente de IA** é uma inteligência artificial configurada para entender o 
 > O **System Prompt** é exatamente isso: a "Ordem de Serviço" do seu estagiário digital.
 
 **O que o Agente pode fazer por você:**
+
 - ✅ Redigir documentos no padrão do setor
 - ✅ Responder dúvidas sobre normas e procedimentos
 - ✅ Revisar e corrigir textos
@@ -439,6 +458,7 @@ Dependendo da ferramenta que você utiliza, o System Prompt é configurado em lo
 ### 3.5 Boas Práticas
 
 **O que incluir:**
+
 - ✅ Nome e papel claro
 - ✅ Lista de documentos que o Agente deve "conhecer"
 - ✅ Exemplos de tarefas que ele deve executar
@@ -446,6 +466,7 @@ Dependendo da ferramenta que você utiliza, o System Prompt é configurado em lo
 - ✅ Restrições explícitas
 
 **O que evitar:**
+
 - ❌ Instruções vagas ("seja útil")
 - ❌ Excesso de texto (mais de 1 página)
 - ❌ Contradições nas regras
@@ -495,8 +516,8 @@ Se o Agente falhar em algum teste, ajuste o System Prompt e teste novamente.
 > Pense assim: o System Prompt é o **Regulamento Geral** (define missão e valores), enquanto as Skills são os **Manuais Técnicos** (explicam como executar cada procedimento).
 
 **Exemplos de Skills:**
-- `redacao-oficial.md` → Como redigir documentos no padrão SEI
-- `especialista-paps.md` → Como criar Procedimentos Administrativos Padrão
+
+- `redacao-oficial.md` → Como redigir documentos, PAPs e processos no padrão CBMAL/SEI
 - `gestao-ferias.md` → Como processar pedidos de férias
 
 ### 4.2 Estrutura Padrão de uma Skill (SKILL.md)
@@ -543,23 +564,27 @@ Vamos transformar um manual existente em uma Skill que a IA pode usar:
 
 **Passo 1: Identifique o Conhecimento Tácito**
 Faça uma lista das tarefas que você faz "de cabeça", sem consultar manuais:
+
 - Como você formata uma portaria?
 - Quais campos são obrigatórios em cada documento?
 - Quais são os prazos legais?
 
 **Passo 2: Estruture em Etapas**
 Transforme cada tarefa em passos sequenciais:
+
 1. Primeiro faço X
 2. Depois consulto Y
 3. Por fim, envio para Z
 
 **Passo 3: Adicione Exemplos Concretos**
 A IA aprende muito melhor com exemplos reais:
+
 - "Exemplo de cabeçalho correto: ..."
 - "Exemplo de erro comum: ..."
 
 **Passo 4: Defina Restrições Claras**
 Explicite o que a IA NÃO deve fazer:
+
 - "NUNCA assine em nome do Comandante"
 - "SEMPRE verifique se o processo está no SEI antes de redigir"
 
@@ -572,14 +597,13 @@ Veja as Skills que a APO/SGE utiliza no seu dia a dia:
 
 | Skill | Função | Linhas |
 |:---|:---|:---|
-| `especialista-paps` | Criação de Procedimentos Administrativos Padrão | ~90 |
+| `redacao-oficial` | Padrão de documentos SEI/BGO e PAPs | ~120 |
 | `gestao-estrategica` | Metodologia BSC e monitoramento | ~120 |
-| `redacao-oficial` | Padrão de documentos SEI/BGO | ~80 |
 | `secretario-executivo` | Gestão de rotina e Kanban | ~60 |
-| `gemini-conductor` | Orquestração de tarefas complexas | ~150 |
+| `conductor` | Orquestração de tarefas complexas (Workflow) | ~150 |
 
 > **📌 NA PRÁTICA (APO):**  
-> *Quando o usuário pede "Crie um PAP sobre gestão de férias", o Agente automaticamente consulta a Skill `especialista-paps`, que contém o template visual, a lista de tópicos obrigatórios e exemplos de PAPs anteriores. O resultado? Um documento profissional em minutos.*
+> *Quando o usuário pede "Crie um PAP sobre gestão de férias", o Agente automaticamente consulta a Skill `redacao-oficial`, que contém o template visual, a lista de tópicos obrigatórios e exemplos de PAPs anteriores. O resultado? Um documento profissional em minutos.*
 
 ### 4.5 Como a IA Lê e Executa uma Skill
 
@@ -675,8 +699,8 @@ ASSUNTO: Solicitação de Material de Expediente
 - Catálogo de Materiais CBMAL
 ```
 
-3. Salve o arquivo
-4. Teste pedindo ao Agente: "Me ajude a solicitar papel e canetas para a seção"
+1. Salve o arquivo
+2. Teste pedindo ao Agente: "Me ajude a solicitar papel e canetas para a seção"
 
 ---
 
@@ -705,6 +729,7 @@ O **Google Antigravity** (também conhecido como **Gemini Code Assist** ou **Jul
 > Se o Obsidian é seu "Quartel General" e as Skills são seus "Manuais", o Antigravity é o **Centro de Operações** – onde você dá ordens e vê as ações sendo executadas em tempo real.
 
 **Capacidades do Antigravity:**
+
 - ✅ Ler e editar arquivos do seu computador
 - ✅ Criar novos documentos automaticamente
 - ✅ Operar Navegadores (via **Skill agent-browser**)
@@ -715,20 +740,24 @@ O **Google Antigravity** (também conhecido como **Gemini Code Assist** ou **Jul
 ### 5.2 Instalação e Configuração Inicial
 
 **Pré-requisitos:**
+
 - Conta Google Workspace ou Google One com acesso ao Gemini Advanced
 - VSCode (Visual Studio Code) instalado
 
 **Passo 1: Instalar a Extensão**
+
 1. Abra o VSCode
 2. Vá em Extensions (Ctrl+Shift+X)
 3. Pesquise por "Gemini Code Assist" ou "Jules"
 4. Clique em Install
 
 **Passo 2: Configurar o Workspace**
+
 1. No VSCode, abra sua pasta do Vault (File → Open Folder)
 2. A extensão detectará automaticamente os arquivos
 
 **Passo 3: Autenticar**
+
 1. Clique no ícone do Gemini na barra lateral
 2. Faça login com sua conta Google
 
@@ -749,6 +778,7 @@ O **Google Antigravity** (também conhecido como **Gemini Code Assist** ou **Jul
 **Exemplo: Criar uma Nota Técnica**
 
 1. **Sua Instrução:**
+
    ```
    Crie uma Nota Técnica sobre a necessidade de atualização do
    sistema de rádio, usando o padrão SEI. Salve em 03_Documentos/
@@ -803,6 +833,7 @@ O **Kanban** é um sistema visual para gerenciar seu fluxo de trabalho. No Obsid
 | ✅ **Concluído** | Missões cumpridas | Mover para arquivo semanalmente |
 
 **Como Usar:**
+
 1. Crie um arquivo `KANBAN.md` na raiz do Vault
 2. Ative o plugin Kanban no Obsidian
 3. Arraste tarefas entre colunas conforme evoluem
@@ -841,11 +872,13 @@ A **Nota Diária** é seu diário de bordo profissional. Ela registra o que voc�
 ### 6.3 Ciclo Semanal: Revisão e Planejamento
 
 **Sexta-feira (15 minutos) – Revisão da Semana:**
+
 1. O que eu entreguei?
 2. O que ficou pendente?
 3. O que aprendi?
 
 **Segunda-feira (10 minutos) – Planejamento:**
+
 1. Quais são as 3 prioridades da semana?
 2. Há algum prazo crítico chegando?
 3. Preciso de apoio de alguém?
@@ -890,26 +923,31 @@ Em dezembro de 2025, a Seção de Gestão Estratégica (SGE) enfrentava desafios
 ### 7.2 Implementação: As 5 Fases da Transformação
 
 **Fase 1: Organização (Semana 1)**
+
 - Instalação do Obsidian
 - Criação da estrutura de pastas
 - Migração dos arquivos existentes
 
 **Fase 2: Automação (Semana 2)**
+
 - Configuração do Google Drive (backup)
 - Criação do Agente "Gemini Conductor"
 - Elaboração das primeiras Skills
 
 **Fase 3: Padronização (Semana 3)**
+
 - Criação dos 9 PAPs de sucessão
 - Definição de templates oficiais
 - Estabelecimento do Kanban
 
 **Fase 4: Integração (Semana 4)**
+
 - Conexão das ferramentas
 - Treinamento de uso diário
 - Criação das Notas Diárias
 
 **Fase 5: Automação Cibernética (Semana 5)**
+
 - Implementação do `agents.md` (Configuração Mestre)
 - Instalação do `agent-browser` para interação com o SEI
 - Criação do **PAP nº 10** para monitoramento de Planos Diretores

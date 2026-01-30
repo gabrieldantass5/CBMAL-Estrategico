@@ -29,6 +29,18 @@ Este arquivo rastreia todas as skills externas assimiladas ao ecossistema CBMAL.
 **Dependências**: Nenhuma (usa inteligência nativa do modelo).
 **Impacto**: Capacidade de gerar designs de dashboards profissionais e acessíveis em segundos.
 
+## [2026-01-30] Assimilação: Beautiful Mermaid (Visual Transitions)
+
+**Fonte**: <https://github.com/lukilabs/beautiful-mermaid>
+**Decisão**: PROCEED
+**Adaptações**:
+
+- Criada skill `visual-diagrams-mermaid`.
+- Criado script wrapper `scripts/mermaid_engine.mjs` para uso via terminal (CLI).
+- Integrado suporte a SVG e ASCII para documentos estratégicos e auditoria em terminal.
+**Dependências**: `npm install beautiful-mermaid` (Instalado ✅).
+**Impacto**: Visualização premium de processos e árvores de oportunidades no padrão visual do CBMAL.
+
 ---
 
 ## Template para Futuras Assimilações

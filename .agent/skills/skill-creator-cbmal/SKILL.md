@@ -1,6 +1,6 @@
 ---
 name: skill-creator-cbmal
-description: Especialista em criar e assimilar skills para o ecossistema CBMAL. Use quando precisar criar uma nova skill do zero, adaptar skills externas (Modo Borg), ou evoluir skills existentes. Combina os princípios do skill-creator original com capacidades de assimilação inteligente.
+description: Arquiteto de Skills CBMAL (Modo Borg). Use para criar novas automações, assimilar skills externas do GitHub/skills.sh e garantir o padrão de token efficiency e rastreabilidade da APO.
 ---
 
 # Skill Creator CBMAL

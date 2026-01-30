@@ -1,6 +1,7 @@
 # 💰 07 - Taxa de Bombeiros (STA/APO)
 
 ## 🎯 Objetivo
+
 Este diretório centraliza a inteligência estratégica e operacional sobre a **Taxa de Bombeiros** (Lei 6.442/03). O foco é aumentar a arrecadação, reduzir a inadimplência e expandir a cobrança para novos municípios.
 
 ---
@@ -8,20 +9,24 @@ Este diretório centraliza a inteligência estratégica e operacional sobre a **
 ## 📚 Base de Conhecimento Consolidada
 
 ### Legislação Primária
+
 - **Lei nº 6.442/2003**: Taxa de Prevenção e Combate a Incêndio (Anexo Único com fórmulas).
 - **Lei nº 4.259/1981**: Fundo de Prevenção e Combate a Incêndio (FPCI).
 - **Lei nº 5.766/1995**: TUSEP (Serviços Especiais).
 
 ### Jurisprudência
+
 - **RE 1.417.155/RN (STF, Tema 1.282)**: Declarou a constitucionalidade das taxas de bombeiros como serviço público específico e divisível (uti singuli).
 
 ### Regulamentação Interna
+
 - **Portaria 179/2024**: Atribuições dos órgãos do CBMAL.
 - **Portaria 417/2024**: Calendário e gestão da Taxa.
 
 ---
 
 ## 🏗️ Estrutura do Diretório
+
 ```
 07_Taxa_de_Bombeiros/
 ├── README.md                           # Este arquivo
@@ -86,9 +91,13 @@ I = 15% UPFAL × (5,00 + A × Z × fr)
 
 ---
 
-## 🧠 Skill Especializada Ativada
+## 📖 Referência Técnica (IA)
 
-O agente **Especialista em Taxa de Bombeiros** (`taxa_bombeiros`) foi treinado com:
+As diretrizes técnicas para o Agente estão consolidadas no arquivo:
+👉 [[REFERENCIA_TECNICA_Taxa_Bombeiros.md]]
+
+Este documento contém:
+
 - Todos os artigos da Lei 6.442/03
 - Fórmulas de cálculo do Item 1.7 (Anexo Único)
 - Hipóteses de isenção (Art. 3º)
@@ -97,5 +106,5 @@ O agente **Especialista em Taxa de Bombeiros** (`taxa_bombeiros`) foi treinado c
 - Estrutura da STA/APO (MGA)
 
 ---
-*Gerenciado pelo Agente Especialista em Taxa de Bombeiros (STA/APO)*
-*Última Atualização: 20/01/2026*
+*Gerenciado pelo Agente Estratégico CBMAL via Skill `gestao-estrategica`*
+*Última Atualização: 27/01/2026*

@@ -104,20 +104,14 @@ Os Indicadores-Chave de Desempenho (KPIs) são os termômetros da estratégia.
 
 ### **3.1. Classificação dos Indicadores**
 
-Os indicadores serão classificados em dois níveis:
+Os indicadores serão classificados em dois níveis, garantindo foco estratégico sem perder a visão da execução:
 
-* **Indicadores Estratégicos (IE)**: Vinculados aos *Objetivos Estratégicos*. Medem o impacto final na sociedade ou na instituição (ex: "Tempo Resposta Operacional", "Índice de Satisfação da Tropa"). Monitorados pelo Alto Comando.  
-* **Indicadores Operacionais/Táticos (IO)**: Vinculados às *Iniciativas e Planos de Ação*. Medem o esforço e a entrega (ex: "Percentual de Vistorias Realizadas", "Nº de Militares Capacitados"). Monitorados pelos ODS e APO.
+* **Indicadores Estratégicos (IE)**: Vinculados aos *Objetivos Estratégicos*. Medem o impacto final na sociedade ou na instituição (ex: "Tempo Resposta Operacional", "Índice de Satisfação da Tropa"). Monitorados diretamente pelo Alto Comando.  
+* **Indicadores Táticos (IT)**: Vinculados às *Iniciativas e Projetos*. Medem o esforço e a entrega de produtos (ex: "Percentual de Vistorias Realizadas", "Implantação do Projeto Drones"). Monitorados pelos Diretores (ODS) e APO.
 
 ### **3.2. Metadados Obrigatórios**
 
-Todo indicador monitorado pelo CBMAL deve possuir uma **Ficha Técnica** contendo, no mínimo:  
-1\. **Nome e Sigla**: Identificação única.  
-2\. **Fórmula de Cálculo**: Expressão matemática precisa para evitar ambiguidade.  
-3\.**Fonte de Dados**: Sistema ou documento de onde o dado é extraído (Auditabilidade).  
-4\. **Linha de Base (*Baseline*)**: O valor do indicador no início do ciclo (ex: 2024).  
-5\. **Meta**: O valor a ser alcançado em cada período.  
-6\. **Sentido de Melhoria**: Maior é melhor (ex: salvamentos) ou Menor é melhor (ex: tempo resposta).  
+Todo indicador monitorado pelo CBMAL deve possuir uma **Ficha Técnica** padronizada (ver Anexo I), contendo campos essenciais como Código, Viabilidade de Coleta e Origem da demanda, além dos dados métricos tradicionais
 ---
 
 ## **4\. CICLOS DE ACOMPANHAMENTO (RITO)**
@@ -141,11 +135,14 @@ As RMEs são o fórum principal de governança. Não são reuniões de "leitura 
 #### **4.1.2. Fase Preparatória (Pré-RME)**
 
 Para garantir a produtividade da reunião, segue-se o cronograma reverso:  
-1\. **D-10 (10 dias antes)**: APO encerra a coleta de dados do trimestre.  
+4\. 1\. **D-10 (10 dias antes)**: APO encerra a coleta de dados do trimestre.  
 2\. **D-7**: APO envia o **Relatório de Farol Preliminar** aos ODS.  
-3\. **D-3**: ODSs com indicadores em **VERMELHO** ou **AMARELO** devem enviar à APO os slides de justificativa e proposta de correção (Plano de Contramedida).
+3\. **D-3**: Prazo final para envio das justificativas:
 
-*Obs: Indicadores Verdes não demandam apresentação na RME.*  
+* **🔴 Farol Vermelho**: Envio obrigatório de slides (PCM) e preparação para apresentação na RME.
+* **🟡 Farol Amarelo**: Envio de justificativa técnica via SEI (sem necessidade de apresentação, salvo convocação).
+* **🟢 Farol Verde**: Dispensa de justificativa.
+
 4\. **D-1**: APO envia o material consolidado para o Alto Comando.
 
 #### **4.1.3. Dinâmica da Pauta (Tempo estimado: até 2h)**
@@ -238,20 +235,26 @@ O pedido de prorrogação é medida excepcional. A Diretoria deverá solicitar v
 
 | Campo | Descrição / Exemplo |
 | :---- | :---- |
-| **Nome do Indicador** | *Ex: Tempo Resposta Operacional (TRO)* |
-| **Sigla** | *TRO* |
-| **Objetivo Estratégico Vinculado** | *Ex: OE.02 \- Aperfeiçoar a Gestão Operacional* |
-| **Definição** | *Tempo decorrido entre o acionamento via 193 e a chegada da viatura ao local.* |
-| **Fórmula de Cálculo** | (Hora Chegada no Local \- Hora Despacho) / Total de Ocorrências |
-| **Unidade de Medida** | *Minutos* |
-| **Frequência de Medição** | *Mensal* |
-| **Fonte de Dados** | *Fênix / Relatório de Ocorrências* |
-| **Responsável (Setor/Cargo)** | *Diretoria Operacional (DOP) / Chefe da Seção de Estatística* |
-| **Linha de Base (Ano Anterior)** | *Ex: 12 min* |
-| **Meta (Ano Corrente)** | *Ex: \< 10 min* |
-| **Polaridade** | ( ) Quanto Maior, Melhor (x) Quanto Menor, Melhor |
-| **Faixas de Desempenho (Farol)** | 🟢 **Verde**: ≤ 10 min 🟡 **Amarelo**: 10,1 a 12 min 🔴 **Vermelho**: \> 12 min |
-| **Observações** | *Excluem-se ocorrências de trotes ou canceladas antes da saída.* |
+| **Código** | *Identificador único (ex: IE-02.01)* |
+| **Nível** | *Estratégico (IE) ou Tático (IT)* |
+| **Nome do Indicador** | *Ex: Tempo Resposta Operacional* |
+| **Sigla** | *Ex: TRO* |
+| **Objetivo Estratégico** | *Vínculo com a estratégia (ex: OE.02)* |
+| **Tema Estratégico** | *Tema correspondente (ex: Operacional)* |
+| **Definição** | *O que o indicador mede exatamente.* |
+| **Justificativa** | *Por que esse indicador é importante?* |
+| **Fórmula de Cálculo** | *Expressão matemática da métrica.* |
+| **Unidade de Medida** | *%, Dias, Nº Absoluto, R$, etc.* |
+| **Frequência de Medição** | *Mensal, Trimestral, Semestral, Anual.* |
+| **Fonte de Dados** | *Sistema ou documento auditável.* |
+| **Responsável** | *Setor encarregado da aferição.* |
+| **Linha de Base** | *Valor histórico de referência.* |
+| **Meta** | *Valor alvo para o período.* |
+| **Polaridade** | *Quanto Maior Melhor / Quanto Menor Melhor.* |
+| **Faixas de Farol** | *Critérios para Verde 🟢, Amarelo 🟡 e Vermelho �.* |
+| **Viabilidade** | *Alta / Média / Baixa (Facilidade de coleta).* |
+| **Origem** | *Fonte da demanda (PE-2029, Benchmarking, etc).* |
+| **Observações** | *Notas técnicas e exceções.* |
 
 ###
 

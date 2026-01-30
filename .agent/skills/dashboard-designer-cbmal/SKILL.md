@@ -1,6 +1,6 @@
 ---
 name: dashboard-designer-cbmal
-description: Especialista em design de dashboards estratégicos para o contexto CBMAL. Usa um motor de raciocínio para sugerir visualizações, paletas institucionais e layouts baseados no público (Comando Geral, RME, Setorial).
+description: Especialista em UI/UX para Dashboards Estratégicos CBMAL. Use para planejar layouts (PowerBI/HTML), escolher gráficos de KPIs e aplicar cores institucionais (Marinho/Ouro). Foco: Comando Geral e RME.
 ---
 
 # 📊 Dashboard Designer CBMAL

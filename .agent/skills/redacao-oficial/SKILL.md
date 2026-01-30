@@ -1,11 +1,12 @@
 ---
-name: Redação Oficial CBMAL
-description: Diretrizes para redação de documentos oficiais no padrão CBMAL, conforme Portaria nº 18/2024.
+name: redacao-oficial-cbmal
+description: Autoridade em Redação Oficial (Portaria 18/2024). Use para redigir Ofícios, Portarias e Despachos no SEI. Garante o rito hierárquico, vocativos corretos e conformidade com o Manual da República.
 ---
 
 # 📝 Redação Oficial CBMAL
 
 ## ⚖️ Base Legal
+
 - **Portaria CBMAL nº 18/2024** (BGO nº 027, de 07/02/2024) - Estabelece modelos de documentos.
 - **Portaria CBMAL nº 448/2023** - Adota o Manual de Redação Oficial da Presidência da República (3ª ed., 2018).
 
@@ -14,6 +15,7 @@ description: Diretrizes para redação de documentos oficiais no padrão CBMAL, 
 ## 📋 Tipos de Documentos (Art. 1º, Portaria 18/2024)
 
 ### 1. Ofício (SEI nº 22979797)
+
 - **Uso**: Correspondência com autoridades da Administração Pública ou Privada sobre assunto técnico ou administrativo.
 - **Estrutura**:
   1. Cabeçalho (Brasão, Identificação do Órgão)
@@ -27,11 +29,14 @@ description: Diretrizes para redação de documentos oficiais no padrão CBMAL, 
   9. Assinatura: `(assinado digitalmente)` + Nome + Posto + Cargo
 
 ### 2. Ofício Circular (SEI nº 22979839)
+
 - **Uso**: Mesmo expediente enviado para múltiplos órgãos receptores.
 - **Estrutura**: Igual ao Ofício, mas com lista de destinatários.
 
 ### 3. Despacho (4 subtipos)
+
 **Regras Gerais (Art. 1º, §2º):**
+
 - ❌ NÃO usar para iniciar um processo
 - ❌ NÃO usar apenas para dar ciência (usar ícone "ciência" do SEI)
 - ✅ Pode conter apenas uma palavra (Autorizo, Aprovo, Indefiro)
@@ -47,6 +52,7 @@ description: Diretrizes para redação de documentos oficiais no padrão CBMAL, 
 | **Circular** | 22982545 | Destinado a mais de um órgão receptor. |
 
 ### 4. Portaria (SEI nº 22983246)
+
 - **Competência**: Comandante-Geral ou autoridade delegada.
 - **Uso**: Assuntos administrativos (pessoal, serviços, comissões, instauração de processos).
 - **Estrutura**: Conforme item 25 do Manual da Presidência (2018).
@@ -58,30 +64,36 @@ description: Diretrizes para redação de documentos oficiais no padrão CBMAL, 
   - Fecho: `(assinado digitalmente)` + Nome + Posto + Função
 
 ### 5. Ordem de Serviço (SEI nº 22983688)
+
 - **Uso**: Determina execução de serviço ou instrução.
 - **Conteúdo**: Data, horário, local, pessoal, materiais, viaturas.
 
 ### 6. Requerimento (SEI nº 22984075)
+
 - **Uso**: Solicitar algo que é DIREITO do bombeiro militar.
 - **Requisito**: Deve citar o dispositivo legal que garante o direito.
 - **Direção**: De subordinado para superior.
 
 ### 7. Parte (SEI nº 22984269)
+
 - **Uso**: Narração de ato/fato DISCIPLINAR praticado por militar de:
   - Mesmo posto/graduação e menor antiguidade, OU
   - Posto/graduação inferior.
 - **Caráter**: Obrigatória.
 
 ### 8. Comunicação (SEI nº 22985769)
+
 - **Uso**: Narração de ato/fato DISCIPLINAR praticado por:
   - Superior hierárquico, OU
   - Militar de mesmo posto/graduação e maior antiguidade.
 
 ### 9. Nota para Publicação (SEI nº 23234551)
+
 - **Uso**: Publicação de atos no BGO quando não houver documento específico.
 - **Competência**: Comandante, coordenador, chefe ou diretor.
 
 ### 10. Extrato de Despacho (SEI nº 23269045)
+
 - **Uso**: Publicação resumida de despachos em DOE ou BGO.
 
 ---
@@ -108,6 +120,7 @@ description: Diretrizes para redação de documentos oficiais no padrão CBMAL, 
 ## 🎖️ Vocabulário e Tratamento
 
 ### Pronomes de Tratamento
+
 | Autoridade | Vocativo | Fecho |
 |------------|----------|-------|
 | Comandante-Geral | Excelentíssimo Senhor Comandante-Geral | Respeitosamente |
@@ -116,6 +129,7 @@ description: Diretrizes para redação de documentos oficiais no padrão CBMAL, 
 | Praças | Senhor [Graduação] | Atenciosamente |
 
 ### Abreviações de Posto/Graduação
+
 - **Coronel**: Cel
 - **Tenente-Coronel**: TC / Ten Cel
 - **Major**: Maj
@@ -130,6 +144,7 @@ description: Diretrizes para redação de documentos oficiais no padrão CBMAL, 
 - **Soldado**: Sd
 
 ### Quadros
+
 - **QOC**: Quadro de Oficiais Combatentes
 - **QOA**: Quadro de Oficiais Administrativos
 - **QOEM**: Quadro de Oficiais Especialistas Músicos
@@ -137,13 +152,26 @@ description: Diretrizes para redação de documentos oficiais no padrão CBMAL, 
 
 ---
 
-##🧠 Modo de Crítica Estratégica (Pairing)
+## 🧠 Modo de Crítica Estratégica (Pairing)
 
 Ao revisar um documento, não foque apenas na gramática. Avalie:
+
 1. **Rigor Hierárquico**: O tratamento está adequado? (Ex: Usar 'Vossa Excelência' apenas quando exigido).
 2. **Incisividade**: O texto "anda em círculos" ou vai direto ao ponto?
 3. **Alinhamento Tático**: O documento cita a base legal correta? O objetivo está claro?
 4. **Resumo Executivo**: Se for um documento longo, o primeiro parágrafo resume o que o Comando precisa saber?
+
+---
+
+## 🧼 Protocolo de Rascunho Limpo (DRAFT_CLEAN_MODE)
+
+Para garantir que o texto colado no **Google Docs** ou **SEI** seja 100% limpo, sem necessidade de apagar símbolos manualmente:
+
+1. **Sem Cabeçalhos (#), Negritos (**) ou Itálicos**: Utilize apenas **CAIXA ALTA** para identificar títulos (ex: 1. DO OBJETIVO).
+2. **Sem Checklists**: Utilize hifens simples (-) ou numeração militar pura (1., 1.1).
+3. **Sem Divisores (---)**: Utilize apenas quebras de linha duplas para separar seções.
+4. **Sem Emojis**: Mantenha o texto estritamente formal e protocolar.
+5. **Tabelas**: Utilizar bordas sólidas de **1pt**. Para resultados perfeitos no Google Docs, utilize o script `doc_converter.py` que já automatiza essa espessura.
 
 ---
 

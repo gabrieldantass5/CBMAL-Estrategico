@@ -14,27 +14,32 @@ Este repositório é o centro nervoso da **Assessoria de Planejamento Estratégi
 
 O projeto integra três frentes de tecnologia para garantir agilidade e rastreabilidade:
 
-### 1. 🤖 Inteligência Agêntica (Cursor AI + Gemini)
-O "Agente Condutor" opera através de **Skills** e **Workflows** customizados, localizados na pasta `.agent`.
-- **Skills**: Conhecimento especialista em SEI, Redação Oficial (Portaria 18/2024), Gestão de Projetos e Taxa de Bombeiros.
-- **Workflows**: Automações acionáveis por comandos como `/gerar_pap`, `/auditoria_estrategica` e `/analisar`.
+### 1. 🤖 Inteligência Agêntica (Antigravity + Gemini)
 
-### 2. 📓 Gestão de Conhecimento (Obsidian)
-Toda a documentação é otimizada para o **Obsidian**, permitindo uma "Segunda Memória" conectada:
-- **Conexões Neurais**: Notas interligadas que facilitam a descoberta de dependências entre projetos.
-- **Backlinks Semânticos**: Histórico de decisões e reuniões (Diários de Memória) acessível instantaneamente.
+O **Agente Antigravity** opera através de **Skills** e **Workflows** ultra-otimizados em `.agent`.
 
-### 3. 📊 Visualização e Governança
-- **Kanban Estratégico**: Acompanhamento em tempo real de tarefas e metas em `KANBAN_ESTRATEGICO.md`.
-- **Diagramas e BPMN**: Modelagem de processos via Mermaid.js.
-- **Memória Persistente**: Sistema de rastreabilidade e handoff em `06_Diário_e_Memórias_IA`.
-- **Dashboards de Monitoramento**: Visualização executiva de indicadores (KPIs).
+- **Skills**: 14 habilidades institucionais, incluindo Redação Oficial (Portaria 18/2024) e **Visual Diagrams Mermaid**.
+- **Workflows**: Automações sincronizadas via comandos `/sincronizar`, `/conductor` e `/executar`.
+
+### 2. 📓 Gestão de Conhecimento (Obsidian + PARA)
+
+Toda a documentação segue o método PARA no **Obsidian**:
+
+- **DNA do Sistema**: Registro de decisões pétreas e aprendizado contínuo.
+- **Backlinks Semânticos**: Conexões neurais entre legislação, metas e diários.
+
+### 3. 📊 Visualização Premium (BPMN & Mermaid)
+
+- **Mermaid Engine**: Renderização de alta qualidade (SVG/ASCII) integrada ao terminal.
+- **Kanban Estratégico**: Gestão de fluxo de valor tático e estratégico.
+- **Dashboards Dinâmicos**: Protótipos funcionais para o Comando Geral.
 
 ---
 
 ## 🚀 Funcionalidades e Exemplos
 
 ### 🛠️ Comandos de Comando (Slash Commands)
+
 | Comando | O que ele faz? | Exemplo de Uso |
 | :--- | :--- | :--- |
 | `/analisar` | Gera insights de desempenho. | "Analise a produção desta semana." |
@@ -44,6 +49,7 @@ Toda a documentação é otimizada para o **Obsidian**, permitindo uma "Segunda 
 | `/orquestrar`| Organiza o ambiente. | "Limpe a inbox e conecte as notas da última reunião." |
 
 ### 📈 Exemplo de Fluxo BPMN (Visualizável no Obsidian/GitHub)
+
 ```mermaid
 graph TD
     A[Início do Processo] --> B{Análise Técnica}
@@ -57,25 +63,27 @@ graph TD
 
 ## 📂 Guia de Navegação
 
-*   **`01_Gestao_Estrategica/`**: Planos, Metas e Indicadores 2025-2029.
-*   **`02_Escritorio_Projetos/`**: Documentação de projetos ativos (TAP, EAP).
-*   **`03_Gestao_Processos/`**: Mapeamentos e Fluxogramas BPMN.
-*   **`04_Normatizacao_e_Modelos/`**: Portarias, Modelos Word/SEI e Checklists.
-*   **`05_Controle_Operacional/`**: Dashboards e acompanhamento de metas.
-*   **`06_Diario_e_Memorias_IA/`**: Registro de evolução e aprendizado da IA.
-*   **`07_Taxa_de_Bombeiros/`**: Gestão específica da arrecadação e legislação pertinente.
+- **`01_Gestao_Estrategica/`**: Planos, Metas e Indicadores 2025-2029.
+- **`02_Escritorio_Projetos/`**: Documentação de projetos ativos (TAP, EAP).
+- **`03_Gestao_Processos/`**: Mapeamentos e Fluxogramas BPMN.
+- **`04_Normatizacao_e_Modelos/`**: Portarias, Modelos Word/SEI e Checklists.
+- **`05_Controle_Operacional/`**: Dashboards e acompanhamento de metas.
+- **`06_Diario_e_Memorias_IA/`**: Registro de evolução e aprendizado da IA.
+- **`07_Taxa_de_Bombeiros/`**: Gestão específica da arrecadação e legislação pertinente.
 
 ---
 
 ## 📖 Documentação de Referência (Acesso Rápido)
 
 Toda a operação do sistema está centralizada no **Cockpit Estratégico**:
+
 ### 👉 [**CLIQUE AQUI PARA ENTRAR NO COCKPIT ( 00_START_HERE.md )**](./00_START_HERE.md)
 
 Lá você encontrará:
-1.  **Painel de Controle**: Status em tempo real.
-2.  **Manual de Operações**: Lista de comandos (`/insights`, `/aprender`, etc).
-3.  **Filosofia**: Como operar o agente Conductor.
+
+1. **Painel de Controle**: Status em tempo real.
+2. **Manual de Operações**: Lista de comandos (`/insights`, `/aprender`, etc).
+3. **Filosofia**: Como operar o agente Conductor.
 
 ---
 *Assessoria de Planejamento e Orçamento*

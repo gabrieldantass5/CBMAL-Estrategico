@@ -3,6 +3,9 @@
 *.log
 .env
 .ipynb_checkpoints/
+node_modules/
+__pycache__/
+*.pyc
 
 # Backups Locais
 *BACKUP*/

@@ -11,6 +11,7 @@ theme: gaia
 # CORPO DE BOMBEIROS MILITAR DE ALAGOAS
 
 ## Avanços do Planejamento Estratégico
+
 ### Ciclo 2025-2029
 
 ---
@@ -40,6 +41,7 @@ theme: gaia
 
 <!-- SEÇÃO 1: POLÍTICA ESTRATÉGICA -->
 # SEÇÃO 1
+
 ## Atualização da Política de Gestão Estratégica
 
 ---
@@ -82,12 +84,14 @@ timeline
 # 🚀 Principais Inovações
 
 ### Novos Princípios Estratégicos
+
 1. ✅ **Transparência** – Publicização dos atos e resultados
 2. ✅ **Accountability** – Prestação de contas pelas entregas
 3. ✅ **Integração de Níveis** – Articulação Estratégico-Tático-Operacional
 4. ✅ **Adaptação e Flexibilidade** – Revisões conforme contexto
 
 ### Novas Competências Formalizadas
+
 - **Gestão por Competências** (Art. 2º)
 - **Oficial de Ligação** com atribuições detalhadas (Art. 10)
 - **Plano de Contramedida (PCM)** obrigatório para farol vermelho
@@ -147,6 +151,7 @@ graph TD
 
 <!-- SEÇÃO 2: PLANO DE MONITORAMENTO -->
 # SEÇÃO 2
+
 ## Plano de Monitoramento da Estratégia
 
 ---
@@ -156,12 +161,14 @@ graph TD
 
 > **Definição:** Vigilância ativa e contínua sobre a execução da estratégia, fornecendo informações tempestivas para tomada de decisão.
 
-### ❌ O que NÃO é:
+### ❌ O que NÃO é
+
 - Fiscalização punitiva
 - Auditoria de conformidade
 - Busca por culpados
 
-### ✅ O que É:
+### ✅ O que É
+
 - Identificar desvios antecipadamente
 - Celebrar conquistas (vitórias curtas)
 - Promover aprendizado organizacional
@@ -227,6 +234,7 @@ flowchart TD
 
 <!-- SEÇÃO 3: CADERNO DE INDICADORES -->
 # SEÇÃO 3
+
 ## Caderno de Indicadores Estratégicos
 
 ---
@@ -323,6 +331,7 @@ flowchart TB
 
 <!-- SEÇÃO 4: PLANO DE AVALIAÇÃO -->
 # SEÇÃO 4
+
 ## Plano de Avaliação da Estratégia
 
 ---
@@ -382,6 +391,7 @@ graph TD
 ```
 
 **Perguntas de Autoavaliação:**
+
 1. Os indicadores foram fáceis de coletar?
 2. Os critérios de avaliação foram claros?
 3. O relatório gerou decisão ou foi burocrático?
@@ -390,6 +400,7 @@ graph TD
 
 <!-- SEÇÃO 5: SOLUÇÕES DE AUTOMAÇÃO -->
 # SEÇÃO 5
+
 ## Soluções de Automação para Funções Administrativas
 
 ---
@@ -399,7 +410,7 @@ graph TD
 
 | Categoria | Skills |
 |:---|:---|
-| **Estratégicas (CBMAL)** | `gestao-estrategica`, `escritorio-projetos`, `conagc-governanca`, `inteligencia-dados`, `especialista-paps`, `especialista-sei`, `bpmn-modeling`, `gestao-mudanca`, `secretario-executivo`, `redacao-oficial`, `inteligencia-documental` |
+| **Estratégicas (CBMAL)** | `gestao-estrategica`, `inteligencia-dados`, `inteligencia-benchmarking`, `inteligencia-documental`, `redacao-oficial`, `dashboard-designer-cbmal`, `ferramentas-office`, `secretario-executivo`, `skill-creator-cbmal`, `ui-ux-pro-max`, `visual_identity_pro` |
 
 > **Conceito:** Assistentes IA especializados que seguem regras e metodologias do CBMAL.
 
@@ -408,13 +419,15 @@ graph TD
 <!-- SLIDE 25: CRIADOR DE PAPs -->
 # 📝 Especialista em PAPs
 
-### Funcionalidades:
+### Funcionalidades
+
 - ✅ Criação de PAPs no padrão CBMAL
 - ✅ Revisão e validação de estrutura
 - ✅ Geração de fluxogramas vinculados
 - ✅ Checklist de conformidade
 
-### Benefícios:
+### Benefícios
+
 - ⏱️ Redução de 70% no tempo de elaboração
 - 📊 Padronização garantida
 - 🔄 Atualizações automáticas
@@ -424,13 +437,15 @@ graph TD
 <!-- SLIDE 26: ANALISTA DE DADOS -->
 # 📊 Inteligência de Dados
 
-### Capacidades:
+### Capacidades
+
 - ✅ Extração e tratamento (ETL)
 - ✅ Criação de dashboards
 - ✅ Análise de indicadores
 - ✅ Geração de relatórios automáticos
 
-### Aplicações:
+### Aplicações
+
 - Monitoramento do Farol da Estratégia
 - Consolidação de dados de ocorrências
 - Análise de tendências e projeções
@@ -440,13 +455,15 @@ graph TD
 <!-- SLIDE 27: ANALISTA DE DOCUMENTOS -->
 # 📄 Inteligência Documental
 
-### Automações:
+### Automações
+
 - ✅ Conversão PDF → Markdown (OCR)
 - ✅ Extração de tabelas e dados
 - ✅ Indexação para pesquisa
 - ✅ Comparação de versões
 
-### Tecnologia:
+### Tecnologia
+
 - Docling (IBM) para OCR avançado
 - Suporte a documentos escaneados
 
@@ -455,13 +472,15 @@ graph TD
 <!-- SLIDE 28: ORGANIZADOR DE PASTAS -->
 # 📁 File Organizer
 
-### Fluxo de Trabalho:
+### Fluxo de Trabalho
+
 1. Análise da estrutura atual
 2. Identificação de duplicatas
 3. Proposta de reorganização
 4. Execução automatizada
 
-### Benefícios:
+### Benefícios
+
 - 🗂️ Estrutura padronizada
 - 🔍 Localização rápida
 - 💾 Economia de espaço
@@ -471,14 +490,16 @@ graph TD
 <!-- SLIDE 29: SECRETÁRIO VIRTUAL -->
 # 🗓️ Secretário Executivo
 
-### Tarefas Automatizadas:
+### Tarefas Automatizadas
+
 - ✅ Briefings diários
 - ✅ Gestão de agenda
 - ✅ Acompanhamento de pendências
 - ✅ Lembretes de prazos
 - ✅ Preparação de reuniões
 
-### Integração:
+### Integração
+
 - Kanban Estratégico
 - Notas Diárias
 - Calendário de RMEs
@@ -488,14 +509,16 @@ graph TD
 <!-- SLIDE 30: PLANEJADOR DE PROCESSOS -->
 # 📋 Gestão Estratégica + PMO
 
-### Metodologias Aplicadas:
+### Metodologias Aplicadas
+
 - ✅ Balanced Scorecard (BSC)
 - ✅ Ciclo PDCA
 - ✅ Matriz GUT para priorização
 - ✅ Matriz RACI para responsabilidades
 - ✅ MGP-CBMAL para projetos
 
-### Ferramentas:
+### Ferramentas
+
 - Templates padronizados
 - Checklists de validação
 - Fluxos automatizados
@@ -505,13 +528,15 @@ graph TD
 <!-- SLIDE 31: ESPECIALISTA BPMN -->
 # 🔄 Modelagem BPMN 2.0
 
-### Modelagens Realizadas:
+### Modelagens Realizadas
+
 - ✅ Macrofluxo de Monitoramento
 - ✅ Processo de Avaliação Anual
 - ✅ Fluxo de Coleta de Indicadores
 - ✅ Processo de RME
 
-### Formato:
+### Formato
+
 - Arquivos `.bpmn` (padrão OMG)
 - Visualização em Obsidian/Draw.io
 - Canvas interativos
@@ -520,6 +545,7 @@ graph TD
 
 <!-- ENCERRAMENTO -->
 # ENCERRAMENTO
+
 ## Próximos Passos e Q&A
 
 ---
@@ -545,7 +571,7 @@ graph TD
 ## Contatos
 
 **Assessoria de Planejamento e Orçamento (APO)**
-📧 apo@cbm.al.gov.br
+📧 <apo@cbm.al.gov.br>
 📍 Quartel do Comando-Geral
 
 ---
