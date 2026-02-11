@@ -32,7 +32,11 @@ Toda a documentação segue o método PARA no **Obsidian**:
 
 - **Mermaid Engine**: Renderização de alta qualidade (SVG/ASCII) integrada ao terminal.
 - **Kanban Estratégico**: Gestão de fluxo de valor tático e estratégico.
-- **Dashboards Dinâmicos**: Protótipos funcionais para o Comando Geral.
+- **Dashboards Streamlit (v1.42)**: Nova infraestrutura de BI com autenticação nativa e interface de alta performance.
+
+### 4. 📚 Biblioteca Técnica (Context7 MCP)
+
+O ecossistema está integrado ao **Protocolo de Contexto de Modelo (MCP)** via **Context7**, garantindo que as IAs operem com documentação técnica em tempo real (ex: Streamlit, Pandas, Python), eliminando alucinações e garantindo sintaxe de última geração.
 
 ---
 
