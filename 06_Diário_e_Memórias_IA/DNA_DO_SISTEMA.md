@@ -8,6 +8,8 @@ Este arquivo é a memória de longo prazo do Agente Conductor. Ele armazena deci
 
 | Data | Decisão | Contexto | Status |
 | :--- | :--- | :--- | :--- |
+| 11/02/2026 | **Restauração do Workflow /aprender** | O comando mestre de aprendizado contínuo foi restabelecido como um arquivo físico para melhor visibilidade e uso proativo. | Finalizado ✅ |
+| 11/02/2026 | **Context7 MCP Integration** | Implementação oficial do Model Context Protocol (Upstash) via SSE. Configurado key, workflows de sincronização e skill de documentação técnica inteligente. | Finalizado ✅ |
 | 29/01/2026 | **Democratização de IA no CBMAL** | Proposta aprovada para implementação de IA em 3 perfis (Comando, Gestão, Operacional). ROI 132%, investimento R$ 62k/ano. Documentos: Relatório Executivo, Plano de Implementação e Guia Prático. | Aprovado ✅ |
 | 29/01/2026 | **Otimização de Skills (Metadata)** | Atualizados metadados (YAML description) das 13 institutional skills para maior economia de tokens e precisão de gatilhos (triggers). | Finalizado ✅ |
 | 28/01/2026 | **Conductor v2.0 (2026)** | Refinado workflow `/conductor` com filosofia "Plan First", Context Docs obrigatórios e Protocolo STOP & THINK. | Finalizado ✅ |
