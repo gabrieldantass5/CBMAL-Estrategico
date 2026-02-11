@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 4, "column": 0}, "map": {"version":3,"sources":["file:///C:/Users/D_A_N/OneDrive/Desktop/Planejamento%20Estrat%C3%A9gico%20-%20CBMAL/dashboard-cbmal/src/app/template.tsx"],"sourcesContent":["\"use client\";\r\n\r\nimport { motion } from \"motion/react\";\r\n\r\nexport default function Template({ children }: { children: React.ReactNode }) {\r\n    return (\r\n        <motion.div\r\n            initial={{ opacity: 0, y: 10 }}\r\n            animate={{ opacity: 1, y: 0 }}\r\n            exit={{ opacity: 0, y: -10 }}\r\n            transition={{ ease: \"easeInOut\", duration: 0.4 }}\r\n        >\r\n            {children}\r\n        </motion.div>\r\n    );\r\n}\r\n"],"names":[],"mappings":";;;;;AAEA;AAFA;;;AAIe,SAAS,SAAS,EAAE,QAAQ,EAAiC;IACxE,qBACI,oQAAC,0NAAM,CAAC,GAAG;QACP,SAAS;YAAE,SAAS;YAAG,GAAG;QAAG;QAC7B,SAAS;YAAE,SAAS;YAAG,GAAG;QAAE;QAC5B,MAAM;YAAE,SAAS;YAAG,GAAG,CAAC;QAAG;QAC3B,YAAY;YAAE,MAAM;YAAa,UAAU;QAAI;kBAE9C;;;;;;AAGb"}}]
+}

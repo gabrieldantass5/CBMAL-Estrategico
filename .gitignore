@@ -42,3 +42,4 @@ tmp/
 *.7z
 *.exe
 *.msi
+node_modules

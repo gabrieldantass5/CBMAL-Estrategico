@@ -1,0 +1,6 @@
+1:"$Sreact.fragment"
+2:I[50502,["/_next/static/chunks/97eefe169080a0df.js","/_next/static/chunks/e6f9a971f075999b.js"],"ViewportBoundary"]
+3:I[50502,["/_next/static/chunks/97eefe169080a0df.js","/_next/static/chunks/e6f9a971f075999b.js"],"MetadataBoundary"]
+4:"$Sreact.suspense"
+5:I[86045,["/_next/static/chunks/97eefe169080a0df.js","/_next/static/chunks/e6f9a971f075999b.js"],"IconMark"]
+0:{"buildId":"hOzoIxaIDKLUCUr6cpjDd","rsc":["$","$1","h",{"children":[null,["$","$L2",null,{"children":[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]}],["$","div",null,{"hidden":true,"children":["$","$L3",null,{"children":["$","$4",null,{"name":"Next.Metadata","children":[["$","title","0",{"children":"Dashboard Estratégico - CBMAL"}],["$","meta","1",{"name":"description","content":"Painel de monitoramento de indicadores e metas institucionais"}],["$","link","2",{"rel":"icon","href":"/favicon.ico?favicon.0b3bf435.ico","sizes":"256x256","type":"image/x-icon"}],["$","$L5","3",{}]]}]}]}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}],"loading":null,"isPartial":false}

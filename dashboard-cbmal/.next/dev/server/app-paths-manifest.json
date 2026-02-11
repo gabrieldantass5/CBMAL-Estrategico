@@ -1,0 +1,6 @@
+{
+  "/api/indicators/data/route": "app/api/indicators/data/route.js",
+  "/indicador/[id]/page": "app/indicador/[id]/page.js",
+  "/mapa-estrategico/page": "app/mapa-estrategico/page.js",
+  "/page": "app/page.js"
+}
